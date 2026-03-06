@@ -2,10 +2,12 @@ import os
 import json
 import html
 import re
-from pprint import pformat
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
+
 
 RSS_URL = os.getenv("RSS_URL", "https://www.nasdaqtrader.com/rss.aspx?feed=tradehalts")
 BOT_TOKEN = os.environ["BOT_TOKEN"]
@@ -14,8 +16,9 @@ STATE_FILE = os.getenv("STATE_FILE", "state.json")
 
 MAX_SEND = int(os.getenv("MAX_SEND", "20"))
 KEEP_SEEN = int(os.getenv("KEEP_SEEN", "1000"))
-DEBUG_LOG = os.getenv("DEBUG_LOG", "true").lower() == "true"
-FORCE_SEND_LATEST = os.getenv("FORCE_SEND_LATEST", "false").lower() == "true"
+
+ET = ZoneInfo("America/New_York")
+KST = ZoneInfo("Asia/Seoul")
 
 
 REASON_MAP_KR = {
@@ -24,22 +27,22 @@ REASON_MAP_KR = {
     "T3": "공시 완료 및 재개 시간 안내",
     "T5": "개별종목 변동성 정지 발동",
     "T6": "비정상적 시장 활동",
-    "T7": "호가만 재개, 거래는 계속 정지",
+    "T7": "호가만 재개",
     "T8": "ETF 관련 거래정지",
     "T12": "추가 정보 요청",
     "H4": "상장규정 미준수",
-    "H9": "정기 공시 미제출 또는 최신 공시 상태 아님",
+    "H9": "정기 공시 미제출",
     "H10": "SEC 거래정지",
     "H11": "규제상 우려",
     "O1": "운영상 거래정지",
-    "IPO1": "IPO 종목 거래 개시 전",
-    "IPOQ": "IPO 종목 호가 가능",
-    "IPOE": "IPO 종목 포지셔닝 윈도우 연장",
+    "IPO1": "IPO 거래 개시 전",
+    "IPOQ": "IPO 호가 가능",
+    "IPOE": "IPO 포지셔닝 윈도우 연장",
     "M1": "기업행위",
     "M2": "호가 정보 없음",
     "M": "변동성 거래정지",
     "LUDP": "변동성 거래정지",
-    "LUDS": "변동성 거래정지(스트래들 조건)",
+    "LUDS": "변동성 거래정지(스트래들)",
     "MWC0": "전일 이월 시장 전체 서킷브레이커",
     "MWC1": "시장 전체 서킷브레이커 1단계",
     "MWC2": "시장 전체 서킷브레이커 2단계",
@@ -47,18 +50,41 @@ REASON_MAP_KR = {
     "MWCQ": "시장 전체 서킷브레이커 재개",
     "R1": "신규 종목 거래 가능",
     "R2": "종목 거래 가능",
-    "R4": "자격요건 이슈 해소, 호가/거래 재개",
-    "R9": "공시요건 충족, 호가/거래 재개",
-    "C3": "추가 공시 없음, 호가/거래 재개",
-    "C4": "자격요건 정지 종료, 유지요건 충족 후 재개",
-    "C9": "자격요건 정지 종료, 공시요건 충족 후 재개",
-    "C11": "타 규제기관 거래정지 종료 후 호가/거래 재개",
-    "D": "NASDAQ/CQS에서 종목 삭제",
+    "R4": "자격요건 이슈 해소 후 재개",
+    "R9": "공시요건 충족 후 재개",
+    "C3": "추가 공시 없음, 거래 재개",
+    "C4": "상장요건 충족 후 거래 재개",
+    "C9": "공시요건 충족 후 거래 재개",
+    "C11": "규제기관 정지 종료 후 거래 재개",
+    "D": "NASDAQ/CQS 삭제",
 }
 
 
-def log(msg):
-    print(msg, flush=True)
+KNOWN_LABELS = [
+    "Issue Symbol",
+    "Issue Name",
+    "Symbol",
+    "Ticker",
+    "Mkt",
+    "Market",
+    "Exchange",
+    "Reason Code",
+    "Halt Code",
+    "Halt Date",
+    "Halt Time",
+    "Resume Date",
+    "Resume Time",
+    "Resumption Date",
+    "Resumption Time",
+    "Resumption Quote Time",
+    "Resumption Trade Time",
+    "Quote Resume Time",
+    "Trade Resume Time",
+    "Resume Quote Time",
+    "Resume Trade Time",
+    "Date",
+    "Time",
+]
 
 
 def load_state():
@@ -90,17 +116,14 @@ def send_telegram(text: str):
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
     }
-
-    log(f"[TG] sending message to CHAT_ID={CHAT_ID}")
     r = requests.post(url, json=payload, timeout=20)
-    log(f"[TG] status={r.status_code}")
-    log(f"[TG] response={r.text[:1000]}")
     r.raise_for_status()
 
 
-def clean_text(raw: str) -> str:
+def clean_text(raw) -> str:
     if raw is None:
         return ""
+
     text = str(raw)
     text = re.sub(r"(?i)<br\s*/?>", "\n", text)
     text = re.sub(r"(?i)</p\s*>", "\n", text)
@@ -121,31 +144,32 @@ def normalize_key(key: str) -> str:
     return key
 
 
-def parse_summary_to_dict(raw: str) -> dict:
+def parse_known_fields(raw) -> dict:
     result = {}
-    if not raw:
+    text = clean_text(raw)
+
+    if not text:
         return result
 
-    text = clean_text(raw)
+    labels_pattern = "|".join(sorted((re.escape(x) for x in KNOWN_LABELS), key=len, reverse=True))
+    pattern = re.compile(
+        rf"(?i)\b({labels_pattern})\s*:\s*(.*?)(?=\s+(?:{labels_pattern})\s*:|$)"
+    )
+
+    for label, value in pattern.findall(text):
+        nkey = normalize_key(label)
+        nval = clean_text(value)
+        if nkey and nval:
+            result[nkey] = nval
 
     for line in text.splitlines():
         line = line.strip(" -•\t")
         if ":" in line:
             key, value = line.split(":", 1)
-            key = normalize_key(key)
-            value = clean_text(value)
-            if key and value:
-                result[key] = value
-
-    pattern = re.compile(
-        r"(Issue Symbol|Issue Name|Symbol|Ticker|Mkt|Market|Exchange|Reason Code|Halt Code|Halt Date|Halt Time|Date|Time|Pause Threshold Price)\s*:\s*(.*?)(?=(?:Issue Symbol|Issue Name|Symbol|Ticker|Mkt|Market|Exchange|Reason Code|Halt Code|Halt Date|Halt Time|Date|Time|Pause Threshold Price)\s*:|$)",
-        re.I,
-    )
-    for key, value in pattern.findall(text):
-        nkey = normalize_key(key)
-        nval = clean_text(value)
-        if nkey and nval:
-            result[nkey] = nval
+            nkey = normalize_key(key)
+            nval = clean_text(value)
+            if nkey and nval and nkey not in result:
+                result[nkey] = nval
 
     return result
 
@@ -201,42 +225,42 @@ def extract_symbol_from_title(title: str) -> str:
     return m.group(1) if m else title
 
 
-def split_date_time_if_needed(date_val: str, time_val: str):
-    date_val = clean_text(date_val)
-    time_val = clean_text(time_val)
+def convert_et_to_kst(date_str: str, time_str: str):
+    date_str = clean_text(date_str)
+    time_str = clean_text(time_str)
 
-    if date_val.lower() in {"halt time", "time"}:
-        date_val = ""
+    if not date_str or not time_str:
+        return "-", "-"
 
-    if time_val.lower() in {"halt date", "date"}:
-        time_val = ""
+    time_formats = ["%H:%M:%S", "%H:%M"]
+    date_formats = ["%m/%d/%Y", "%m/%d/%y"]
 
-    m = re.match(r"^(\d{1,2}/\d{1,2}/\d{4})[ ,]+(\d{1,2}:\d{2}:\d{2})$", date_val)
-    if m:
-        return m.group(1), m.group(2)
+    for df in date_formats:
+        for tf in time_formats:
+            try:
+                dt = datetime.strptime(f"{date_str} {time_str}", f"{df} {tf}")
+                dt = dt.replace(tzinfo=ET)
+                kst_dt = dt.astimezone(KST)
+                return dt.strftime("%H:%M:%S"), kst_dt.strftime("%H:%M:%S")
+            except ValueError:
+                continue
 
-    m = re.match(r"^(\d{1,2}/\d{1,2}/\d{4})[ ,]+(\d{1,2}:\d{2}:\d{2})$", time_val)
-    if m:
-        return m.group(1), m.group(2)
-
-    return date_val, time_val
+    return time_str, "-"
 
 
-def debug_dump_entry(entry):
-    if not DEBUG_LOG:
-        return
-    try:
-        log("========== DEBUG ENTRY START ==========")
-        log(f"TITLE: {repr(getattr(entry, 'title', ''))}")
-        log(f"LINK: {repr(getattr(entry, 'link', ''))}")
-        log(f"SUMMARY: {repr(getattr(entry, 'summary', ''))}")
-        log(f"DESCRIPTION: {repr(getattr(entry, 'description', ''))}")
-        log(f"ENTRY KEYS: {list(entry.keys())}")
-        log("ENTRY RAW:")
-        log(pformat(dict(entry)))
-        log("========== DEBUG ENTRY END ==========")
-    except Exception as e:
-        log(f"DEBUG DUMP ERROR: {repr(e)}")
+def format_time_with_kst(date_str: str, time_str: str) -> str:
+    date_str = clean_text(date_str)
+    time_str = clean_text(time_str)
+
+    if not time_str:
+        return "-"
+
+    et_time, kst_time = convert_et_to_kst(date_str, time_str)
+
+    if et_time != "-" and kst_time != "-":
+        return f"{et_time} ET ({kst_time} KST)"
+
+    return time_str
 
 
 def format_message(entry) -> str:
@@ -245,8 +269,8 @@ def format_message(entry) -> str:
     description = getattr(entry, "description", "") or ""
 
     parsed = {}
-    parsed.update(parse_summary_to_dict(summary))
-    parsed.update(parse_summary_to_dict(description))
+    parsed.update(parse_known_fields(summary))
+    parsed.update(parse_known_fields(description))
 
     symbol = (
         choose(parsed, "Issue Symbol", "Symbol", "Ticker")
@@ -270,35 +294,64 @@ def format_message(entry) -> str:
     )
 
     halt_date = (
-        choose(parsed, "Halt Date", "Date")
-        or extract_entry_field(entry, "haltdate", "halt_date", "date")
+        choose(parsed, "Halt Date")
+        or extract_entry_field(entry, "haltdate", "halt_date")
     )
 
     halt_time = (
-        choose(parsed, "Halt Time", "Time")
-        or extract_entry_field(entry, "halttime", "halt_time", "time")
+        choose(parsed, "Halt Time")
+        or extract_entry_field(entry, "halttime", "halt_time")
     )
 
-    halt_date, halt_time = split_date_time_if_needed(halt_date, halt_time)
+    resume_date = (
+        choose(parsed, "Resumption Date", "Resume Date")
+        or extract_entry_field(entry, "resumptiondate", "resumption_date", "resumedate", "resume_date")
+    )
 
-    if DEBUG_LOG:
-        log("[PARSED]")
-        log(f"  symbol={repr(symbol)}")
-        log(f"  stock_name={repr(stock_name)}")
-        log(f"  market={repr(market)}")
-        log(f"  reason_code={repr(reason_code)}")
-        log(f"  halt_date={repr(halt_date)}")
-        log(f"  halt_time={repr(halt_time)}")
+    quote_resume_time = (
+        choose(parsed, "Resumption Quote Time", "Quote Resume Time", "Resume Quote Time")
+        or extract_entry_field(
+            entry,
+            "resumptionquotetime",
+            "resumption_quote_time",
+            "quoteresumetime",
+            "quote_resume_time",
+            "resumequotetime",
+            "resume_quote_time",
+        )
+    )
 
-    if DEBUG_LOG and (not stock_name or not market or not reason_code or not halt_date or not halt_time):
-        debug_dump_entry(entry)
+    trade_resume_time = (
+        choose(parsed, "Resumption Trade Time", "Trade Resume Time", "Resume Trade Time")
+        or extract_entry_field(
+            entry,
+            "resumptiontradetime",
+            "resumption_trade_time",
+            "traderesumetime",
+            "trade_resume_time",
+            "resumetradetime",
+            "resume_trade_time",
+        )
+    )
+
+    generic_resume_time = (
+        choose(parsed, "Resumption Time", "Resume Time")
+        or extract_entry_field(entry, "resumptiontime", "resumption_time", "resumetime", "resume_time")
+    )
+
+    if not quote_resume_time and not trade_resume_time and generic_resume_time:
+        trade_resume_time = generic_resume_time
 
     symbol = symbol or "-"
     stock_name = stock_name or "-"
     market = normalize_market(market)
     reason_display = normalize_reason(reason_code)
     halt_date = halt_date or "-"
-    halt_time = halt_time or "-"
+    halt_time_display = format_time_with_kst(halt_date, halt_time)
+
+    resume_date = resume_date or "-"
+    quote_resume_display = format_time_with_kst(resume_date, quote_resume_time) if quote_resume_time else "-"
+    trade_resume_display = format_time_with_kst(resume_date, trade_resume_time) if trade_resume_time else "-"
 
     return (
         f"종목코드 : {html.escape(symbol)}\n"
@@ -306,84 +359,36 @@ def format_message(entry) -> str:
         f"거래소 : {html.escape(market)}\n"
         f"정지 사유 : {html.escape(reason_display)}\n"
         f"정지일 : {html.escape(halt_date)}\n"
-        f"정지시간 : {html.escape(halt_time)}"
+        f"정지시간 : {html.escape(halt_time_display)}\n"
+        f"재개일 : {html.escape(resume_date)}\n"
+        f"호가재개시간 : {html.escape(quote_resume_display)}\n"
+        f"거래재개시간 : {html.escape(trade_resume_display)}"
     )
 
 
 def main():
-    log("[START] rss_to_tg.py")
-    log(f"[CONFIG] RSS_URL={RSS_URL}")
-    log(f"[CONFIG] STATE_FILE={STATE_FILE}")
-    log(f"[CONFIG] MAX_SEND={MAX_SEND}")
-    log(f"[CONFIG] KEEP_SEEN={KEEP_SEEN}")
-    log(f"[CONFIG] DEBUG_LOG={DEBUG_LOG}")
-    log(f"[CONFIG] FORCE_SEND_LATEST={FORCE_SEND_LATEST}")
-
     state = load_state()
     seen = set(state.get("seen", []))
-    log(f"[STATE] seen_count={len(seen)}")
 
     feed = feedparser.parse(RSS_URL)
     entries = getattr(feed, "entries", []) or []
-    log(f"[FEED] entry_count={len(entries)}")
-
-    if getattr(feed, "feed", None):
-        log(f"[FEED] feed_title={repr(feed.feed.get('title', ''))}")
-
-    if entries:
-        log(f"[FEED] latest_title={repr(getattr(entries[0], 'title', ''))}")
 
     new_items = []
     for entry in entries:
         eid = pick_id(entry)
-        if not eid:
-            continue
-        if eid in seen:
+        if not eid or eid in seen:
             continue
         new_items.append((eid, entry))
 
-    log(f"[NEW] new_items_count={len(new_items)}")
-
-    if FORCE_SEND_LATEST and entries:
-        log("[FORCE] FORCE_SEND_LATEST enabled, sending latest entry ignoring seen")
-        latest_entry = entries[0]
-        msg = format_message(latest_entry)
-        log("[FORCE] message_preview:")
-        log(msg)
-        send_telegram(msg)
-
-        latest_id = pick_id(latest_entry)
-        if latest_id:
-            seen.add(latest_id)
-
-        state["seen"] = list(seen)[-KEEP_SEEN:]
-        save_state(state)
-        log("[DONE] force send complete")
-        return
-
     new_items = new_items[:MAX_SEND]
 
-    if not new_items:
-        log("[DONE] No new items to send.")
-        state["seen"] = list(seen)[-KEEP_SEEN:]
-        save_state(state)
-        return
-
-    sent_count = 0
-
     for eid, entry in reversed(new_items):
-        log(f"[SEND] eid={repr(eid)}")
         msg = format_message(entry)
-        log("[SEND] message_preview:")
-        log(msg)
         send_telegram(msg)
         seen.add(eid)
-        sent_count += 1
 
     state["seen"] = list(seen)[-KEEP_SEEN:]
     save_state(state)
-
-    log(f"[DONE] sent_count={sent_count}")
 
 
 if __name__ == "__main__":
