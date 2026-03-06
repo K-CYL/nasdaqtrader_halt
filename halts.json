@@ -1,0 +1,178 @@
+[
+  {
+    "symbol": "EFTY",
+    "name": "Etoiles Capital Group Cl A OS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/03/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "EMPG",
+    "name": "Empro Group Inc.",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/08/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "GSIW",
+    "name": "Garden Stage Cl A Ord Sh",
+    "market": "NASDAQ",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  },
+  {
+    "symbol": "JMG",
+    "name": "JM Group Limited Ordinary Shares",
+    "market": "AMEX",
+    "reason": "규제상 우려 (H11)",
+    "date": "01/15/2026",
+    "time": "02:55:27 ET (16:55:27 KST)"
+  },
+  {
+    "symbol": "LAWR",
+    "name": "Robot Consulting ADS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/22/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "MAGH",
+    "name": "Magnitude International Ltd OS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "12/04/2025",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  },
+  {
+    "symbol": "MAMK",
+    "name": "MaxsMaking Inc.",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "11/14/2025",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  },
+  {
+    "symbol": "MCTA",
+    "name": "Charming Medical Limit Cl A OS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "11/11/2025",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  },
+  {
+    "symbol": "NUTR",
+    "name": "Nusatrip Incorporated Comm Stk",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/08/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "OST",
+    "name": "Ostin Tech Grp Co Ord Cl A Ord",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "09/12/2025",
+    "time": "12:24:23 ET (01:24:23 KST)"
+  },
+  {
+    "symbol": "PC",
+    "name": "Premium Catering Hold Ltd OS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/16/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "PLTS",
+    "name": "Platinum Analytics Cymn Ord A",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/03/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "PTNM",
+    "name": "Pitanium Ltd Ord A",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/03/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "QMMM",
+    "name": "QMMM Hldgs Ord Shs A",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "09/26/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "SDM",
+    "name": "Smart Digital Group Limited OS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "09/26/2025",
+    "time": "19:50:00 ET (08:50:00 KST)"
+  },
+  {
+    "symbol": "SVA",
+    "name": "Sinovac Biotech, Ltd Ord Shrs",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "02/22/2019",
+    "time": "16:02:01 ET (06:02:01 KST)"
+  },
+  {
+    "symbol": "TCGL",
+    "name": "TechCreate Group Ltd. Class A Ordinary Shares",
+    "market": "AMEX",
+    "reason": "규제상 우려 (H11)",
+    "date": "02/02/2026",
+    "time": "03:33:59 ET (17:33:59 KST)"
+  },
+  {
+    "symbol": "TVGN",
+    "name": "Tevogen Bio Hldgs Cmn",
+    "market": "NASDAQ",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  },
+  {
+    "symbol": "TVGNW",
+    "name": "Tevogen Bio Hldgs Wt",
+    "market": "NASDAQ",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  },
+  {
+    "symbol": "UCFI",
+    "name": "CN Healthy Food Tech Group CS",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/01/2025",
+    "time": "11:28:10 ET (00:28:10 KST)"
+  },
+  {
+    "symbol": "UCFIW",
+    "name": "CN Healthy Food Tech Warrant",
+    "market": "NASDAQ",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "10/01/2025",
+    "time": "11:28:10 ET (00:28:10 KST)"
+  },
+  {
+    "symbol": "WCT",
+    "name": "Wellchange Holdings Cl A Ord",
+    "market": "NASDAQ",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)"
+  }
+]
