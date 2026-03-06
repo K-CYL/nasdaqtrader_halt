@@ -3,152 +3,276 @@
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/03/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "EMPG",
     "name": "Empro Group Inc.",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/08/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "GSIW",
+    "name": "Garden Stage Cl A Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "03/06/2026",
+    "quote_resume_time": "08:55:00",
+    "trade_resume_time": "09:00:00"
   },
   {
     "symbol": "IMMP",
     "name": "Immutep Limited ADS",
     "market": "NASDAQ",
+    "reason_code": "T1",
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
-    "time": "06:33:04 ET (20:33:04 KST)"
+    "time": "06:33:04 ET (20:33:04 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "JMG",
     "name": "JM Group Limited Ordinary Shares",
     "market": "AMEX",
+    "reason_code": "H11",
     "reason": "규제상 우려 (H11)",
     "date": "01/15/2026",
-    "time": "02:55:27 ET (16:55:27 KST)"
+    "time": "02:55:27 ET (16:55:27 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "LAWR",
     "name": "Robot Consulting ADS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/22/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "MAGH",
     "name": "Magnitude International Ltd OS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "12/04/2025",
-    "time": "19:50:00 ET (09:50:00 KST)"
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "MAMK",
     "name": "MaxsMaking Inc.",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "11/14/2025",
-    "time": "19:50:00 ET (09:50:00 KST)"
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "MCTA",
     "name": "Charming Medical Limit Cl A OS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "11/11/2025",
-    "time": "19:50:00 ET (09:50:00 KST)"
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/08/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "OST",
     "name": "Ostin Tech Grp Co Ord Cl A Ord",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "09/12/2025",
-    "time": "12:24:23 ET (01:24:23 KST)"
+    "time": "12:24:23 ET (01:24:23 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "PC",
     "name": "Premium Catering Hold Ltd OS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/16/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "PLTS",
     "name": "Platinum Analytics Cymn Ord A",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/03/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "PTNM",
     "name": "Pitanium Ltd Ord A",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/03/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "QMMM",
     "name": "QMMM Hldgs Ord Shs A",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "09/26/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "09/26/2025",
-    "time": "19:50:00 ET (08:50:00 KST)"
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "02/22/2019",
-    "time": "16:02:01 ET (06:02:01 KST)"
+    "time": "16:02:01 ET (06:02:01 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
+    "reason_code": "H11",
     "reason": "규제상 우려 (H11)",
     "date": "02/02/2026",
-    "time": "03:33:59 ET (17:33:59 KST)"
+    "time": "03:33:59 ET (17:33:59 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "TVGN",
+    "name": "Tevogen Bio Hldgs Cmn",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "03/06/2026",
+    "quote_resume_time": "08:55:00",
+    "trade_resume_time": "09:00:00"
+  },
+  {
+    "symbol": "TVGNW",
+    "name": "Tevogen Bio Hldgs Wt",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "03/06/2026",
+    "quote_resume_time": "09:00:00",
+    "trade_resume_time": "09:05:00"
   },
   {
     "symbol": "UCFI",
     "name": "CN Healthy Food Tech Group CS",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/01/2025",
-    "time": "11:28:10 ET (00:28:10 KST)"
+    "time": "11:28:10 ET (00:28:10 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "UCFIW",
     "name": "CN Healthy Food Tech Warrant",
     "market": "NASDAQ",
+    "reason_code": "T12",
     "reason": "추가 정보 요청 (T12)",
     "date": "10/01/2025",
-    "time": "11:28:10 ET (00:28:10 KST)"
+    "time": "11:28:10 ET (00:28:10 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "WCT",
+    "name": "Wellchange Holdings Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/05/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "03/06/2026",
+    "quote_resume_time": "08:55:00",
+    "trade_resume_time": "09:00:00"
   }
 ]
