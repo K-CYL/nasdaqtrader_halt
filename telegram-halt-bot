@@ -1,0 +1,87 @@
+import os
+import json
+import requests
+import time
+
+TOKEN = os.environ["BOT_TOKEN"]
+
+URL = f"https://api.telegram.org/bot{TOKEN}"
+
+HALT_FILE = "halts.json"
+
+
+def get_updates(offset=None):
+    r = requests.get(URL + "/getUpdates", params={"offset": offset})
+    return r.json()
+
+
+def send(chat_id, text):
+    requests.post(URL + "/sendMessage", json={
+        "chat_id": chat_id,
+        "text": text
+    })
+
+
+def load_halts():
+    if not os.path.exists(HALT_FILE):
+        return []
+    with open(HALT_FILE, "r") as f:
+        return json.load(f)
+
+
+def search(symbol):
+
+    halts = load_halts()
+
+    symbol = symbol.upper()
+
+    for h in halts:
+        if h["symbol"] == symbol:
+            return h
+
+    return None
+
+
+offset = None
+
+while True:
+
+    updates = get_updates(offset)
+
+    if updates["result"]:
+
+        for u in updates["result"]:
+
+            offset = u["update_id"] + 1
+
+            if "message" not in u:
+                continue
+
+            chat = u["message"]["chat"]["id"]
+            text = u["message"].get("text", "").strip()
+
+            if not text:
+                continue
+
+            result = search(text)
+
+            if result:
+
+                msg = f"""
+현재 거래정지 상태입니다.
+
+종목코드 : {result['symbol']}
+종목명 : {result['name']}
+거래소 : {result['market']}
+정지 사유 : {result['reason']}
+정지일 : {result['date']}
+정지시간 : {result['time']}
+"""
+
+            else:
+
+                msg = "현재 거래정지 종목이 아닙니다."
+
+            send(chat, msg)
+
+    time.sleep(3)
