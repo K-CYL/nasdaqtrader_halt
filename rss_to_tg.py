@@ -14,7 +14,7 @@ BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 STATE_FILE = os.getenv("STATE_FILE", "state.json")
 
-MAX_SEND = int(os.getenv("MAX_SEND", "20"))
+MAX_SEND = int(os.getenv("MAX_SEND", "50"))
 KEEP_SEEN = int(os.getenv("KEEP_SEEN", "1000"))
 
 ET = ZoneInfo("America/New_York")
