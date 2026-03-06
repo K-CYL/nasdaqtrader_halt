@@ -16,12 +16,12 @@
     "time": "19:50:00 ET (08:50:00 KST)"
   },
   {
-    "symbol": "GSIW",
-    "name": "Garden Stage Cl A Ord Sh",
+    "symbol": "IMMP",
+    "name": "Immutep Limited ADS",
     "market": "NASDAQ",
     "reason": "중요 공시 대기 (T1)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)"
+    "date": "03/06/2026",
+    "time": "06:33:04 ET (20:33:04 KST)"
   },
   {
     "symbol": "JMG",
@@ -136,22 +136,6 @@
     "time": "03:33:59 ET (17:33:59 KST)"
   },
   {
-    "symbol": "TVGN",
-    "name": "Tevogen Bio Hldgs Cmn",
-    "market": "NASDAQ",
-    "reason": "중요 공시 대기 (T1)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)"
-  },
-  {
-    "symbol": "TVGNW",
-    "name": "Tevogen Bio Hldgs Wt",
-    "market": "NASDAQ",
-    "reason": "중요 공시 대기 (T1)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)"
-  },
-  {
     "symbol": "UCFI",
     "name": "CN Healthy Food Tech Group CS",
     "market": "NASDAQ",
@@ -166,13 +150,5 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/01/2025",
     "time": "11:28:10 ET (00:28:10 KST)"
-  },
-  {
-    "symbol": "WCT",
-    "name": "Wellchange Holdings Cl A Ord",
-    "market": "NASDAQ",
-    "reason": "중요 공시 대기 (T1)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)"
   }
 ]
