@@ -15,6 +15,7 @@ STATE_FILE = os.getenv("STATE_FILE", "state.json")
 MAX_SEND = int(os.getenv("MAX_SEND", "20"))
 KEEP_SEEN = int(os.getenv("KEEP_SEEN", "1000"))
 DEBUG_LOG = os.getenv("DEBUG_LOG", "true").lower() == "true"
+FORCE_SEND_LATEST = os.getenv("FORCE_SEND_LATEST", "false").lower() == "true"
 
 
 REASON_MAP_KR = {
@@ -56,6 +57,10 @@ REASON_MAP_KR = {
 }
 
 
+def log(msg):
+    print(msg, flush=True)
+
+
 def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "r", encoding="utf-8") as f:
@@ -85,7 +90,11 @@ def send_telegram(text: str):
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
     }
+
+    log(f"[TG] sending message to CHAT_ID={CHAT_ID}")
     r = requests.post(url, json=payload, timeout=20)
+    log(f"[TG] status={r.status_code}")
+    log(f"[TG] response={r.text[:1000]}")
     r.raise_for_status()
 
 
@@ -119,7 +128,6 @@ def parse_summary_to_dict(raw: str) -> dict:
 
     text = clean_text(raw)
 
-    # 기본 줄 단위 key:value
     for line in text.splitlines():
         line = line.strip(" -•\t")
         if ":" in line:
@@ -129,7 +137,6 @@ def parse_summary_to_dict(raw: str) -> dict:
             if key and value:
                 result[key] = value
 
-    # 한 줄에 필드가 붙어있는 경우
     pattern = re.compile(
         r"(Issue Symbol|Issue Name|Symbol|Ticker|Mkt|Market|Exchange|Reason Code|Halt Code|Halt Date|Halt Time|Date|Time|Pause Threshold Price)\s*:\s*(.*?)(?=(?:Issue Symbol|Issue Name|Symbol|Ticker|Mkt|Market|Exchange|Reason Code|Halt Code|Halt Date|Halt Time|Date|Time|Pause Threshold Price)\s*:|$)",
         re.I,
@@ -144,14 +151,10 @@ def parse_summary_to_dict(raw: str) -> dict:
 
 
 def extract_entry_field(entry, *candidate_keys) -> str:
-    """
-    feedparser entry 내부의 다양한 키를 탐색
-    """
     for key in candidate_keys:
         if key in entry and entry.get(key):
             return clean_text(entry.get(key))
 
-    # 키 이름 일부 매칭
     lowered_candidates = [k.lower() for k in candidate_keys]
     for ek in entry.keys():
         ek_norm = ek.lower()
@@ -199,21 +202,19 @@ def extract_symbol_from_title(title: str) -> str:
 
 
 def split_date_time_if_needed(date_val: str, time_val: str):
-    """
-    정지일에 'Halt Time' 같은 헤더가 잘못 들어오는 경우 방지
-    """
     date_val = clean_text(date_val)
     time_val = clean_text(time_val)
 
     if date_val.lower() in {"halt time", "time"}:
         date_val = ""
 
-    # date_val에 날짜/시간이 같이 들어온 경우
+    if time_val.lower() in {"halt date", "date"}:
+        time_val = ""
+
     m = re.match(r"^(\d{1,2}/\d{1,2}/\d{4})[ ,]+(\d{1,2}:\d{2}:\d{2})$", date_val)
     if m:
         return m.group(1), m.group(2)
 
-    # time_val에 날짜/시간이 같이 들어온 경우
     m = re.match(r"^(\d{1,2}/\d{1,2}/\d{4})[ ,]+(\d{1,2}:\d{2}:\d{2})$", time_val)
     if m:
         return m.group(1), m.group(2)
@@ -225,17 +226,17 @@ def debug_dump_entry(entry):
     if not DEBUG_LOG:
         return
     try:
-        print("========== DEBUG ENTRY START ==========")
-        print("TITLE:", repr(getattr(entry, "title", "")))
-        print("LINK:", repr(getattr(entry, "link", "")))
-        print("SUMMARY:", repr(getattr(entry, "summary", "")))
-        print("DESCRIPTION:", repr(getattr(entry, "description", "")))
-        print("ENTRY KEYS:", list(entry.keys()))
-        print("ENTRY RAW:")
-        print(pformat(dict(entry)))
-        print("========== DEBUG ENTRY END ==========")
+        log("========== DEBUG ENTRY START ==========")
+        log(f"TITLE: {repr(getattr(entry, 'title', ''))}")
+        log(f"LINK: {repr(getattr(entry, 'link', ''))}")
+        log(f"SUMMARY: {repr(getattr(entry, 'summary', ''))}")
+        log(f"DESCRIPTION: {repr(getattr(entry, 'description', ''))}")
+        log(f"ENTRY KEYS: {list(entry.keys())}")
+        log("ENTRY RAW:")
+        log(pformat(dict(entry)))
+        log("========== DEBUG ENTRY END ==========")
     except Exception as e:
-        print("DEBUG DUMP ERROR:", repr(e))
+        log(f"DEBUG DUMP ERROR: {repr(e)}")
 
 
 def format_message(entry) -> str:
@@ -280,7 +281,15 @@ def format_message(entry) -> str:
 
     halt_date, halt_time = split_date_time_if_needed(halt_date, halt_time)
 
-    # 여전히 비어 있으면 디버그 로그 남김
+    if DEBUG_LOG:
+        log("[PARSED]")
+        log(f"  symbol={repr(symbol)}")
+        log(f"  stock_name={repr(stock_name)}")
+        log(f"  market={repr(market)}")
+        log(f"  reason_code={repr(reason_code)}")
+        log(f"  halt_date={repr(halt_date)}")
+        log(f"  halt_time={repr(halt_time)}")
+
     if DEBUG_LOG and (not stock_name or not market or not reason_code or not halt_date or not halt_time):
         debug_dump_entry(entry)
 
@@ -302,28 +311,79 @@ def format_message(entry) -> str:
 
 
 def main():
+    log("[START] rss_to_tg.py")
+    log(f"[CONFIG] RSS_URL={RSS_URL}")
+    log(f"[CONFIG] STATE_FILE={STATE_FILE}")
+    log(f"[CONFIG] MAX_SEND={MAX_SEND}")
+    log(f"[CONFIG] KEEP_SEEN={KEEP_SEEN}")
+    log(f"[CONFIG] DEBUG_LOG={DEBUG_LOG}")
+    log(f"[CONFIG] FORCE_SEND_LATEST={FORCE_SEND_LATEST}")
+
     state = load_state()
     seen = set(state.get("seen", []))
+    log(f"[STATE] seen_count={len(seen)}")
 
     feed = feedparser.parse(RSS_URL)
     entries = getattr(feed, "entries", []) or []
+    log(f"[FEED] entry_count={len(entries)}")
+
+    if getattr(feed, "feed", None):
+        log(f"[FEED] feed_title={repr(feed.feed.get('title', ''))}")
+
+    if entries:
+        log(f"[FEED] latest_title={repr(getattr(entries[0], 'title', ''))}")
 
     new_items = []
     for entry in entries:
         eid = pick_id(entry)
-        if not eid or eid in seen:
+        if not eid:
+            continue
+        if eid in seen:
             continue
         new_items.append((eid, entry))
 
+    log(f"[NEW] new_items_count={len(new_items)}")
+
+    if FORCE_SEND_LATEST and entries:
+        log("[FORCE] FORCE_SEND_LATEST enabled, sending latest entry ignoring seen")
+        latest_entry = entries[0]
+        msg = format_message(latest_entry)
+        log("[FORCE] message_preview:")
+        log(msg)
+        send_telegram(msg)
+
+        latest_id = pick_id(latest_entry)
+        if latest_id:
+            seen.add(latest_id)
+
+        state["seen"] = list(seen)[-KEEP_SEEN:]
+        save_state(state)
+        log("[DONE] force send complete")
+        return
+
     new_items = new_items[:MAX_SEND]
 
+    if not new_items:
+        log("[DONE] No new items to send.")
+        state["seen"] = list(seen)[-KEEP_SEEN:]
+        save_state(state)
+        return
+
+    sent_count = 0
+
     for eid, entry in reversed(new_items):
+        log(f"[SEND] eid={repr(eid)}")
         msg = format_message(entry)
+        log("[SEND] message_preview:")
+        log(msg)
         send_telegram(msg)
         seen.add(eid)
+        sent_count += 1
 
     state["seen"] = list(seen)[-KEEP_SEEN:]
     save_state(state)
+
+    log(f"[DONE] sent_count={sent_count}")
 
 
 if __name__ == "__main__":
