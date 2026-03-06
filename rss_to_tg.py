@@ -401,11 +401,13 @@ def format_message(data: dict) -> str:
 
     if has_resume:
     resume_date = data.get("resume_date") or "-"
+
     quote_resume = (
         format_time_with_kst(resume_date, data.get("quote_resume_time"))
         if data.get("quote_resume_time")
         else "-"
     )
+
     trade_resume = (
         format_time_with_kst(resume_date, data.get("trade_resume_time"))
         if data.get("trade_resume_time")
