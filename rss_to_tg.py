@@ -399,7 +399,7 @@ def format_message(data: dict) -> str:
         data.get("resume_date") or data.get("quote_resume_time") or data.get("trade_resume_time")
     )
 
-    if has_resume:
+if has_resume:
     resume_date = data.get("resume_date") or "-"
 
     quote_resume = (
@@ -417,7 +417,6 @@ def format_message(data: dict) -> str:
     lines.append(f"재개일 : {html.escape(resume_date)}")
     lines.append(f"호가재개시간 : {html.escape(quote_resume)}")
     lines.append(f"거래재개시간 : {html.escape(trade_resume)}")
-
     return "\n".join(lines)
 
 
