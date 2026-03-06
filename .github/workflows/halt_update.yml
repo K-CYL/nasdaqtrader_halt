@@ -2,15 +2,18 @@ name: Update halt state
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # GitHub 최소 단위 (5분)
+    - cron: "*/5 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout alert repo
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -20,9 +23,14 @@ jobs:
 
       - name: Install packages
         run: |
-          pip install requests feedparser pytz
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run every minute for 5 minutes
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          RSS_URL: ${{ secrets.RSS_URL }}
         run: |
           for i in {1..5}
           do
@@ -30,3 +38,39 @@ jobs:
             python rss_to_tg.py
             sleep 60
           done
+
+      - name: Commit state and halts in alert repo
+        run: |
+          if git status --porcelain | grep -E "state.json|halts.json"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state.json halts.json
+            git commit -m "Update halt state"
+            git push
+          else
+            echo "No changes to commit in alert repo"
+          fi
+
+      - name: Checkout query bot repo
+        uses: actions/checkout@v4
+        with:
+          repository: K-CYL/telegram-halt-bot
+          token: ${{ secrets.QUERY_REPO_PAT }}
+          path: query-bot
+
+      - name: Copy halts.json to query bot repo
+        run: |
+          cp halts.json query-bot/halts.json
+
+      - name: Commit halts.json to query bot repo
+        run: |
+          cd query-bot
+          if git status --porcelain | grep -q "halts.json"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add halts.json
+            git commit -m "Update halts.json"
+            git push
+          else
+            echo "No halts.json changes in query bot repo"
+          fi
