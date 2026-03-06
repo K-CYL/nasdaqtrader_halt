@@ -32,8 +32,8 @@
     "date": "03/05/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
     "resume_date": "03/06/2026",
-    "quote_resume_time": "08:55:00",
-    "trade_resume_time": "09:00:00"
+    "quote_resume_time": "08:55:00 ET (22:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (23:00:00 KST)"
   },
   {
     "symbol": "IMMP",
@@ -224,8 +224,8 @@
     "date": "03/05/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
     "resume_date": "03/06/2026",
-    "quote_resume_time": "08:55:00",
-    "trade_resume_time": "09:00:00"
+    "quote_resume_time": "08:55:00 ET (22:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (23:00:00 KST)"
   },
   {
     "symbol": "TVGNW",
@@ -236,8 +236,8 @@
     "date": "03/05/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
     "resume_date": "03/06/2026",
-    "quote_resume_time": "09:00:00",
-    "trade_resume_time": "09:05:00"
+    "quote_resume_time": "09:00:00 ET (23:00:00 KST)",
+    "trade_resume_time": "09:05:00 ET (23:05:00 KST)"
   },
   {
     "symbol": "UCFI",
@@ -272,7 +272,7 @@
     "date": "03/05/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
     "resume_date": "03/06/2026",
-    "quote_resume_time": "08:55:00",
-    "trade_resume_time": "09:00:00"
+    "quote_resume_time": "08:55:00 ET (22:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (23:00:00 KST)"
   }
 ]
