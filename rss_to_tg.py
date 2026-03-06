@@ -60,20 +60,6 @@ REASON_MAP_KR = {
     "D": "NASDAQ/CQS 삭제",
 }
 
-RESUME_CODES = {
-    "T3",
-    "T7",
-    "R1",
-    "R2",
-    "R4",
-    "R9",
-    "C3",
-    "C4",
-    "C9",
-    "C11",
-    "MWCQ",
-}
-
 FIELD_LABELS = [
     "Issue Symbol",
     "Issue Name",
@@ -409,11 +395,11 @@ def format_message(data: dict) -> str:
         f"정지시간 : {html.escape(data['time'])}",
     ]
 
-    has_resume_info = bool(
+    has_resume = bool(
         data.get("resume_date") or data.get("quote_resume_time") or data.get("trade_resume_time")
     )
 
-    if has_resume_info:
+    if has_resume:
         resume_date = data.get("resume_date") or "-"
         quote_resume = (
             format_time_with_kst(resume_date, data.get("quote_resume_time"))
@@ -433,30 +419,17 @@ def format_message(data: dict) -> str:
     return "\n".join(lines)
 
 
-def build_current_halts(entries):
-    active = {}
+def build_latest_items(entries):
+    latest = {}
 
-    # 오래된 것부터 처리
-    for entry in reversed(entries):
+    for entry in entries:
         data = parse_entry(entry)
         symbol = data["symbol"]
         if not symbol or symbol == "-":
             continue
+        latest[symbol] = data
 
-        code = data["reason_code"]
-        if code in RESUME_CODES:
-            active.pop(symbol, None)
-        else:
-            active[symbol] = {
-                "symbol": data["symbol"],
-                "name": data["name"],
-                "market": data["market"],
-                "reason": data["reason"],
-                "date": data["date"],
-                "time": data["time"],
-            }
-
-    return sorted(active.values(), key=lambda x: x["symbol"])
+    return sorted(latest.values(), key=lambda x: x["symbol"])
 
 
 def main():
@@ -466,9 +439,9 @@ def main():
     feed = feedparser.parse(RSS_URL)
     entries = getattr(feed, "entries", []) or []
 
-    # 현재 거래정지 종목 파일 생성
-    current_halts = build_current_halts(entries)
-    save_halts(current_halts)
+    # RSS 전체 종목 저장 (재개 종목 포함)
+    latest_items = build_latest_items(entries)
+    save_halts(latest_items)
 
     new_items = []
     for entry in entries:
