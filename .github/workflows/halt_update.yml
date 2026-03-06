@@ -1,0 +1,32 @@
+name: Update halt state
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub 최소 단위 (5분)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install packages
+        run: |
+          pip install requests feedparser pytz
+
+      - name: Run every minute for 5 minutes
+        run: |
+          for i in {1..5}
+          do
+            echo "Run $i"
+            python rss_to_tg.py
+            sleep 60
+          done
