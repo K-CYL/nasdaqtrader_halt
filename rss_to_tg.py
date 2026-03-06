@@ -400,21 +400,21 @@ def format_message(data: dict) -> str:
     )
 
     if has_resume:
-        resume_date = data.get("resume_date") or "-"
-        quote_resume = (
-            format_time_with_kst(resume_date, data.get("quote_resume_time"))
-            if data.get("quote_resume_time")
-            else "-"
-        )
-        trade_resume = (
-            format_time_with_kst(resume_date, data.get("trade_resume_time"))
-            if data.get("trade_resume_time")
-            else "-"
-        )
+    resume_date = data.get("resume_date") or "-"
+    quote_resume = (
+        format_time_with_kst(resume_date, data.get("quote_resume_time"))
+        if data.get("quote_resume_time")
+        else "-"
+    )
+    trade_resume = (
+        format_time_with_kst(resume_date, data.get("trade_resume_time"))
+        if data.get("trade_resume_time")
+        else "-"
+    )
 
-        lines.append(f"재개일 : {html.escape(resume_date)}")
-        lines.append(f"호가재개시간 : {html.escape(quote_resume)}")
-        lines.append(f"거래재개시간 : {html.escape(trade_resume)}")
+    lines.append(f"재개일 : {html.escape(resume_date)}")
+    lines.append(f"호가재개시간 : {html.escape(quote_resume)}")
+    lines.append(f"거래재개시간 : {html.escape(trade_resume)}")
 
     return "\n".join(lines)
 
