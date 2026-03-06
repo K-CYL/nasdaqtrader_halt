@@ -1,9 +1,9 @@
 name: Nasdaq Trade Halts to Telegram
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -31,6 +31,8 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           RSS_URL: ${{ secrets.RSS_URL }}
+          DEBUG_LOG: "true"
+          FORCE_SEND_LATEST: "true"
         run: |
           python rss_to_tg.py
 
