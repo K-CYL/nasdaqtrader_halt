@@ -1,5 +1,17 @@
 [
   {
+    "symbol": "DAWN",
+    "name": "Day One Biopharmaceuticals Cm",
+    "market": "NASDAQ",
+    "reason_code": "T2",
+    "reason": "공시 배포 개시 (T2)",
+    "date": "03/06/2026",
+    "time": "08:25:00 ET (22:25:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
