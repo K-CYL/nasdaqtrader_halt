@@ -13,9 +13,10 @@ RSS_URL = os.getenv("RSS_URL", "https://www.nasdaqtrader.com/rss.aspx?feed=trade
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 STATE_FILE = os.getenv("STATE_FILE", "state.json")
+HALTS_FILE = os.getenv("HALTS_FILE", "halts.json")
 
 MAX_SEND = int(os.getenv("MAX_SEND", "50"))
-KEEP_SEEN = int(os.getenv("KEEP_SEEN", "1000"))
+KEEP_SEEN = int(os.getenv("KEEP_SEEN", "2000"))
 
 ET = ZoneInfo("America/New_York")
 KST = ZoneInfo("Asia/Seoul")
@@ -59,6 +60,20 @@ REASON_MAP_KR = {
     "D": "NASDAQ/CQS 삭제",
 }
 
+RESUME_CODES = {
+    "T3",
+    "T7",
+    "R1",
+    "R2",
+    "R4",
+    "R9",
+    "C3",
+    "C4",
+    "C9",
+    "C11",
+    "MWCQ",
+}
+
 FIELD_LABELS = [
     "Issue Symbol",
     "Issue Name",
@@ -94,6 +109,11 @@ def load_state():
 def save_state(state):
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def save_halts(items):
+    with open(HALTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
 
 
 def pick_id(entry):
@@ -202,7 +222,6 @@ def extract_entry_field(entry, *candidate_keys) -> str:
                 return clean_text(entry.get(ek))
             if cand in ek_norm and entry.get(ek):
                 return clean_text(entry.get(ek))
-
     return ""
 
 
@@ -273,14 +292,12 @@ def format_time_with_kst(date_str: str, time_str: str) -> str:
         return "-"
 
     et_time, kst_time = convert_et_to_kst(date_str, time_str)
-
     if et_time != "-" and kst_time != "-":
         return f"{et_time} ET ({kst_time} KST)"
-
     return time_str
 
 
-def format_message(entry) -> str:
+def parse_entry(entry) -> dict:
     title = clean_text(getattr(entry, "title", "") or "")
     summary = getattr(entry, "summary", "") or ""
     description = getattr(entry, "description", "") or ""
@@ -362,31 +379,84 @@ def format_message(entry) -> str:
     symbol = symbol or "-"
     stock_name = stock_name or "-"
     market = normalize_market(market)
+    reason_code = (reason_code or "").strip().upper()
     reason_display = normalize_reason(reason_code)
     halt_date = halt_date or "-"
     halt_time_display = format_time_with_kst(halt_date, halt_time)
 
+    data = {
+        "symbol": symbol,
+        "name": stock_name,
+        "market": market,
+        "reason_code": reason_code,
+        "reason": reason_display,
+        "date": halt_date,
+        "time": halt_time_display,
+        "resume_date": resume_date or "",
+        "quote_resume_time": quote_resume_time or "",
+        "trade_resume_time": trade_resume_time or "",
+    }
+    return data
+
+
+def format_message(data: dict) -> str:
     lines = [
-        f"종목코드 : {html.escape(symbol)}",
-        f"종목명 : {html.escape(stock_name)}",
-        f"거래소 : {html.escape(market)}",
-        f"정지 사유 : {html.escape(reason_display)}",
-        f"정지일 : {html.escape(halt_date)}",
-        f"정지시간 : {html.escape(halt_time_display)}",
+        f"종목코드 : {html.escape(data['symbol'])}",
+        f"종목명 : {html.escape(data['name'])}",
+        f"거래소 : {html.escape(data['market'])}",
+        f"정지 사유 : {html.escape(data['reason'])}",
+        f"정지일 : {html.escape(data['date'])}",
+        f"정지시간 : {html.escape(data['time'])}",
     ]
 
-    has_resume_info = bool(resume_date or quote_resume_time or trade_resume_time)
+    has_resume_info = bool(
+        data.get("resume_date") or data.get("quote_resume_time") or data.get("trade_resume_time")
+    )
 
     if has_resume_info:
-        lines.append(f"재개일 : {html.escape(resume_date or '-')}")
-        lines.append(
-            f"호가재개시간 : {html.escape(format_time_with_kst(resume_date, quote_resume_time)) if quote_resume_time else '-'}"
+        resume_date = data.get("resume_date") or "-"
+        quote_resume = (
+            format_time_with_kst(resume_date, data.get("quote_resume_time"))
+            if data.get("quote_resume_time")
+            else "-"
         )
-        lines.append(
-            f"거래재개시간 : {html.escape(format_time_with_kst(resume_date, trade_resume_time)) if trade_resume_time else '-'}"
+        trade_resume = (
+            format_time_with_kst(resume_date, data.get("trade_resume_time"))
+            if data.get("trade_resume_time")
+            else "-"
         )
 
+        lines.append(f"재개일 : {html.escape(resume_date)}")
+        lines.append(f"호가재개시간 : {html.escape(quote_resume)}")
+        lines.append(f"거래재개시간 : {html.escape(trade_resume)}")
+
     return "\n".join(lines)
+
+
+def build_current_halts(entries):
+    active = {}
+
+    # 오래된 것부터 처리
+    for entry in reversed(entries):
+        data = parse_entry(entry)
+        symbol = data["symbol"]
+        if not symbol or symbol == "-":
+            continue
+
+        code = data["reason_code"]
+        if code in RESUME_CODES:
+            active.pop(symbol, None)
+        else:
+            active[symbol] = {
+                "symbol": data["symbol"],
+                "name": data["name"],
+                "market": data["market"],
+                "reason": data["reason"],
+                "date": data["date"],
+                "time": data["time"],
+            }
+
+    return sorted(active.values(), key=lambda x: x["symbol"])
 
 
 def main():
@@ -395,6 +465,10 @@ def main():
 
     feed = feedparser.parse(RSS_URL)
     entries = getattr(feed, "entries", []) or []
+
+    # 현재 거래정지 종목 파일 생성
+    current_halts = build_current_halts(entries)
+    save_halts(current_halts)
 
     new_items = []
     for entry in entries:
@@ -406,7 +480,8 @@ def main():
     new_items = new_items[:MAX_SEND]
 
     for eid, entry in reversed(new_items):
-        msg = format_message(entry)
+        data = parse_entry(entry)
+        msg = format_message(data)
         send_telegram(msg)
         seen.add(eid)
 
