@@ -328,7 +328,7 @@ def parse_entry(entry) -> dict:
         or extract_entry_field(entry, "resumptiondate", "resumption_date", "resumedate", "resume_date")
     )
 
-    quote_resume_time = (
+    quote_resume_time_raw = (
         choose(parsed, "Resumption Quote Time", "Quote Resume Time", "Resume Quote Time")
         or extract_entry_field(
             entry,
@@ -341,7 +341,7 @@ def parse_entry(entry) -> dict:
         )
     )
 
-    trade_resume_time = (
+    trade_resume_time_raw = (
         choose(parsed, "Resumption Trade Time", "Trade Resume Time", "Resume Trade Time")
         or extract_entry_field(
             entry,
@@ -359,8 +359,8 @@ def parse_entry(entry) -> dict:
         or extract_entry_field(entry, "resumptiontime", "resumption_time", "resumetime", "resume_time")
     )
 
-    if not quote_resume_time and not trade_resume_time and generic_resume_time:
-        trade_resume_time = generic_resume_time
+    if not quote_resume_time_raw and not trade_resume_time_raw and generic_resume_time:
+        trade_resume_time_raw = generic_resume_time
 
     symbol = symbol or "-"
     stock_name = stock_name or "-"
@@ -369,6 +369,17 @@ def parse_entry(entry) -> dict:
     reason_display = normalize_reason(reason_code)
     halt_date = halt_date or "-"
     halt_time_display = format_time_with_kst(halt_date, halt_time)
+
+    quote_resume_time = (
+        format_time_with_kst(resume_date, quote_resume_time_raw)
+        if quote_resume_time_raw
+        else ""
+    )
+    trade_resume_time = (
+        format_time_with_kst(resume_date, trade_resume_time_raw)
+        if trade_resume_time_raw
+        else ""
+    )
 
     data = {
         "symbol": symbol,
@@ -379,8 +390,8 @@ def parse_entry(entry) -> dict:
         "date": halt_date,
         "time": halt_time_display,
         "resume_date": resume_date or "",
-        "quote_resume_time": quote_resume_time or "",
-        "trade_resume_time": trade_resume_time or "",
+        "quote_resume_time": quote_resume_time,
+        "trade_resume_time": trade_resume_time,
     }
     return data
 
@@ -399,24 +410,15 @@ def format_message(data: dict) -> str:
         data.get("resume_date") or data.get("quote_resume_time") or data.get("trade_resume_time")
     )
 
-if has_resume:
-    resume_date = data.get("resume_date") or "-"
+    if has_resume:
+        resume_date = data.get("resume_date") or "-"
+        quote_resume = data.get("quote_resume_time") or "-"
+        trade_resume = data.get("trade_resume_time") or "-"
 
-    quote_resume = (
-        format_time_with_kst(resume_date, data.get("quote_resume_time"))
-        if data.get("quote_resume_time")
-        else "-"
-    )
+        lines.append(f"재개일 : {html.escape(resume_date)}")
+        lines.append(f"호가재개시간 : {html.escape(quote_resume)}")
+        lines.append(f"거래재개시간 : {html.escape(trade_resume)}")
 
-    trade_resume = (
-        format_time_with_kst(resume_date, data.get("trade_resume_time"))
-        if data.get("trade_resume_time")
-        else "-"
-    )
-
-    lines.append(f"재개일 : {html.escape(resume_date)}")
-    lines.append(f"호가재개시간 : {html.escape(quote_resume)}")
-    lines.append(f"거래재개시간 : {html.escape(trade_resume)}")
     return "\n".join(lines)
 
 
@@ -440,7 +442,6 @@ def main():
     feed = feedparser.parse(RSS_URL)
     entries = getattr(feed, "entries", []) or []
 
-    # RSS 전체 종목 저장 (재개 종목 포함)
     latest_items = build_latest_items(entries)
     save_halts(latest_items)
 
