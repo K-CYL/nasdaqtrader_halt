@@ -7,6 +7,7 @@
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -19,6 +20,7 @@
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -31,6 +33,7 @@
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -43,6 +46,7 @@
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -55,6 +59,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/03/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -67,6 +72,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/08/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -79,6 +85,7 @@
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
     "time": "06:33:04 ET (20:33:04 KST)",
+    "halt_time_plain": "06:33:04",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -91,6 +98,7 @@
     "reason": "규제상 우려 (H11)",
     "date": "01/15/2026",
     "time": "02:55:27 ET (16:55:27 KST)",
+    "halt_time_plain": "02:55:27",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -103,6 +111,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/22/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -115,6 +124,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "12/04/2025",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -127,6 +137,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "11/14/2025",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -139,6 +150,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "11/11/2025",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -151,6 +163,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/08/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -163,6 +176,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "09/12/2025",
     "time": "12:24:23 ET (01:24:23 KST)",
+    "halt_time_plain": "12:24:23",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -175,6 +189,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/16/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -187,6 +202,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/03/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -199,6 +215,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/03/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -211,6 +228,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "09/26/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -223,6 +241,7 @@
     "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -235,6 +254,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "09/26/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -247,6 +267,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "02/22/2019",
     "time": "16:02:01 ET (06:02:01 KST)",
+    "halt_time_plain": "16:02:01",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -259,6 +280,7 @@
     "reason": "규제상 우려 (H11)",
     "date": "02/02/2026",
     "time": "03:33:59 ET (17:33:59 KST)",
+    "halt_time_plain": "03:33:59",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -271,6 +293,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/01/2025",
     "time": "11:28:10 ET (00:28:10 KST)",
+    "halt_time_plain": "11:28:10",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -283,6 +306,7 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "10/01/2025",
     "time": "11:28:10 ET (00:28:10 KST)",
+    "halt_time_plain": "11:28:10",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
