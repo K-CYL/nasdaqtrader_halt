@@ -2,7 +2,8 @@ import os
 import json
 import html
 import re
-from datetime import datetime
+import time
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import feedparser
@@ -16,7 +17,8 @@ STATE_FILE = os.getenv("STATE_FILE", "state.json")
 HALTS_FILE = os.getenv("HALTS_FILE", "halts.json")
 
 MAX_SEND = int(os.getenv("MAX_SEND", "50"))
-KEEP_SEEN = int(os.getenv("KEEP_SEEN", "2000"))
+KEEP_SEEN = int(os.getenv("KEEP_SEEN", "5000"))
+LULD_DEDUPE_MINUTES = int(os.getenv("LULD_DEDUPE_MINUTES", "10"))
 
 ET = ZoneInfo("America/New_York")
 KST = ZoneInfo("Asia/Seoul")
@@ -88,8 +90,16 @@ FIELD_LABELS = [
 def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"seen": []}
+            state = json.load(f)
+    else:
+        state = {}
+
+    if "seen" not in state:
+        state["seen"] = []
+    if "luld_last_sent" not in state:
+        state["luld_last_sent"] = {}
+
+    return state
 
 
 def save_state(state):
@@ -102,15 +112,6 @@ def save_halts(items):
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
-def pick_id(entry):
-    return (
-        getattr(entry, "id", None)
-        or getattr(entry, "guid", None)
-        or getattr(entry, "link", None)
-        or f"{getattr(entry, 'title', '')}|{getattr(entry, 'published', '')}"
-    )
-
-
 def send_telegram(text: str):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
@@ -119,8 +120,29 @@ def send_telegram(text: str):
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
     }
-    r = requests.post(url, json=payload, timeout=20)
-    r.raise_for_status()
+
+    for _ in range(5):
+        r = requests.post(url, json=payload, timeout=20)
+
+        if r.status_code == 200:
+            time.sleep(1.2)
+            return
+
+        if r.status_code == 429:
+            retry_after = 3
+            try:
+                data = r.json()
+                retry_after = data.get("parameters", {}).get("retry_after", 3)
+            except Exception:
+                pass
+
+            print(f"Telegram 429 hit. Sleep {retry_after} sec", flush=True)
+            time.sleep(retry_after + 1)
+            continue
+
+        r.raise_for_status()
+
+    raise RuntimeError("Failed to send telegram message after retries")
 
 
 def html_to_text_keep_newlines(raw) -> str:
@@ -318,7 +340,7 @@ def parse_entry(entry) -> dict:
         or extract_entry_field(entry, "haltdate", "halt_date")
     )
 
-    halt_time = (
+    halt_time_raw = (
         choose(parsed, "Halt Time")
         or extract_entry_field(entry, "halttime", "halt_time")
     )
@@ -368,7 +390,9 @@ def parse_entry(entry) -> dict:
     reason_code = (reason_code or "").strip().upper()
     reason_display = normalize_reason(reason_code)
     halt_date = halt_date or "-"
-    halt_time_display = format_time_with_kst(halt_date, halt_time)
+
+    halt_time_plain = clean_text(halt_time_raw) if halt_time_raw else ""
+    halt_time_display = format_time_with_kst(halt_date, halt_time_raw)
 
     quote_resume_time = (
         format_time_with_kst(resume_date, quote_resume_time_raw)
@@ -381,7 +405,7 @@ def parse_entry(entry) -> dict:
         else ""
     )
 
-    data = {
+    return {
         "symbol": symbol,
         "name": stock_name,
         "market": market,
@@ -389,11 +413,11 @@ def parse_entry(entry) -> dict:
         "reason": reason_display,
         "date": halt_date,
         "time": halt_time_display,
+        "halt_time_plain": halt_time_plain,
         "resume_date": resume_date or "",
         "quote_resume_time": quote_resume_time,
         "trade_resume_time": trade_resume_time,
     }
-    return data
 
 
 def format_message(data: dict) -> str:
@@ -435,6 +459,52 @@ def build_latest_items(entries):
     return sorted(latest.values(), key=lambda x: x["symbol"])
 
 
+def make_event_key(data: dict) -> str:
+    symbol = (data.get("symbol") or "").strip().upper()
+    reason_code = (data.get("reason_code") or "").strip().upper()
+    halt_date = (data.get("date") or "").strip()
+    halt_time_plain = (data.get("halt_time_plain") or "").strip()
+
+    return f"{symbol}|{reason_code}|{halt_date}|{halt_time_plain}"
+
+
+def should_skip_luld_duplicate(data: dict, state: dict) -> bool:
+    reason_code = (data.get("reason_code") or "").upper()
+    symbol = (data.get("symbol") or "").upper()
+
+    if reason_code not in {"LUDP", "M"}:
+        return False
+
+    if not symbol:
+        return False
+
+    luld_last_sent = state.get("luld_last_sent", {})
+    last_sent_str = luld_last_sent.get(symbol)
+
+    if not last_sent_str:
+        return False
+
+    try:
+        last_sent = datetime.fromisoformat(last_sent_str)
+    except Exception:
+        return False
+
+    if datetime.now() - last_sent < timedelta(minutes=LULD_DEDUPE_MINUTES):
+        print(f"Skip duplicated LULD by symbol window: {symbol}", flush=True)
+        return True
+
+    return False
+
+
+def mark_luld_sent(data: dict, state: dict):
+    reason_code = (data.get("reason_code") or "").upper()
+    symbol = (data.get("symbol") or "").upper()
+
+    if reason_code in {"LUDP", "M"} and symbol:
+        state.setdefault("luld_last_sent", {})
+        state["luld_last_sent"][symbol] = datetime.now().isoformat(timespec="seconds")
+
+
 def main():
     state = load_state()
     seen = set(state.get("seen", []))
@@ -446,21 +516,40 @@ def main():
     save_halts(latest_items)
 
     new_items = []
+
     for entry in entries:
-        eid = pick_id(entry)
-        if not eid or eid in seen:
+        data = parse_entry(entry)
+        event_key = make_event_key(data)
+
+        if not event_key or event_key in seen:
             continue
-        new_items.append((eid, entry))
+
+        new_items.append((event_key, data))
 
     new_items = new_items[:MAX_SEND]
 
-    for eid, entry in reversed(new_items):
-        data = parse_entry(entry)
+    for event_key, data in reversed(new_items):
+        # 완전히 동일한 이벤트는 영구 스킵
+        if event_key in seen:
+            continue
+
+        # LULD/LUDP만 같은 종목 단위 10분 차단
+        if should_skip_luld_duplicate(data, state):
+            seen.add(event_key)
+            continue
+
         msg = format_message(data)
         send_telegram(msg)
-        seen.add(eid)
+
+        seen.add(event_key)
+        mark_luld_sent(data, state)
 
     state["seen"] = list(seen)[-KEEP_SEEN:]
+
+    if len(state.get("luld_last_sent", {})) > 1000:
+        items = list(state["luld_last_sent"].items())[-500:]
+        state["luld_last_sent"] = dict(items)
+
     save_state(state)
 
 
