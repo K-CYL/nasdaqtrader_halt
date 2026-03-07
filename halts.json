@@ -1,15 +1,51 @@
 [
   {
-    "symbol": "DAWN",
-    "name": "Day One Biopharmaceuticals Cm",
+    "symbol": "ADTX",
+    "name": "Aditxt, Inc.",
     "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
     "date": "03/06/2026",
-    "time": "08:25:00 ET (22:25:00 KST)",
-    "resume_date": "03/06/2026",
-    "quote_resume_time": "08:40:00 ET (22:40:00 KST)",
-    "trade_resume_time": "08:45:00 ET (22:45:00 KST)"
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "BHAT",
+    "name": "Blue Hat Interactive Enter ORD",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/06/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "DCOY",
+    "name": "Decoy Therapeutics Cmn",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/06/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "DTCK",
+    "name": "Davis Commodities Ltd Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/06/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "EFTY",
@@ -34,18 +70,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "GSIW",
-    "name": "Garden Stage Cl A Ord Sh",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)",
-    "resume_date": "03/06/2026",
-    "quote_resume_time": "08:55:00 ET (22:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (23:00:00 KST)"
   },
   {
     "symbol": "IMMP",
@@ -192,6 +216,18 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "RVPH",
+    "name": "Reviva Pharma Hld Cmn",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/06/2026",
+    "time": "19:50:00 ET (09:50:00 KST)",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -228,30 +264,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "TVGN",
-    "name": "Tevogen Bio Hldgs Cmn",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)",
-    "resume_date": "03/06/2026",
-    "quote_resume_time": "08:55:00 ET (22:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (23:00:00 KST)"
-  },
-  {
-    "symbol": "TVGNW",
-    "name": "Tevogen Bio Hldgs Wt",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)",
-    "resume_date": "03/06/2026",
-    "quote_resume_time": "09:00:00 ET (23:00:00 KST)",
-    "trade_resume_time": "09:05:00 ET (23:05:00 KST)"
-  },
-  {
     "symbol": "UCFI",
     "name": "CN Healthy Food Tech Group CS",
     "market": "NASDAQ",
@@ -274,17 +286,5 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "WCT",
-    "name": "Wellchange Holdings Cl A Ord",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/05/2026",
-    "time": "19:50:00 ET (09:50:00 KST)",
-    "resume_date": "03/06/2026",
-    "quote_resume_time": "08:55:00 ET (22:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (23:00:00 KST)"
   }
 ]
