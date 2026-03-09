@@ -52,6 +52,19 @@
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
+    "symbol": "CAMP",
+    "name": "CAMP4 Therapeutics Corp CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "12:38:44 ET (01:38:44 KST)",
+    "halt_time_plain": "12:38:44",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "12:38:44 ET (01:38:44 KST)",
+    "trade_resume_time": "12:43:44 ET (01:43:44 KST)"
+  },
+  {
     "symbol": "DCOY",
     "name": "Decoy Therapeutics Cmn",
     "market": "NASDAQ",
@@ -91,6 +104,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "EJH",
+    "name": "E-Home Hshld Ltd Srv Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "14:08:59 ET (03:08:59 KST)",
+    "halt_time_plain": "14:08:59",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "14:08:59 ET (03:08:59 KST)",
+    "trade_resume_time": "14:18:59 ET (03:18:59 KST)"
+  },
+  {
     "symbol": "EMPG",
     "name": "Empro Group Inc.",
     "market": "NASDAQ",
@@ -102,6 +128,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "EPSM",
+    "name": "Epsium Enterprise Ltd Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "13:35:44 ET (02:35:44 KST)",
+    "halt_time_plain": "13:35:44",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "13:35:44 ET (02:35:44 KST)",
+    "trade_resume_time": "13:40:44 ET (02:40:44 KST)"
   },
   {
     "symbol": "FEDU",
@@ -140,7 +179,7 @@
     "halt_time_plain": "12:15:40",
     "resume_date": "03/09/2026",
     "quote_resume_time": "12:15:40 ET (01:15:40 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "12:30:27 ET (01:30:27 KST)"
   },
   {
     "symbol": "IMMP",
@@ -297,6 +336,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "PIII",
+    "name": "P3 Health Ptnrs Cl A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "13:16:56 ET (02:16:56 KST)",
+    "halt_time_plain": "13:16:56",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "13:16:56 ET (02:16:56 KST)",
+    "trade_resume_time": "13:21:56 ET (02:21:56 KST)"
   },
   {
     "symbol": "PLMK",
@@ -531,6 +583,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "USEG",
+    "name": "U S Energy Corp",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/09/2026",
+    "time": "13:59:45 ET (02:59:45 KST)",
+    "halt_time_plain": "13:59:45",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "14:25:00 ET (03:25:00 KST)",
+    "trade_resume_time": "14:30:00 ET (03:30:00 KST)"
   },
   {
     "symbol": "WCT",
