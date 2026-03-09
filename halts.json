@@ -195,6 +195,45 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PLMK",
+    "name": "Plum Acq Cp IV Cl A Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "06:58:32 ET (19:58:32 KST)",
+    "halt_time_plain": "06:58:32",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "PLMKU",
+    "name": "Plum Acquisition Corp. IV Unit",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "06:58:32 ET (19:58:32 KST)",
+    "halt_time_plain": "06:58:32",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "PLMKW",
+    "name": "Plum Acquisition Cp IV Wts",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "06:58:32 ET (19:58:32 KST)",
+    "halt_time_plain": "06:58:32",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "PLTS",
     "name": "Platinum Analytics Cymn Ord A",
     "market": "NASDAQ",
@@ -273,6 +312,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "TALK",
+    "name": "Talkspace, Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "06:55:00 ET (19:55:00 KST)",
+    "halt_time_plain": "06:55:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "TALKW",
+    "name": "Talkspace, Inc. Warrant",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "06:55:00 ET (19:55:00 KST)",
+    "halt_time_plain": "06:55:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -310,5 +375,18 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "XENE",
+    "name": "Xenon Pharmaceuticals Cm Sh",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/09/2026",
+    "time": "06:55:00 ET (19:55:00 KST)",
+    "halt_time_plain": "06:55:00",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "07:25:00 ET (20:25:00 KST)",
+    "trade_resume_time": "07:30:00 ET (20:30:00 KST)"
   }
 ]
