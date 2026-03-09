@@ -39,6 +39,32 @@
     "trade_resume_time": "09:35:18 ET (22:35:18 KST)"
   },
   {
+    "symbol": "APPX",
+    "name": "Tradr 2X Long APP Daily ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ARTL",
+    "name": "Artelo Biosciences, Inc. CS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "BHAT",
     "name": "Blue Hat Interactive Enter ORD",
     "market": "NASDAQ",
@@ -115,6 +141,19 @@
     "resume_date": "03/09/2026",
     "quote_resume_time": "14:08:59 ET (03:08:59 KST)",
     "trade_resume_time": "14:18:59 ET (03:18:59 KST)"
+  },
+  {
+    "symbol": "ELAB",
+    "name": "PMGC Holdings Inc. Common Stoc",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "EMPG",
@@ -208,6 +247,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "KIDZ",
+    "name": "Classover Hldgs Cmn B",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "KIDZW",
+    "name": "Classover Holdings, Inc. WT",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "KRKR",
     "name": "36Kr Holdings Inc. ADS",
     "market": "NASDAQ",
@@ -280,6 +345,19 @@
     "reason": "추가 정보 요청 (T12)",
     "date": "11/11/2025",
     "time": "19:50:00 ET (09:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "MUD",
+    "name": "Direxion Daily MU Bear 1X ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
@@ -554,6 +632,19 @@
     "date": "02/02/2026",
     "time": "03:33:59 ET (17:33:59 KST)",
     "halt_time_plain": "03:33:59",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "TSLS",
+    "name": "Direxion Daily TSLA Bear 1X ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/09/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
