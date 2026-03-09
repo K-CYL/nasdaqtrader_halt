@@ -104,6 +104,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "FEDU",
+    "name": "Four Seasons Education (Cayman) Inc. American Depositary Shares, each ADS representing 10 ordinary shares",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/09/2026",
+    "time": "10:21:27 ET (23:21:27 KST)",
+    "halt_time_plain": "10:21:27",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "10:29:20 ET (23:29:20 KST)",
+    "trade_resume_time": "10:29:20 ET (23:29:20 KST)"
+  },
+  {
+    "symbol": "GSIW",
+    "name": "Garden Stage Cl A Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "10:39:30 ET (23:39:30 KST)",
+    "halt_time_plain": "10:39:30",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "10:39:30 ET (23:39:30 KST)",
+    "trade_resume_time": "10:49:30 ET (23:49:30 KST)"
+  },
+  {
     "symbol": "IMMP",
     "name": "Immutep Limited ADS",
     "market": "NASDAQ",
@@ -141,6 +167,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "LUD",
+    "name": "Luda Technology Group Limited Ordinary Shares",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/09/2026",
+    "time": "11:02:46 ET (00:02:46 KST)",
+    "halt_time_plain": "11:02:46",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "11:07:46 ET (00:07:46 KST)",
+    "trade_resume_time": "11:07:46 ET (00:07:46 KST)"
   },
   {
     "symbol": "MAGH",
@@ -193,6 +232,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "OLOX",
+    "name": "Olenox Industries Inc Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "10:46:19 ET (23:46:19 KST)",
+    "halt_time_plain": "10:46:19",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "10:46:19 ET (23:46:19 KST)",
+    "trade_resume_time": "10:51:19 ET (23:51:19 KST)"
   },
   {
     "symbol": "OST",
@@ -286,6 +338,19 @@
     "trade_resume_time": "09:36:07 ET (22:36:07 KST)"
   },
   {
+    "symbol": "POCI",
+    "name": "Precision Optics Corp Cm",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "10:33:43 ET (23:33:43 KST)",
+    "halt_time_plain": "10:33:43",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "10:33:43 ET (23:33:43 KST)",
+    "trade_resume_time": "10:43:43 ET (23:43:43 KST)"
+  },
+  {
     "symbol": "PTNM",
     "name": "Pitanium Ltd Ord A",
     "market": "NASDAQ",
@@ -310,6 +375,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "RGC",
+    "name": "Regencell Bioscience Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "11:05:35 ET (00:05:35 KST)",
+    "halt_time_plain": "11:05:35",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "11:05:35 ET (00:05:35 KST)",
+    "trade_resume_time": "11:10:35 ET (00:10:35 KST)"
   },
   {
     "symbol": "RVPH",
@@ -440,6 +518,19 @@
     "resume_date": "03/09/2026",
     "quote_resume_time": "09:37:13 ET (22:37:13 KST)",
     "trade_resume_time": "09:42:13 ET (22:42:13 KST)"
+  },
+  {
+    "symbol": "XBP",
+    "name": "XBP Global Hldgs Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "10:11:51 ET (23:11:51 KST)",
+    "halt_time_plain": "10:11:51",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "10:11:51 ET (23:11:51 KST)",
+    "trade_resume_time": "10:21:51 ET (23:21:51 KST)"
   },
   {
     "symbol": "XENE",
