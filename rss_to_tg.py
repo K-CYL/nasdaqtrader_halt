@@ -94,11 +94,8 @@ def load_state():
     else:
         state = {}
 
-    if "seen" not in state:
-        state["seen"] = []
-    if "luld_last_sent" not in state:
-        state["luld_last_sent"] = {}
-
+    state.setdefault("seen", [])
+    state.setdefault("luld_last_sent", {})
     return state
 
 
@@ -525,7 +522,6 @@ def should_skip_luld_duplicate(data: dict, state: dict) -> bool:
         return False
 
     if datetime.now() - last_sent < timedelta(minutes=LULD_DEDUPE_MINUTES):
-        print(f"Skip duplicated LULD by symbol window: {symbol}", flush=True)
         return True
 
     return False
@@ -559,11 +555,9 @@ def main():
         event_key = make_event_key(data)
 
         if not event_key:
-            print(f"Skip empty event key: {data}", flush=True)
             continue
 
         if event_key in seen:
-            print(f"Already seen: {event_key}", flush=True)
             continue
 
         new_items.append((event_key, data))
@@ -571,14 +565,14 @@ def main():
     new_items = new_items[:MAX_SEND]
     print(f"New items to evaluate: {len(new_items)}", flush=True)
 
+    sent_count = 0
+
     for event_key, data in reversed(new_items):
         if event_key in seen:
-            print(f"Skip duplicated in loop: {event_key}", flush=True)
             continue
 
         if should_skip_luld_duplicate(data, state):
             seen.add(event_key)
-            print(f"Skip LULD duplicate: {event_key}", flush=True)
             continue
 
         msg = format_message(data)
@@ -587,6 +581,7 @@ def main():
 
         seen.add(event_key)
         mark_luld_sent(data, state)
+        sent_count += 1
 
     state["seen"] = list(seen)[-KEEP_SEEN:]
 
@@ -595,7 +590,7 @@ def main():
         state["luld_last_sent"] = dict(items)
 
     save_state(state)
-    print("State saved", flush=True)
+    print(f"State saved / sent: {sent_count}", flush=True)
 
 
 if __name__ == "__main__":
