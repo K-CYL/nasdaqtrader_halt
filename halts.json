@@ -130,6 +130,19 @@
     "trade_resume_time": "10:49:30 ET (23:49:30 KST)"
   },
   {
+    "symbol": "HSPTU",
+    "name": "Horizon Sp Acq II Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "12:15:40 ET (01:15:40 KST)",
+    "halt_time_plain": "12:15:40",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "12:15:40 ET (01:15:40 KST)",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "IMMP",
     "name": "Immutep Limited ADS",
     "market": "NASDAQ",
@@ -154,6 +167,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "KRKR",
+    "name": "36Kr Holdings Inc. ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/09/2026",
+    "time": "11:28:38 ET (00:28:38 KST)",
+    "halt_time_plain": "11:28:38",
+    "resume_date": "03/09/2026",
+    "quote_resume_time": "11:28:38 ET (00:28:38 KST)",
+    "trade_resume_time": "11:33:38 ET (00:33:38 KST)"
   },
   {
     "symbol": "LAWR",
