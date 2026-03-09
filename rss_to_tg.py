@@ -140,6 +140,7 @@ def send_telegram(text: str):
             time.sleep(retry_after + 1)
             continue
 
+        print(f"Telegram error: {r.status_code} / {r.text}", flush=True)
         r.raise_for_status()
 
     raise RuntimeError("Failed to send telegram message after retries")
@@ -316,38 +317,63 @@ def parse_entry(entry) -> dict:
 
     symbol = (
         choose(parsed, "Issue Symbol", "Symbol", "Ticker")
-        or extract_entry_field(entry, "issuesymbol", "issue_symbol", "symbol", "ticker")
+        or extract_entry_field(entry, "issuesymbol", "issue_symbol", "symbol", "ticker", "ndaq_issuesymbol")
         or extract_symbol_from_title(title)
     )
 
     stock_name = (
         choose(parsed, "Issue Name", "Company Name", "Security Name", "Name")
-        or extract_entry_field(entry, "issuename", "issue_name", "company", "securityname", "security_name", "name")
+        or extract_entry_field(
+            entry,
+            "issuename",
+            "issue_name",
+            "company",
+            "securityname",
+            "security_name",
+            "name",
+            "ndaq_issuename",
+        )
     )
 
     market = (
         choose(parsed, "Mkt", "Market", "Exchange", "Listing Market")
-        or extract_entry_field(entry, "mkt", "market", "exchange", "listingmarket", "listing_market")
+        or extract_entry_field(entry, "mkt", "market", "exchange", "listingmarket", "listing_market", "ndaq_market")
     )
 
     reason_code = (
         choose(parsed, "Reason Code", "Halt Code", "Code", "Reason")
-        or extract_entry_field(entry, "reasoncode", "reason_code", "haltcode", "halt_code", "reason", "code")
+        or extract_entry_field(
+            entry,
+            "reasoncode",
+            "reason_code",
+            "haltcode",
+            "halt_code",
+            "reason",
+            "code",
+            "ndaq_reasoncode",
+        )
     )
 
     halt_date = (
         choose(parsed, "Halt Date")
-        or extract_entry_field(entry, "haltdate", "halt_date")
+        or extract_entry_field(entry, "haltdate", "halt_date", "ndaq_haltdate")
     )
 
     halt_time_raw = (
         choose(parsed, "Halt Time")
-        or extract_entry_field(entry, "halttime", "halt_time")
+        or extract_entry_field(entry, "halttime", "halt_time", "ndaq_halttime")
     )
 
     resume_date = (
         choose(parsed, "Resumption Date", "Resume Date")
-        or extract_entry_field(entry, "resumptiondate", "resumption_date", "resumedate", "resume_date")
+        or extract_entry_field(
+            entry,
+            "resumptiondate",
+            "resumption_date",
+            "resumedate",
+            "resume_date",
+            "ndaq_resumptiondate",
+        )
     )
 
     quote_resume_time_raw = (
@@ -360,6 +386,7 @@ def parse_entry(entry) -> dict:
             "quote_resume_time",
             "resumequotetime",
             "resume_quote_time",
+            "ndaq_resumptionquotetime",
         )
     )
 
@@ -373,12 +400,20 @@ def parse_entry(entry) -> dict:
             "trade_resume_time",
             "resumetradetime",
             "resume_trade_time",
+            "ndaq_resumptiontradetime",
         )
     )
 
     generic_resume_time = (
         choose(parsed, "Resumption Time", "Resume Time")
-        or extract_entry_field(entry, "resumptiontime", "resumption_time", "resumetime", "resume_time")
+        or extract_entry_field(
+            entry,
+            "resumptiontime",
+            "resumption_time",
+            "resumetime",
+            "resume_time",
+            "ndaq_resumptiontime",
+        )
     )
 
     if not quote_resume_time_raw and not trade_resume_time_raw and generic_resume_time:
@@ -512,6 +547,8 @@ def main():
     feed = feedparser.parse(RSS_URL)
     entries = getattr(feed, "entries", []) or []
 
+    print(f"Feed entries: {len(entries)}", flush=True)
+
     latest_items = build_latest_items(entries)
     save_halts(latest_items)
 
@@ -521,24 +558,31 @@ def main():
         data = parse_entry(entry)
         event_key = make_event_key(data)
 
-        if not event_key or event_key in seen:
+        if not event_key:
+            print(f"Skip empty event key: {data}", flush=True)
+            continue
+
+        if event_key in seen:
+            print(f"Already seen: {event_key}", flush=True)
             continue
 
         new_items.append((event_key, data))
 
     new_items = new_items[:MAX_SEND]
+    print(f"New items to evaluate: {len(new_items)}", flush=True)
 
     for event_key, data in reversed(new_items):
-        # 완전히 동일한 이벤트는 영구 스킵
         if event_key in seen:
+            print(f"Skip duplicated in loop: {event_key}", flush=True)
             continue
 
-        # LULD/LUDP만 같은 종목 단위 10분 차단
         if should_skip_luld_duplicate(data, state):
             seen.add(event_key)
+            print(f"Skip LULD duplicate: {event_key}", flush=True)
             continue
 
         msg = format_message(data)
+        print(f"Sending: {event_key}", flush=True)
         send_telegram(msg)
 
         seen.add(event_key)
@@ -551,6 +595,7 @@ def main():
         state["luld_last_sent"] = dict(items)
 
     save_state(state)
+    print("State saved", flush=True)
 
 
 if __name__ == "__main__":
