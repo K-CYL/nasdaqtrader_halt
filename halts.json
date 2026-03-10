@@ -65,6 +65,19 @@
     "trade_resume_time": "12:06:24 ET (01:06:24 KST)"
   },
   {
+    "symbol": "CHECU",
+    "name": "Chenghe Acquisition III Co. U",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "14:17:35 ET (03:17:35 KST)",
+    "halt_time_plain": "14:17:35",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "14:17:35 ET (03:17:35 KST)",
+    "trade_resume_time": "14:22:35 ET (03:22:35 KST)"
+  },
+  {
     "symbol": "CNCG",
     "name": "Leverage Shares 2X Long CNC Daily ETF",
     "market": "NASDAQ",
@@ -338,6 +351,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PLBL",
+    "name": "Polibeli Grp Ltd Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "13:36:56 ET (02:36:56 KST)",
+    "halt_time_plain": "13:36:56",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "13:36:56 ET (02:36:56 KST)",
+    "trade_resume_time": "13:41:56 ET (02:41:56 KST)"
+  },
+  {
     "symbol": "PLTS",
     "name": "Platinum Analytics Cymn Ord A",
     "market": "NASDAQ",
@@ -427,6 +453,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "TEO",
+    "name": "Telecom Argentina S.A.",
+    "market": "NYSE",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/10/2026",
+    "time": "15:13:06 ET (04:13:06 KST)",
+    "halt_time_plain": "15:13:06",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "15:47:18 ET (04:47:18 KST)",
+    "trade_resume_time": "15:47:18 ET (04:47:18 KST)"
   },
   {
     "symbol": "TOPS",
