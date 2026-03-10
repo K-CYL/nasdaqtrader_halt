@@ -531,5 +531,31 @@
     "resume_date": "03/10/2026",
     "quote_resume_time": "10:01:02 ET (23:01:02 KST)",
     "trade_resume_time": "10:01:02 ET (23:01:02 KST)"
+  },
+  {
+    "symbol": "WLDS",
+    "name": "Wearable Devices Ltd. Ord",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/10/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "WLDSW",
+    "name": "Wearable Devices Ltd. Wt",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/10/2026",
+    "time": "19:50:00 ET (08:50:00 KST)",
+    "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   }
 ]
