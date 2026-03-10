@@ -10,7 +10,7 @@
     "halt_time_plain": "10:30:53",
     "resume_date": "03/10/2026",
     "quote_resume_time": "10:30:53 ET (23:30:53 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:35:53 ET (23:35:53 KST)"
   },
   {
     "symbol": "ANTA",
@@ -50,6 +50,19 @@
     "resume_date": "03/10/2026",
     "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
+  },
+  {
+    "symbol": "CAST",
+    "name": "FreeCast, Inc. Cl A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "11:51:21 ET (00:51:21 KST)",
+    "halt_time_plain": "11:51:21",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "11:51:21 ET (00:51:21 KST)",
+    "trade_resume_time": "12:06:24 ET (01:06:24 KST)"
   },
   {
     "symbol": "CNCG",
@@ -102,6 +115,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "FEUZ",
+    "name": "First Trust Eurozone AlphaDEX ETF",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "12:29:19 ET (01:29:19 KST)",
+    "halt_time_plain": "12:29:19",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "12:29:19 ET (01:29:19 KST)",
+    "trade_resume_time": "12:34:19 ET (01:34:19 KST)"
   },
   {
     "symbol": "GSIW",
@@ -411,9 +437,9 @@
     "date": "03/10/2026",
     "time": "10:15:34 ET (23:15:34 KST)",
     "halt_time_plain": "10:15:34",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "10:55:41 ET (23:55:41 KST)",
+    "trade_resume_time": "10:55:41 ET (23:55:41 KST)"
   },
   {
     "symbol": "TSLS",
