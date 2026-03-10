@@ -1,5 +1,31 @@
 [
   {
+    "symbol": "AHG",
+    "name": "Akso Health Group ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "10:30:53 ET (23:30:53 KST)",
+    "halt_time_plain": "10:30:53",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "10:30:53 ET (23:30:53 KST)",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ANTA",
+    "name": "Antalpha Platform Holding A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "09:46:33 ET (22:46:33 KST)",
+    "halt_time_plain": "09:46:33",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "09:46:33 ET (22:46:33 KST)",
+    "trade_resume_time": "09:56:33 ET (22:56:33 KST)"
+  },
+  {
     "symbol": "APPX",
     "name": "Tradr 2X Long APP Daily ETF",
     "market": "NASDAQ",
@@ -24,6 +50,19 @@
     "resume_date": "03/10/2026",
     "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
+  },
+  {
+    "symbol": "CNCG",
+    "name": "Leverage Shares 2X Long CNC Daily ETF",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "09:42:37 ET (22:42:37 KST)",
+    "halt_time_plain": "09:42:37",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "09:42:37 ET (22:42:37 KST)",
+    "trade_resume_time": "09:47:37 ET (22:47:37 KST)"
   },
   {
     "symbol": "EFTY",
@@ -63,6 +102,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "GSIW",
+    "name": "Garden Stage Cl A Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "09:34:27 ET (22:34:27 KST)",
+    "halt_time_plain": "09:34:27",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "09:34:27 ET (22:34:27 KST)",
+    "trade_resume_time": "09:44:27 ET (22:44:27 KST)"
   },
   {
     "symbol": "IMMP",
@@ -169,6 +221,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "MI",
+    "name": "NFT Limited Class A Ordinary Share",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/10/2026",
+    "time": "09:33:44 ET (22:33:44 KST)",
+    "halt_time_plain": "09:33:44",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "09:38:44 ET (22:38:44 KST)",
+    "trade_resume_time": "09:38:44 ET (22:38:44 KST)"
+  },
+  {
+    "symbol": "MSLE",
+    "name": "Satellos Bioscience Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "10:04:34 ET (23:04:34 KST)",
+    "halt_time_plain": "10:04:34",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "10:04:34 ET (23:04:34 KST)",
+    "trade_resume_time": "10:09:34 ET (23:09:34 KST)"
+  },
+  {
     "symbol": "MUD",
     "name": "Direxion Daily MU Bear 1X ETF",
     "market": "NASDAQ",
@@ -193,6 +271,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "OIO",
+    "name": "OIO Group Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "10:01:36 ET (23:01:36 KST)",
+    "halt_time_plain": "10:01:36",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "10:01:36 ET (23:01:36 KST)",
+    "trade_resume_time": "10:06:36 ET (23:06:36 KST)"
   },
   {
     "symbol": "OST",
@@ -286,6 +377,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "TBMC",
+    "name": "Trailblazer Merger Crp Cl A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/10/2026",
+    "time": "09:44:34 ET (22:44:34 KST)",
+    "halt_time_plain": "09:44:34",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "09:44:34 ET (22:44:34 KST)",
+    "trade_resume_time": "09:49:34 ET (22:49:34 KST)"
+  },
+  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -294,6 +398,19 @@
     "date": "02/02/2026",
     "time": "03:33:59 ET (17:33:59 KST)",
     "halt_time_plain": "03:33:59",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "TOPS",
+    "name": "TOP Ships Inc. - Common Stock",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/10/2026",
+    "time": "10:15:34 ET (23:15:34 KST)",
+    "halt_time_plain": "10:15:34",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -336,5 +453,18 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "VOYX",
+    "name": "Tradr 2X Long VOYG Daily ETF",
+    "market": "Non-NASDAQ",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/10/2026",
+    "time": "09:56:02 ET (22:56:02 KST)",
+    "halt_time_plain": "09:56:02",
+    "resume_date": "03/10/2026",
+    "quote_resume_time": "10:01:02 ET (23:01:02 KST)",
+    "trade_resume_time": "10:01:02 ET (23:01:02 KST)"
   }
 ]
