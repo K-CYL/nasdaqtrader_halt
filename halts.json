@@ -39,6 +39,19 @@
     "trade_resume_time": "09:35:26 ET (22:35:26 KST)"
   },
   {
+    "symbol": "CZR",
+    "name": "Caesars Entertainment, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "15:18:03 ET (04:18:03 KST)",
+    "halt_time_plain": "15:18:03",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "15:18:03 ET (04:18:03 KST)",
+    "trade_resume_time": "15:28:03 ET (04:28:03 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -208,6 +221,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "OIO",
+    "name": "OIO Group Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "14:46:00 ET (03:46:00 KST)",
+    "halt_time_plain": "14:46:00",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "14:46:00 ET (03:46:00 KST)",
+    "trade_resume_time": "14:51:00 ET (03:51:00 KST)"
+  },
+  {
     "symbol": "OST",
     "name": "Ostin Tech Grp Co Ord Cl A Ord",
     "market": "NASDAQ",
@@ -349,6 +375,19 @@
     "resume_date": "03/11/2026",
     "quote_resume_time": "13:25:00 ET (02:25:00 KST)",
     "trade_resume_time": "13:30:00 ET (02:30:00 KST)"
+  },
+  {
+    "symbol": "SOC",
+    "name": "Sable Offshore Corp. Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/11/2026",
+    "time": "14:54:49 ET (03:54:49 KST)",
+    "halt_time_plain": "14:54:49",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "15:00:02 ET (04:00:02 KST)",
+    "trade_resume_time": "15:00:02 ET (04:00:02 KST)"
   },
   {
     "symbol": "SVA",
