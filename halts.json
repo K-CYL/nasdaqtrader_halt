@@ -13,6 +13,19 @@
     "trade_resume_time": "10:08:12 ET (23:08:12 KST)"
   },
   {
+    "symbol": "AMCI",
+    "name": "AMC Robotics Cp Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "15:55:04 ET (04:55:04 KST)",
+    "halt_time_plain": "15:55:04",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "15:55:04 ET (04:55:04 KST)",
+    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
+  },
+  {
     "symbol": "ATPC",
     "name": "Agape ATP Corporation CS",
     "market": "NASDAQ",
@@ -388,6 +401,19 @@
     "resume_date": "03/11/2026",
     "quote_resume_time": "15:00:02 ET (04:00:02 KST)",
     "trade_resume_time": "15:00:02 ET (04:00:02 KST)"
+  },
+  {
+    "symbol": "STRS",
+    "name": "Stratus Properties Inc",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/11/2026",
+    "time": "16:55:00 ET (05:55:00 KST)",
+    "halt_time_plain": "16:55:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "SVA",
