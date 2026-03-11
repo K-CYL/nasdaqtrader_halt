@@ -1,5 +1,44 @@
 [
   {
+    "symbol": "ADXN",
+    "name": "Addex Therapeutics Ltd ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "09:58:12 ET (22:58:12 KST)",
+    "halt_time_plain": "09:58:12",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "09:58:12 ET (22:58:12 KST)",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ATPC",
+    "name": "Agape ATP Corporation CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "10:06:49 ET (23:06:49 KST)",
+    "halt_time_plain": "10:06:49",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "10:06:49 ET (23:06:49 KST)",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "CODX",
+    "name": "Co-Diagnostics, Inc. CM",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "09:30:26 ET (22:30:26 KST)",
+    "halt_time_plain": "09:30:26",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "09:30:26 ET (22:30:26 KST)",
+    "trade_resume_time": "09:35:26 ET (22:35:26 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -50,6 +89,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "JXG",
+    "name": "JX Luxventure Group Inc Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "09:46:39 ET (22:46:39 KST)",
+    "halt_time_plain": "09:46:39",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "09:46:39 ET (22:46:39 KST)",
+    "trade_resume_time": "09:56:39 ET (22:56:39 KST)"
   },
   {
     "symbol": "LAWR",
@@ -141,6 +193,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "PIII",
+    "name": "P3 Health Ptnrs Cl A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "10:04:38 ET (23:04:38 KST)",
+    "halt_time_plain": "10:04:38",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "10:04:38 ET (23:04:38 KST)",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "PLSM",
+    "name": "Pulsenmore Ltd. OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "09:41:09 ET (22:41:09 KST)",
+    "halt_time_plain": "09:41:09",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "09:41:09 ET (22:41:09 KST)",
+    "trade_resume_time": "09:46:09 ET (22:46:09 KST)"
   },
   {
     "symbol": "PLTS",
@@ -245,6 +323,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "VACH",
+    "name": "Voyager Acquisition Co Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "09:52:47 ET (22:52:47 KST)",
+    "halt_time_plain": "09:52:47",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "09:52:47 ET (22:52:47 KST)",
+    "trade_resume_time": "09:57:47 ET (22:57:47 KST)"
+  },
+  {
+    "symbol": "VACHU",
+    "name": "Voyager Acquisition Corp U",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "09:56:59 ET (22:56:59 KST)",
+    "halt_time_plain": "09:56:59",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "09:56:59 ET (22:56:59 KST)",
+    "trade_resume_time": "10:01:59 ET (23:01:59 KST)"
   },
   {
     "symbol": "WLDS",
