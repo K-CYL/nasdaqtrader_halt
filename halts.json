@@ -406,14 +406,14 @@
     "symbol": "STRS",
     "name": "Stratus Properties Inc",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/11/2026",
     "time": "16:55:00 ET (05:55:00 KST)",
     "halt_time_plain": "16:55:00",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "17:25:00 ET (06:25:00 KST)",
+    "trade_resume_time": "17:30:00 ET (06:30:00 KST)"
   },
   {
     "symbol": "SVA",
