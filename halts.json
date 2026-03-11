@@ -10,7 +10,7 @@
     "halt_time_plain": "09:58:12",
     "resume_date": "03/11/2026",
     "quote_resume_time": "09:58:12 ET (22:58:12 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:08:12 ET (23:08:12 KST)"
   },
   {
     "symbol": "ATPC",
@@ -117,6 +117,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "LUD",
+    "name": "Luda Technology Group Limited Ordinary Shares",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/11/2026",
+    "time": "10:08:05 ET (23:08:05 KST)",
+    "halt_time_plain": "10:08:05",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "MAGH",
     "name": "Magnitude International Ltd OS",
     "market": "NASDAQ",
@@ -205,7 +218,7 @@
     "halt_time_plain": "10:04:38",
     "resume_date": "03/11/2026",
     "quote_resume_time": "10:04:38 ET (23:04:38 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:09:38 ET (23:09:38 KST)"
   },
   {
     "symbol": "PLSM",
