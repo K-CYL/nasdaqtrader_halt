@@ -234,6 +234,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PCTTU",
+    "name": "PureCycle Technologies, Inc Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "11:47:31 ET (00:47:31 KST)",
+    "halt_time_plain": "11:47:31",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "11:47:31 ET (00:47:31 KST)",
+    "trade_resume_time": "11:52:31 ET (00:52:31 KST)"
+  },
+  {
     "symbol": "PIII",
     "name": "P3 Health Ptnrs Cl A",
     "market": "NASDAQ",
@@ -286,6 +299,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PZZA",
+    "name": "Papa John's International",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/11/2026",
+    "time": "12:18:45 ET (01:18:45 KST)",
+    "halt_time_plain": "12:18:45",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "12:18:45 ET (01:18:45 KST)",
+    "trade_resume_time": "12:28:45 ET (01:28:45 KST)"
+  },
+  {
     "symbol": "QMMM",
     "name": "QMMM Hldgs Ord Shs A",
     "market": "NASDAQ",
@@ -310,6 +336,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "SLDB",
+    "name": "Solid Biosciences Inc. Cmn Stk",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/11/2026",
+    "time": "12:55:00 ET (01:55:00 KST)",
+    "halt_time_plain": "12:55:00",
+    "resume_date": "03/11/2026",
+    "quote_resume_time": "13:25:00 ET (02:25:00 KST)",
+    "trade_resume_time": "13:30:00 ET (02:30:00 KST)"
   },
   {
     "symbol": "SVA",
