@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "AFJKU",
+    "name": "Aimei Health Technology Unit",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "12:22:19.019",
+    "halt_time_plain": "12:22:19.019",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "12:22:19 ET (01:22:19 KST)",
+    "trade_resume_time": "12:32:19 ET (01:32:19 KST)"
+  },
+  {
     "symbol": "BGMSP",
     "name": "Bio Green Med Solution Inc Pfd",
     "market": "NASDAQ",
@@ -221,6 +234,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PLYX",
+    "name": "Polaryx Therapeutics, Inc. CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "11:02:16.016",
+    "halt_time_plain": "11:02:16.016",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "11:02:16 ET (00:02:16 KST)",
+    "trade_resume_time": "11:07:16 ET (00:07:16 KST)"
+  },
+  {
     "symbol": "PTNM",
     "name": "Pitanium Ltd Ord A",
     "market": "NASDAQ",
@@ -336,6 +362,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "UONEK",
+    "name": "Urban One, Inc. Cl D",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "11:23:04.004",
+    "halt_time_plain": "11:23:04.004",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "11:23:04 ET (00:23:04 KST)",
+    "trade_resume_time": "11:28:04 ET (00:28:04 KST)"
+  },
+  {
+    "symbol": "VMC",
+    "name": "Vulcan Materials Company (Holding Company)",
+    "market": "NYSE",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/12/2026",
+    "time": "10:35:54.003",
+    "halt_time_plain": "10:35:54.003",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "11:20:07 ET (00:20:07 KST)",
+    "trade_resume_time": "11:20:07 ET (00:20:07 KST)"
   },
   {
     "symbol": "ZNB",
