@@ -26,6 +26,19 @@
     "trade_resume_time": "09:40:21 ET (22:40:21 KST)"
   },
   {
+    "symbol": "CAPNU",
+    "name": "Cayson Acquisition Corp Unit",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "14:50:21.021",
+    "halt_time_plain": "14:50:21.021",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "14:50:21 ET (03:50:21 KST)",
+    "trade_resume_time": "15:00:21 ET (04:00:21 KST)"
+  },
+  {
     "symbol": "CAST",
     "name": "FreeCast, Inc. Cl A CS",
     "market": "NASDAQ",
@@ -141,6 +154,19 @@
     "resume_date": "03/12/2026",
     "quote_resume_time": "09:42:18 ET (22:42:18 KST)",
     "trade_resume_time": "09:52:18 ET (22:52:18 KST)"
+  },
+  {
+    "symbol": "LUD",
+    "name": "Luda Technology Group Limited Ordinary Shares",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/12/2026",
+    "time": "14:01:24.024",
+    "halt_time_plain": "14:01:24.024",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "14:06:24 ET (03:06:24 KST)",
+    "trade_resume_time": "14:06:24 ET (03:06:24 KST)"
   },
   {
     "symbol": "MAGH",
