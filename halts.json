@@ -1,5 +1,44 @@
 [
   {
+    "symbol": "BGMSP",
+    "name": "Bio Green Med Solution Inc Pfd",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "09:30:21.021",
+    "halt_time_plain": "09:30:21.021",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "09:30:21 ET (22:30:21 KST)",
+    "trade_resume_time": "09:40:21 ET (22:40:21 KST)"
+  },
+  {
+    "symbol": "CAST",
+    "name": "FreeCast, Inc. Cl A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "09:44:51.051",
+    "halt_time_plain": "09:44:51.051",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "09:44:51 ET (22:44:51 KST)",
+    "trade_resume_time": "09:49:51 ET (22:49:51 KST)"
+  },
+  {
+    "symbol": "DDDD",
+    "name": "YieldMax U.S. Stocks Target Double Distribution ETF",
+    "market": "NYSE Arca",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/12/2026",
+    "time": "09:38:34.034",
+    "halt_time_plain": "09:38:34.034",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "09:48:34 ET (22:48:34 KST)",
+    "trade_resume_time": "09:48:34 ET (22:48:34 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -76,6 +115,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "LIXT",
+    "name": "Lixte Biotechnology Hlds Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "09:42:18.018",
+    "halt_time_plain": "09:42:18.018",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "09:42:18 ET (22:42:18 KST)",
+    "trade_resume_time": "09:52:18 ET (22:52:18 KST)"
   },
   {
     "symbol": "MAGH",
@@ -195,6 +247,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "ROMA",
+    "name": "Roma Grn Fin Ltd Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "09:56:41.041",
+    "halt_time_plain": "09:56:41.041",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "09:56:41 ET (22:56:41 KST)",
+    "trade_resume_time": "10:01:41 ET (23:01:41 KST)"
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -219,6 +284,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "SXTP",
+    "name": "60 Degrees Pharma Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/12/2026",
+    "time": "09:55:56.056",
+    "halt_time_plain": "09:55:56.056",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "09:55:56 ET (22:55:56 KST)",
+    "trade_resume_time": "10:00:56 ET (23:00:56 KST)"
   },
   {
     "symbol": "TCGL",
