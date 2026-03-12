@@ -107,14 +107,14 @@
     "symbol": "IMMP",
     "name": "Immutep Limited ADS",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/06/2026",
-    "time": "06:33:04 ET (20:33:04 KST)",
-    "halt_time_plain": "06:33:04",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "time": "06:33:04.229",
+    "halt_time_plain": "06:33:04.229",
+    "resume_date": "03/12/2026",
+    "quote_resume_time": "18:55:00 ET (07:55:00 KST)",
+    "trade_resume_time": "19:00:00 ET (08:00:00 KST)"
   },
   {
     "symbol": "JMG",
