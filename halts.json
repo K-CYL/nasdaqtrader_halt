@@ -52,6 +52,32 @@
     "trade_resume_time": "13:08:37 ET (02:08:37 KST)"
   },
   {
+    "symbol": "CLIR",
+    "name": "ClearSign Technologies Corp",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "DXST",
+    "name": "Decent Holding Inc Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -73,6 +99,19 @@
     "date": "10/08/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "HBIO",
+    "name": "Harvard Bioscience, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -169,6 +208,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "MASK",
+    "name": "3 E Ntwk Tech Gp Ord A",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "MCTA",
     "name": "Charming Medical Limit Cl A OS",
     "market": "NASDAQ",
@@ -177,6 +229,32 @@
     "date": "11/11/2025",
     "time": "19:50:00 ET (09:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "NIVF",
+    "name": "NewGenIvf Group Limited Os",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "NIVFW",
+    "name": "NewGenIvf Group Limited Wt",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -247,6 +325,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "QIPT",
+    "name": "Quipt Home Medical Cs",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "QMMM",
     "name": "QMMM Hldgs Ord Shs A",
     "market": "NASDAQ",
@@ -281,6 +372,19 @@
     "date": "09/26/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "SKYQ",
+    "name": "Sky Quarry Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -388,5 +492,44 @@
     "resume_date": "03/13/2026",
     "quote_resume_time": "16:25:00 ET (05:25:00 KST)",
     "trade_resume_time": "16:30:00 ET (05:30:00 KST)"
+  },
+  {
+    "symbol": "UOKA",
+    "name": "MDJM LTD CL A ORD",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "XLO",
+    "name": "Xilio Therapeutics, Inc. Cm",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ZJYL",
+    "name": "JIN MEDICAL INTL LTD OS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/13/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   }
 ]
