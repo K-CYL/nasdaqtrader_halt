@@ -39,6 +39,19 @@
     "trade_resume_time": "11:47:23 ET (00:47:23 KST)"
   },
   {
+    "symbol": "CAST",
+    "name": "FreeCast, Inc. Cl A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/13/2026",
+    "time": "13:03:37.037",
+    "halt_time_plain": "13:03:37.037",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "13:03:37 ET (02:03:37 KST)",
+    "trade_resume_time": "13:08:37 ET (02:08:37 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
