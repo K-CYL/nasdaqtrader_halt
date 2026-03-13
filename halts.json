@@ -13,6 +13,32 @@
     "trade_resume_time": "10:26:01 ET (23:26:01 KST)"
   },
   {
+    "symbol": "AIFU",
+    "name": "AIFU Inc. Class A Ordinary Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/13/2026",
+    "time": "11:26:59.059",
+    "halt_time_plain": "11:26:59.059",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "11:26:59 ET (00:26:59 KST)",
+    "trade_resume_time": "11:31:59 ET (00:31:59 KST)"
+  },
+  {
+    "symbol": "ATGL",
+    "name": "Alpha Technology Group Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/13/2026",
+    "time": "11:37:23.023",
+    "halt_time_plain": "11:37:23.023",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "11:37:23 ET (00:37:23 KST)",
+    "trade_resume_time": "11:47:23 ET (00:47:23 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -89,6 +115,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "LUD",
+    "name": "Luda Technology Group Limited Ordinary Shares",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/13/2026",
+    "time": "11:39:06.006",
+    "halt_time_plain": "11:39:06.006",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "11:44:06 ET (00:44:06 KST)",
+    "trade_resume_time": "11:44:06 ET (00:44:06 KST)"
   },
   {
     "symbol": "MAGH",
