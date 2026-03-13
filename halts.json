@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "AFJK",
+    "name": "Aimei Health Technology Co. OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/13/2026",
+    "time": "10:21:01.001",
+    "halt_time_plain": "10:21:01.001",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "10:21:01 ET (23:21:01 KST)",
+    "trade_resume_time": "10:26:01 ET (23:26:01 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -195,6 +208,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "ROMA",
+    "name": "Roma Grn Fin Ltd Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/13/2026",
+    "time": "10:01:16.016",
+    "halt_time_plain": "10:01:16.016",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "10:01:16 ET (23:01:16 KST)",
+    "trade_resume_time": "10:06:16 ET (23:06:16 KST)"
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -245,6 +271,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "TFSA",
+    "name": "Terra Income Fund 6, LLC 7.00% Notes due 2026",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/13/2026",
+    "time": "10:08:14.014",
+    "halt_time_plain": "10:08:14.014",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "10:13:14 ET (23:13:14 KST)",
+    "trade_resume_time": "10:13:14 ET (23:13:14 KST)"
+  },
+  {
+    "symbol": "TPTA",
+    "name": "Terra Property Trust, Inc. 6.00% Notes due 2026",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/13/2026",
+    "time": "09:46:29.029",
+    "halt_time_plain": "09:46:29.029",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "09:51:30 ET (22:51:30 KST)",
+    "trade_resume_time": "09:51:30 ET (22:51:30 KST)"
   },
   {
     "symbol": "UCFI",
