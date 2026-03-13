@@ -6,8 +6,8 @@
     "reason_code": "LUDP",
     "reason": "변동성 거래정지 (LUDP)",
     "date": "03/13/2026",
-    "time": "10:21:01.001",
-    "halt_time_plain": "10:21:01.001",
+    "time": "10:21:01.066",
+    "halt_time_plain": "10:21:01.066",
     "resume_date": "03/13/2026",
     "quote_resume_time": "10:21:01 ET (23:21:01 KST)",
     "trade_resume_time": "10:26:01 ET (23:26:01 KST)"
@@ -19,8 +19,8 @@
     "reason_code": "LUDP",
     "reason": "변동성 거래정지 (LUDP)",
     "date": "03/13/2026",
-    "time": "11:26:59.059",
-    "halt_time_plain": "11:26:59.059",
+    "time": "11:26:59.326",
+    "halt_time_plain": "11:26:59.326",
     "resume_date": "03/13/2026",
     "quote_resume_time": "11:26:59 ET (00:26:59 KST)",
     "trade_resume_time": "11:31:59 ET (00:31:59 KST)"
@@ -32,8 +32,8 @@
     "reason_code": "LUDP",
     "reason": "변동성 거래정지 (LUDP)",
     "date": "03/13/2026",
-    "time": "11:37:23.023",
-    "halt_time_plain": "11:37:23.023",
+    "time": "11:37:23.593",
+    "halt_time_plain": "11:37:23.593",
     "resume_date": "03/13/2026",
     "quote_resume_time": "11:37:23 ET (00:37:23 KST)",
     "trade_resume_time": "11:47:23 ET (00:47:23 KST)"
@@ -45,8 +45,8 @@
     "reason_code": "LUDP",
     "reason": "변동성 거래정지 (LUDP)",
     "date": "03/13/2026",
-    "time": "13:03:37.037",
-    "halt_time_plain": "13:03:37.037",
+    "time": "13:03:37.516",
+    "halt_time_plain": "13:03:37.516",
     "resume_date": "03/13/2026",
     "quote_resume_time": "13:03:37 ET (02:03:37 KST)",
     "trade_resume_time": "13:08:37 ET (02:08:37 KST)"
@@ -136,8 +136,8 @@
     "reason_code": "M",
     "reason": "변동성 거래정지 (M)",
     "date": "03/13/2026",
-    "time": "11:39:06.006",
-    "halt_time_plain": "11:39:06.006",
+    "time": "11:39:06.166",
+    "halt_time_plain": "11:39:06.166",
     "resume_date": "03/13/2026",
     "quote_resume_time": "11:44:06 ET (00:44:06 KST)",
     "trade_resume_time": "11:44:06 ET (00:44:06 KST)"
@@ -266,8 +266,8 @@
     "reason_code": "LUDP",
     "reason": "변동성 거래정지 (LUDP)",
     "date": "03/13/2026",
-    "time": "10:01:16.016",
-    "halt_time_plain": "10:01:16.016",
+    "time": "10:01:16.953",
+    "halt_time_plain": "10:01:16.953",
     "resume_date": "03/13/2026",
     "quote_resume_time": "10:01:16 ET (23:01:16 KST)",
     "trade_resume_time": "10:06:16 ET (23:06:16 KST)"
@@ -331,8 +331,8 @@
     "reason_code": "M",
     "reason": "변동성 거래정지 (M)",
     "date": "03/13/2026",
-    "time": "10:08:14.014",
-    "halt_time_plain": "10:08:14.014",
+    "time": "10:08:14.816",
+    "halt_time_plain": "10:08:14.816",
     "resume_date": "03/13/2026",
     "quote_resume_time": "10:13:14 ET (23:13:14 KST)",
     "trade_resume_time": "10:13:14 ET (23:13:14 KST)"
@@ -344,8 +344,8 @@
     "reason_code": "M",
     "reason": "변동성 거래정지 (M)",
     "date": "03/13/2026",
-    "time": "09:46:29.029",
-    "halt_time_plain": "09:46:29.029",
+    "time": "09:46:29.033",
+    "halt_time_plain": "09:46:29.033",
     "resume_date": "03/13/2026",
     "quote_resume_time": "09:51:30 ET (22:51:30 KST)",
     "trade_resume_time": "09:51:30 ET (22:51:30 KST)"
@@ -375,5 +375,18 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "ULY",
+    "name": "Urgent.ly Inc. CS",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/13/2026",
+    "time": "16:01:00.000",
+    "halt_time_plain": "16:01:00.000",
+    "resume_date": "03/13/2026",
+    "quote_resume_time": "16:25:00 ET (05:25:00 KST)",
+    "trade_resume_time": "16:30:00 ET (05:30:00 KST)"
   }
 ]
