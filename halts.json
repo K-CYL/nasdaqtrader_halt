@@ -208,6 +208,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "LNSR",
+    "name": "LENSAR, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/16/2026",
+    "time": "16:25:00.000",
+    "halt_time_plain": "16:25:00.000",
+    "resume_date": "03/16/2026",
+    "quote_resume_time": "16:55:00 ET (05:55:00 KST)",
+    "trade_resume_time": "17:00:00 ET (06:00:00 KST)"
+  },
+  {
     "symbol": "LNZA",
     "name": "LanzaTech Global, inc.",
     "market": "NASDAQ",
@@ -336,6 +349,19 @@
     "resume_date": "03/16/2026",
     "quote_resume_time": "09:00:00 ET (22:00:00 KST)",
     "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
+  },
+  {
+    "symbol": "NOMA",
+    "name": "NOMADAR Corp. Class A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/16/2026",
+    "time": "15:52:52.466",
+    "halt_time_plain": "15:52:52.466",
+    "resume_date": "03/16/2026",
+    "quote_resume_time": "15:52:52 ET (04:52:52 KST)",
+    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
   },
   {
     "symbol": "NUTR",
