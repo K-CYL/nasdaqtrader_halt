@@ -26,6 +26,19 @@
     "trade_resume_time": "09:51:36 ET (22:51:36 KST)"
   },
   {
+    "symbol": "CFLT",
+    "name": "Confluent, Inc. Cl A Cm Stk",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/16/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "CLIR",
     "name": "ClearSign Technologies Corp",
     "market": "NASDAQ",
