@@ -195,6 +195,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "MRLN",
+    "name": "Merlin, Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "15:35:05.973",
+    "halt_time_plain": "15:35:05.973",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "15:35:05 ET (04:35:05 KST)",
+    "trade_resume_time": "15:45:05 ET (04:45:05 KST)"
+  },
+  {
     "symbol": "NOMA",
     "name": "NOMADAR Corp. Class A CS",
     "market": "NASDAQ",
