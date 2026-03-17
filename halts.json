@@ -1,31 +1,5 @@
 [
   {
-    "symbol": "AFRI",
-    "name": "Forafric Global PLC",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "09:40:58.583",
-    "halt_time_plain": "09:40:58.583",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:40:58 ET (22:40:58 KST)",
-    "trade_resume_time": "09:45:58 ET (22:45:58 KST)"
-  },
-  {
-    "symbol": "CAST",
-    "name": "FreeCast, Inc. Cl A CS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "09:46:36.363",
-    "halt_time_plain": "09:46:36.363",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:46:36 ET (22:46:36 KST)",
-    "trade_resume_time": "09:51:36 ET (22:51:36 KST)"
-  },
-  {
     "symbol": "CFLT",
     "name": "Confluent, Inc. Cl A Cm Stk",
     "market": "NASDAQ",
@@ -37,58 +11,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "CLIR",
-    "name": "ClearSign Technologies Corp",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "CMCI",
-    "name": "VanEck CMCI Commodity Strategy ETF",
-    "market": "Non-NASDAQ",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/16/2026",
-    "time": "09:30:17.543",
-    "halt_time_plain": "09:30:17.543",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:35:17 ET (22:35:17 KST)",
-    "trade_resume_time": "09:35:17 ET (22:35:17 KST)"
-  },
-  {
-    "symbol": "CYN",
-    "name": "Cyngn Inc. Cm",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "13:18:31.733",
-    "halt_time_plain": "13:18:31.733",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "13:18:31 ET (02:18:31 KST)",
-    "trade_resume_time": "13:23:31 ET (02:23:31 KST)"
-  },
-  {
-    "symbol": "DXST",
-    "name": "Decent Holding Inc Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "EFTY",
@@ -117,84 +39,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "HBIO",
-    "name": "Harvard Bioscience, Inc.",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "HCWB",
-    "name": "HCW Biologics Inc. Cm",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "12:43:27.216",
-    "halt_time_plain": "12:43:27.216",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "12:43:27 ET (01:43:27 KST)",
-    "trade_resume_time": "12:48:27 ET (01:48:27 KST)"
-  },
-  {
-    "symbol": "IBAC",
-    "name": "IB Acquisition Corp. CS",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/16/2026",
-    "time": "13:40:00.000",
-    "halt_time_plain": "13:40:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "14:05:00 ET (03:05:00 KST)",
-    "trade_resume_time": "14:10:00 ET (03:10:00 KST)"
-  },
-  {
-    "symbol": "IBACR",
-    "name": "IB Acquisition Corp. R",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/16/2026",
-    "time": "13:40:00.000",
-    "halt_time_plain": "13:40:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "14:10:00 ET (03:10:00 KST)",
-    "trade_resume_time": "14:15:00 ET (03:15:00 KST)"
-  },
-  {
-    "symbol": "IHS",
-    "name": "IHS Holding Limited",
-    "market": "NYSE",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/16/2026",
-    "time": "09:30:47.000",
-    "halt_time_plain": "09:30:47.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:57:32 ET (22:57:32 KST)",
-    "trade_resume_time": "09:57:32 ET (22:57:32 KST)"
-  },
-  {
-    "symbol": "IROQ",
-    "name": "IF Bancorp, Inc.",
-    "market": "NASDAQ",
-    "reason_code": "D",
-    "reason": "NASDAQ/CQS 삭제 (D)",
-    "date": "03/12/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "00:00:01 ET (13:00:01 KST)",
-    "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
-  },
-  {
     "symbol": "JMG",
     "name": "JM Group Limited Ordinary Shares",
     "market": "AMEX",
@@ -219,45 +63,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "LNSR",
-    "name": "LENSAR, Inc.",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/16/2026",
-    "time": "16:25:00.000",
-    "halt_time_plain": "16:25:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "16:55:00 ET (05:55:00 KST)",
-    "trade_resume_time": "17:00:00 ET (06:00:00 KST)"
-  },
-  {
-    "symbol": "LNZA",
-    "name": "LanzaTech Global, inc.",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "15:20:07.476",
-    "halt_time_plain": "15:20:07.476",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "15:20:07 ET (04:20:07 KST)",
-    "trade_resume_time": "15:30:07 ET (04:30:07 KST)"
-  },
-  {
-    "symbol": "LYRA",
-    "name": "Lyra Therapeutics, Inc Cmn Stk",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "13:17:05.940",
-    "halt_time_plain": "13:17:05.940",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "13:17:05 ET (02:17:05 KST)",
-    "trade_resume_time": "13:22:05 ET (02:22:05 KST)"
   },
   {
     "symbol": "MAGH",
@@ -286,19 +91,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "MASK",
-    "name": "3 E Ntwk Tech Gp Ord A",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
     "symbol": "MCTA",
     "name": "Charming Medical Limit Cl A OS",
     "market": "NASDAQ",
@@ -310,71 +102,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "MOLN",
-    "name": "Molecular Partners AG ADS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "12:54:03.980",
-    "halt_time_plain": "12:54:03.980",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "12:54:03 ET (01:54:03 KST)",
-    "trade_resume_time": "12:59:03 ET (01:59:03 KST)"
-  },
-  {
-    "symbol": "NCI",
-    "name": "Neo-Concept Internat Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "09:42:52.436",
-    "halt_time_plain": "09:42:52.436",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:42:52 ET (22:42:52 KST)",
-    "trade_resume_time": "09:47:52 ET (22:47:52 KST)"
-  },
-  {
-    "symbol": "NIVF",
-    "name": "NewGenIvf Group Limited Os",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "NIVFW",
-    "name": "NewGenIvf Group Limited Wt",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:00:00 ET (22:00:00 KST)",
-    "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
-  },
-  {
-    "symbol": "NOMA",
-    "name": "NOMADAR Corp. Class A CS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "15:52:52.466",
-    "halt_time_plain": "15:52:52.466",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "15:52:52 ET (04:52:52 KST)",
-    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
   },
   {
     "symbol": "NUTR",
@@ -401,19 +128,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "PAVS",
-    "name": "Paranovus Entrmt Tech Cl A Ord",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "09:31:38.840",
-    "halt_time_plain": "09:31:38.840",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:31:38 ET (22:31:38 KST)",
-    "trade_resume_time": "09:36:38 ET (22:36:38 KST)"
   },
   {
     "symbol": "PC",
@@ -507,19 +221,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "SKYQ",
-    "name": "Sky Quarry Inc. Common Stock",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
@@ -570,57 +271,5 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "UOKA",
-    "name": "MDJM LTD CL A ORD",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "WNW",
-    "name": "Meiwu Tech Co Ltd Ord",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/16/2026",
-    "time": "09:46:36.490",
-    "halt_time_plain": "09:46:36.490",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "09:46:36 ET (22:46:36 KST)",
-    "trade_resume_time": "09:51:36 ET (22:51:36 KST)"
-  },
-  {
-    "symbol": "XLO",
-    "name": "Xilio Therapeutics, Inc. Cm",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "ZJYL",
-    "name": "JIN MEDICAL INTL LTD OS",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/13/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/16/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   }
 ]
