@@ -172,14 +172,14 @@
     "symbol": "QIPT",
     "name": "Quipt Home Medical Cs",
     "market": "NASDAQ",
-    "reason_code": "T12",
-    "reason": "추가 정보 요청 (T12)",
+    "reason_code": "D",
+    "reason": "NASDAQ/CQS 삭제 (D)",
     "date": "03/13/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "00:00:01 ET (13:00:01 KST)",
+    "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
   },
   {
     "symbol": "QMMM",
