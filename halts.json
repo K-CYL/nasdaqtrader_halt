@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "AIB",
+    "name": "BlockchAIn Digital Infrastructure, Inc Common Shares",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/17/2026",
+    "time": "09:50:19.813",
+    "halt_time_plain": "09:50:19.813",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "10:05:20 ET (23:05:20 KST)",
+    "trade_resume_time": "10:05:20 ET (23:05:20 KST)"
+  },
+  {
     "symbol": "CFLT",
     "name": "Confluent, Inc. Cl A Cm Stk",
     "market": "NASDAQ",
@@ -11,6 +24,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "CMTL",
+    "name": "Comtech Telecommunications Cp",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:55:49.836",
+    "halt_time_plain": "09:55:49.836",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:55:49 ET (22:55:49 KST)",
+    "trade_resume_time": "10:05:49 ET (23:05:49 KST)"
   },
   {
     "symbol": "EFTY",
@@ -65,6 +91,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "LNKS",
+    "name": "Linkers Industries Limited",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "10:36:53.616",
+    "halt_time_plain": "10:36:53.616",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "10:36:53 ET (23:36:53 KST)",
+    "trade_resume_time": "10:41:53 ET (23:41:53 KST)"
+  },
+  {
     "symbol": "MAGH",
     "name": "Magnitude International Ltd OS",
     "market": "NASDAQ",
@@ -104,6 +143,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "NOMA",
+    "name": "NOMADAR Corp. Class A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:45:26.010",
+    "halt_time_plain": "09:45:26.010",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:45:26 ET (22:45:26 KST)",
+    "trade_resume_time": "09:50:26 ET (22:50:26 KST)"
+  },
+  {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
@@ -115,6 +167,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "ODYS",
+    "name": "Odysight.ai Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "10:36:53.316",
+    "halt_time_plain": "10:36:53.316",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "10:36:53 ET (23:36:53 KST)",
+    "trade_resume_time": "10:41:53 ET (23:41:53 KST)"
+  },
+  {
+    "symbol": "ORIS",
+    "name": "Oriental Rise Holdings Ltd OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "10:00:11.370",
+    "halt_time_plain": "10:00:11.370",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "10:00:11 ET (23:00:11 KST)",
+    "trade_resume_time": "10:05:11 ET (23:05:11 KST)"
   },
   {
     "symbol": "OST",
@@ -198,14 +276,14 @@
     "symbol": "SCE-K",
     "name": "SCE TRUST V",
     "market": "NYSE",
-    "reason_code": "T2",
-    "reason": "공시 배포 개시 (T2)",
+    "reason_code": "D",
+    "reason": "NASDAQ/CQS 삭제 (D)",
     "date": "03/16/2026",
     "time": "12:27:14.250",
     "halt_time_plain": "12:27:14.250",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "00:00:01 ET (13:00:01 KST)",
+    "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
   },
   {
     "symbol": "SDM",
@@ -219,6 +297,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "SHIM",
+    "name": "Shimmick Corp Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:32:34.383",
+    "halt_time_plain": "09:32:34.383",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:32:34 ET (22:32:34 KST)",
+    "trade_resume_time": "09:37:34 ET (22:37:34 KST)"
+  },
+  {
+    "symbol": "SMX",
+    "name": "SMX Sc Mtr PLC Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:48:57.166",
+    "halt_time_plain": "09:48:57.166",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:48:57 ET (22:48:57 KST)",
+    "trade_resume_time": "09:53:57 ET (22:53:57 KST)"
   },
   {
     "symbol": "SVA",
@@ -247,6 +351,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "UCAR",
+    "name": "U Pwr Ltd Ord Shs A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:42:44.150",
+    "halt_time_plain": "09:42:44.150",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:42:44 ET (22:42:44 KST)",
+    "trade_resume_time": "09:47:44 ET (22:47:44 KST)"
+  },
+  {
     "symbol": "UCFI",
     "name": "CN Healthy Food Tech Group CS",
     "market": "NASDAQ",
@@ -271,5 +388,44 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "WNW",
+    "name": "Meiwu Tech Co Ltd Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:31:55.540",
+    "halt_time_plain": "09:31:55.540",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:31:55 ET (22:31:55 KST)",
+    "trade_resume_time": "09:36:55 ET (22:36:55 KST)"
+  },
+  {
+    "symbol": "YDDL",
+    "name": "One and One Green Techn Cl A O",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:31:13.313",
+    "halt_time_plain": "09:31:13.313",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:31:13 ET (22:31:13 KST)",
+    "trade_resume_time": "09:36:13 ET (22:36:13 KST)"
+  },
+  {
+    "symbol": "ZNB",
+    "name": "Zeta Network Group Class A Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/17/2026",
+    "time": "09:51:20.280",
+    "halt_time_plain": "09:51:20.280",
+    "resume_date": "03/17/2026",
+    "quote_resume_time": "09:51:20 ET (22:51:20 KST)",
+    "trade_resume_time": "09:56:20 ET (22:56:20 KST)"
   }
 ]
