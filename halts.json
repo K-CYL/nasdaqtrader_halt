@@ -8,9 +8,22 @@
     "date": "03/18/2026",
     "time": "09:30:42.423",
     "halt_time_plain": "09:30:42.423",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "09:35:42 ET (22:35:42 KST)",
+    "trade_resume_time": "09:35:42 ET (22:35:42 KST)"
+  },
+  {
+    "symbol": "ARTL",
+    "name": "Artelo Biosciences, Inc. CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "09:39:45.700",
+    "halt_time_plain": "09:39:45.700",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "09:39:45 ET (22:39:45 KST)",
+    "trade_resume_time": "09:44:45 ET (22:44:45 KST)"
   },
   {
     "symbol": "CFLT",
@@ -60,9 +73,9 @@
     "date": "03/18/2026",
     "time": "09:30:33.196",
     "halt_time_plain": "09:30:33.196",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "09:35:33 ET (22:35:33 KST)",
+    "trade_resume_time": "09:35:33 ET (22:35:33 KST)"
   },
   {
     "symbol": "JMG",
@@ -88,7 +101,7 @@
     "halt_time_plain": "09:30:44.550",
     "resume_date": "03/18/2026",
     "quote_resume_time": "09:30:44 ET (22:30:44 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "09:40:44 ET (22:40:44 KST)"
   },
   {
     "symbol": "LAWR",
