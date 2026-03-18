@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "ADXN",
+    "name": "Addex Therapeutics Ltd ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "11:56:38.020",
+    "halt_time_plain": "11:56:38.020",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "11:56:38 ET (00:56:38 KST)",
+    "trade_resume_time": "12:01:38 ET (01:01:38 KST)"
+  },
+  {
     "symbol": "AFJKU",
     "name": "Aimei Health Technology Unit",
     "market": "NASDAQ",
@@ -13,6 +26,19 @@
     "trade_resume_time": "10:16:39 ET (23:16:39 KST)"
   },
   {
+    "symbol": "AHT-D",
+    "name": "-",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/18/2026",
+    "time": "13:19:47.603",
+    "halt_time_plain": "13:19:47.603",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "13:24:57 ET (02:24:57 KST)",
+    "trade_resume_time": "13:24:57 ET (02:24:57 KST)"
+  },
+  {
     "symbol": "AIM",
     "name": "AIM ImmunoTech Inc. Common Stock",
     "market": "AMEX",
@@ -24,6 +50,19 @@
     "resume_date": "03/18/2026",
     "quote_resume_time": "09:35:42 ET (22:35:42 KST)",
     "trade_resume_time": "09:35:42 ET (22:35:42 KST)"
+  },
+  {
+    "symbol": "AKA",
+    "name": "a.k.a. Brands Holding Corp. Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/18/2026",
+    "time": "13:29:27.176",
+    "halt_time_plain": "13:29:27.176",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "13:34:35 ET (02:34:35 KST)",
+    "trade_resume_time": "13:34:35 ET (02:34:35 KST)"
   },
   {
     "symbol": "ARTL",
@@ -115,6 +154,19 @@
     "resume_date": "03/18/2026",
     "quote_resume_time": "09:35:33 ET (22:35:33 KST)",
     "trade_resume_time": "09:35:33 ET (22:35:33 KST)"
+  },
+  {
+    "symbol": "GXAI",
+    "name": "Gaxos.ai Inc. Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "15:02:33.113",
+    "halt_time_plain": "15:02:33.113",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "15:02:33 ET (04:02:33 KST)",
+    "trade_resume_time": "15:07:33 ET (04:07:33 KST)"
   },
   {
     "symbol": "JMG",
