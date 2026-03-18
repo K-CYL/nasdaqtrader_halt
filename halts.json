@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "AFJKU",
+    "name": "Aimei Health Technology Unit",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "10:11:39.546",
+    "halt_time_plain": "10:11:39.546",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "10:11:39 ET (23:11:39 KST)",
+    "trade_resume_time": "10:16:39 ET (23:16:39 KST)"
+  },
+  {
     "symbol": "AIM",
     "name": "AIM ImmunoTech Inc. Common Stock",
     "market": "AMEX",
@@ -26,6 +39,19 @@
     "trade_resume_time": "09:44:45 ET (22:44:45 KST)"
   },
   {
+    "symbol": "ATGL",
+    "name": "Alpha Technology Group Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "10:42:46.826",
+    "halt_time_plain": "10:42:46.826",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "10:42:46 ET (23:42:46 KST)",
+    "trade_resume_time": "10:47:46 ET (23:47:46 KST)"
+  },
+  {
     "symbol": "CFLT",
     "name": "Confluent, Inc. Cl A Cm Stk",
     "market": "NASDAQ",
@@ -37,6 +63,19 @@
     "resume_date": "03/18/2026",
     "quote_resume_time": "00:00:01 ET (13:00:01 KST)",
     "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
+  },
+  {
+    "symbol": "CREG",
+    "name": "Smart Powerr Corp.",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "10:36:13.406",
+    "halt_time_plain": "10:36:13.406",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "10:36:13 ET (23:36:13 KST)",
+    "trade_resume_time": "10:41:13 ET (23:41:13 KST)"
   },
   {
     "symbol": "EFTY",
@@ -179,7 +218,7 @@
     "halt_time_plain": "09:58:44.146",
     "resume_date": "03/18/2026",
     "quote_resume_time": "09:58:44 ET (22:58:44 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:08:44 ET (23:08:44 KST)"
   },
   {
     "symbol": "NUTR",
@@ -286,6 +325,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SWMR",
+    "name": "Swarmer Inc Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "10:47:35.300",
+    "halt_time_plain": "10:47:35.300",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "10:47:35 ET (23:47:35 KST)",
+    "trade_resume_time": "10:52:35 ET (23:52:35 KST)"
+  },
+  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -297,6 +349,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "TOXR",
+    "name": "Shares of Beneficial Interest",
+    "market": "Non-NASDAQ",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/18/2026",
+    "time": "10:28:54.766",
+    "halt_time_plain": "10:28:54.766",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "10:33:54 ET (23:33:54 KST)",
+    "trade_resume_time": "10:33:54 ET (23:33:54 KST)"
   },
   {
     "symbol": "UCFI",
