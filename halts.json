@@ -39,19 +39,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "FTMA",
-    "name": "Franklin Massachusetts Municipal Income ETF",
-    "market": "NYSE Arca",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/18/2026",
-    "time": "09:30:33.196",
-    "halt_time_plain": "09:30:33.196",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
-  },
-  {
     "symbol": "JMG",
     "name": "JM Group Limited Ordinary Shares",
     "market": "AMEX",
