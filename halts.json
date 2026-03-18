@@ -117,6 +117,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "LNKS",
+    "name": "Linkers Industries Limited",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "09:48:54.730",
+    "halt_time_plain": "09:48:54.730",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "09:48:54 ET (22:48:54 KST)",
+    "trade_resume_time": "09:58:54 ET (22:58:54 KST)"
+  },
+  {
     "symbol": "MAGH",
     "name": "Magnitude International Ltd OS",
     "market": "NASDAQ",
@@ -153,6 +166,19 @@
     "halt_time_plain": "19:50:00",
     "resume_date": "",
     "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "NPT",
+    "name": "Texxon Hldg Ltd Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/18/2026",
+    "time": "09:58:44.146",
+    "halt_time_plain": "09:58:44.146",
+    "resume_date": "03/18/2026",
+    "quote_resume_time": "09:58:44 ET (22:58:44 KST)",
     "trade_resume_time": ""
   },
   {
