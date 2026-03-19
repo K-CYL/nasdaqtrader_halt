@@ -312,6 +312,19 @@
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
+    "symbol": "SAIH",
+    "name": "SAIHEAT Limited",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/19/2026",
+    "time": "15:13:58.823",
+    "halt_time_plain": "15:13:58.823",
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "15:13:58 ET (04:13:58 KST)",
+    "trade_resume_time": "15:18:58 ET (04:18:58 KST)"
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -479,6 +492,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "UOKA",
+    "name": "MDJM LTD CL A ORD",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/19/2026",
+    "time": "14:55:13.596",
+    "halt_time_plain": "14:55:13.596",
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "14:55:13 ET (03:55:13 KST)",
+    "trade_resume_time": "15:00:13 ET (04:00:13 KST)"
   },
   {
     "symbol": "VACH",
