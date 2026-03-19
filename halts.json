@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "AZTR",
+    "name": "Azitra Inc Common Stock",
+    "market": "AMEX",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/19/2026",
+    "time": "12:23:51.480",
+    "halt_time_plain": "12:23:51.480",
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "13:45:00 ET (02:45:00 KST)",
+    "trade_resume_time": "13:45:00 ET (02:45:00 KST)"
+  },
+  {
     "symbol": "BABW",
     "name": "Roundhill BABA WeeklyPay ETF",
     "market": "Non-NASDAQ",
@@ -141,6 +154,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "LNZA",
+    "name": "LanzaTech Global, inc.",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/19/2026",
+    "time": "12:02:29.036",
+    "halt_time_plain": "12:02:29.036",
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "12:02:29 ET (01:02:29 KST)",
+    "trade_resume_time": "12:07:29 ET (01:07:29 KST)"
   },
   {
     "symbol": "MAGH",
@@ -466,6 +492,19 @@
     "resume_date": "03/19/2026",
     "quote_resume_time": "09:32:30 ET (22:32:30 KST)",
     "trade_resume_time": "09:37:30 ET (22:37:30 KST)"
+  },
+  {
+    "symbol": "VCX",
+    "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/19/2026",
+    "time": "11:19:42.050",
+    "halt_time_plain": "11:19:42.050",
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "11:27:47 ET (00:27:47 KST)",
+    "trade_resume_time": "11:27:47 ET (00:27:47 KST)"
   },
   {
     "symbol": "VSTL",
