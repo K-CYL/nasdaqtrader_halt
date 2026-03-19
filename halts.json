@@ -29,40 +29,40 @@
     "symbol": "HIMZ",
     "name": "Defiance Daily Target 2X Long HIMS ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "HOOX",
     "name": "Defiance Daily Target 2X Long HOOD ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "IONX",
     "name": "Defiance Daily Target 2X Long IONQ ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "JMG",
@@ -133,14 +133,14 @@
     "symbol": "MSTX",
     "name": "Defiance Daily Target 2x Long MSTR ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "NUTR",
@@ -224,14 +224,14 @@
     "symbol": "RGTX",
     "name": "Defiance Daily Target 2X Long RGTI ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "SDM",
@@ -250,27 +250,27 @@
     "symbol": "SMCX",
     "name": "Defiance Daily Target 2X Long SMCI ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "SOUX",
     "name": "Defiance Daily Target 2X Long SOUN ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "SVA",
@@ -328,13 +328,13 @@
     "symbol": "VSTL",
     "name": "Defiance Daily Target 2X Long VST ETF",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/18/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/19/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   }
 ]
