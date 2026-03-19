@@ -26,6 +26,32 @@
     "trade_resume_time": "09:35:50 ET (22:35:50 KST)"
   },
   {
+    "symbol": "CIIT",
+    "name": "Tianci International, Inc. CS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/19/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "DKNX",
+    "name": "Defiance Daily Target 2X Long DKNG ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/19/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "DWSN",
     "name": "Dawson Geophysical Co Cm",
     "market": "NASDAQ",
@@ -229,6 +255,45 @@
     "date": "10/08/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ORCX",
+    "name": "Defiance Daily Target 2X Long ORCL ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/19/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ORGN",
+    "name": "Origin Materials, Inc",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/19/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "ORGNW",
+    "name": "Origin Materials Wts",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/19/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
