@@ -325,6 +325,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SUPX",
+    "name": "SuperX AI Tec Ordinary Shares",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/20/2026",
+    "time": "15:57:00.310",
+    "halt_time_plain": "15:57:00.310",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "15:57:00 ET (04:57:00 KST)",
+    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
+  },
+  {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
@@ -401,5 +414,18 @@
     "resume_date": "03/20/2026",
     "quote_resume_time": "09:41:00 ET (22:41:00 KST)",
     "trade_resume_time": "09:41:00 ET (22:41:00 KST)"
+  },
+  {
+    "symbol": "ZBAI",
+    "name": "ATIF Holdings Ltd Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/20/2026",
+    "time": "15:53:32.426",
+    "halt_time_plain": "15:53:32.426",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "15:53:32 ET (04:53:32 KST)",
+    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
   }
 ]
