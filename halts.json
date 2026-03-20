@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "BRAI",
+    "name": "Braiin Limited Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/20/2026",
+    "time": "09:32:42.860",
+    "halt_time_plain": "09:32:42.860",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "09:32:42 ET (22:32:42 KST)",
+    "trade_resume_time": "09:47:43 ET (22:47:43 KST)"
+  },
+  {
     "symbol": "CIIT",
     "name": "Tianci International, Inc. CS",
     "market": "NASDAQ",
@@ -50,6 +63,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "GOAI",
+    "name": "Eva Live Inc. Cmn Stk",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/20/2026",
+    "time": "09:30:18.293",
+    "halt_time_plain": "09:30:18.293",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "09:30:18 ET (22:30:18 KST)",
+    "trade_resume_time": "09:40:18 ET (22:40:18 KST)"
   },
   {
     "symbol": "JMG",
@@ -115,6 +141,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "MFI",
+    "name": "mF Intl Ltd Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/20/2026",
+    "time": "09:31:21.696",
+    "halt_time_plain": "09:31:21.696",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "09:31:21 ET (22:31:21 KST)",
+    "trade_resume_time": "09:36:21 ET (22:36:21 KST)"
   },
   {
     "symbol": "NUTR",
@@ -234,6 +273,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SBDS",
+    "name": "Solo Brands, Inc. Class A Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/20/2026",
+    "time": "10:23:47.403",
+    "halt_time_plain": "10:23:47.403",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -297,5 +349,31 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "UONEK",
+    "name": "Urban One, Inc. Cl D",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/20/2026",
+    "time": "09:58:44.036",
+    "halt_time_plain": "09:58:44.036",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "09:58:44 ET (22:58:44 KST)",
+    "trade_resume_time": "10:03:44 ET (23:03:44 KST)"
+  },
+  {
+    "symbol": "VCX",
+    "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/20/2026",
+    "time": "09:35:46.203",
+    "halt_time_plain": "09:35:46.203",
+    "resume_date": "03/20/2026",
+    "quote_resume_time": "09:41:00 ET (22:41:00 KST)",
+    "trade_resume_time": "09:41:00 ET (22:41:00 KST)"
   }
 ]
