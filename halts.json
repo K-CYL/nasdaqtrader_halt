@@ -1,31 +1,5 @@
 [
   {
-    "symbol": "AZTR",
-    "name": "Azitra Inc Common Stock",
-    "market": "AMEX",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "12:23:51.480",
-    "halt_time_plain": "12:23:51.480",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "13:45:00 ET (02:45:00 KST)",
-    "trade_resume_time": "13:45:00 ET (02:45:00 KST)"
-  },
-  {
-    "symbol": "BABW",
-    "name": "Roundhill BABA WeeklyPay ETF",
-    "market": "Non-NASDAQ",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/19/2026",
-    "time": "09:30:50.836",
-    "halt_time_plain": "09:30:50.836",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "09:35:50 ET (22:35:50 KST)",
-    "trade_resume_time": "09:35:50 ET (22:35:50 KST)"
-  },
-  {
     "symbol": "CIIT",
     "name": "Tianci International, Inc. CS",
     "market": "NASDAQ",
@@ -50,19 +24,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "DWSN",
-    "name": "Dawson Geophysical Co Cm",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "09:47:58.980",
-    "halt_time_plain": "09:47:58.980",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "09:47:58 ET (22:47:58 KST)",
-    "trade_resume_time": "09:52:58 ET (22:52:58 KST)"
   },
   {
     "symbol": "EFTY",
@@ -91,71 +52,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "GAUZ",
-    "name": "Gauzy Ltd. Ordinary Shares",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "10:01:28.810",
-    "halt_time_plain": "10:01:28.810",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "10:01:28 ET (23:01:28 KST)",
-    "trade_resume_time": "10:06:28 ET (23:06:28 KST)"
-  },
-  {
-    "symbol": "GCDT",
-    "name": "Green Circle Decarbonize Technology Limited Ordinary Shares",
-    "market": "AMEX",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/19/2026",
-    "time": "09:47:55.413",
-    "halt_time_plain": "09:47:55.413",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "09:52:55 ET (22:52:55 KST)",
-    "trade_resume_time": "09:52:55 ET (22:52:55 KST)"
-  },
-  {
-    "symbol": "HIMZ",
-    "name": "Defiance Daily Target 2X Long HIMS ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "HOOX",
-    "name": "Defiance Daily Target 2X Long HOOD ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "IONX",
-    "name": "Defiance Daily Target 2X Long IONQ ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
     "symbol": "JMG",
     "name": "JM Group Limited Ordinary Shares",
     "market": "AMEX",
@@ -180,19 +76,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "LNZA",
-    "name": "LanzaTech Global, inc.",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "12:02:29.036",
-    "halt_time_plain": "12:02:29.036",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "12:02:29 ET (01:02:29 KST)",
-    "trade_resume_time": "12:07:29 ET (01:07:29 KST)"
   },
   {
     "symbol": "MAGH",
@@ -232,19 +115,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "MSTX",
-    "name": "Defiance Daily Target 2x Long MSTR ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "NUTR",
@@ -364,45 +234,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "RGTX",
-    "name": "Defiance Daily Target 2X Long RGTI ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "RYTM",
-    "name": "Rhythm Pharmaceuticals CM",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "18:25:05.446",
-    "halt_time_plain": "18:25:05.446",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "18:55:00 ET (07:55:00 KST)",
-    "trade_resume_time": "19:00:00 ET (08:00:00 KST)"
-  },
-  {
-    "symbol": "SAIH",
-    "name": "SAIHEAT Limited",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "15:13:58.823",
-    "halt_time_plain": "15:13:58.823",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "15:13:58 ET (04:13:58 KST)",
-    "trade_resume_time": "15:18:58 ET (04:18:58 KST)"
-  },
-  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -414,32 +245,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "SMCX",
-    "name": "Defiance Daily Target 2X Long SMCI ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "SOUX",
-    "name": "Defiance Daily Target 2X Long SOUN ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "SVA",
@@ -455,19 +260,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "SWMR",
-    "name": "Swarmer Inc Cmn",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "09:59:17.146",
-    "halt_time_plain": "09:59:17.146",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "09:59:17 ET (22:59:17 KST)",
-    "trade_resume_time": "10:04:17 ET (23:04:17 KST)"
-  },
-  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -479,71 +271,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "TWO",
-    "name": "Two Harbors Investment Corp",
-    "market": "NYSE",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "08:02:34.345",
-    "halt_time_plain": "08:02:34.345",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:20:20 ET (21:20:20 KST)",
-    "trade_resume_time": "08:20:20 ET (21:20:20 KST)"
-  },
-  {
-    "symbol": "TWO$A",
-    "name": "Two Harbors Investments Corp 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred",
-    "market": "NYSE",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "08:02:45.345",
-    "halt_time_plain": "08:02:45.345",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:20:20 ET (21:20:20 KST)",
-    "trade_resume_time": "08:20:20 ET (21:20:20 KST)"
-  },
-  {
-    "symbol": "TWO$B",
-    "name": "Two Harbors Investments Corp 7.625% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred",
-    "market": "NYSE",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "08:02:34.345",
-    "halt_time_plain": "08:02:34.345",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:20:20 ET (21:20:20 KST)",
-    "trade_resume_time": "08:20:20 ET (21:20:20 KST)"
-  },
-  {
-    "symbol": "TWO$C",
-    "name": "Two Harbors Investments Corp 7.25% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred S",
-    "market": "NYSE",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "08:02:34.345",
-    "halt_time_plain": "08:02:34.345",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:20:20 ET (21:20:20 KST)",
-    "trade_resume_time": "08:20:20 ET (21:20:20 KST)"
-  },
-  {
-    "symbol": "TWOD",
-    "name": "Two Harbors Investments Corp 9.375% Senior Notes due 2030",
-    "market": "NYSE",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/19/2026",
-    "time": "08:02:34.345",
-    "halt_time_plain": "08:02:34.345",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:20:20 ET (21:20:20 KST)",
-    "trade_resume_time": "08:20:20 ET (21:20:20 KST)"
   },
   {
     "symbol": "UCFI",
@@ -570,70 +297,5 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "UOKA",
-    "name": "MDJM LTD CL A ORD",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "14:55:13.596",
-    "halt_time_plain": "14:55:13.596",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "14:55:13 ET (03:55:13 KST)",
-    "trade_resume_time": "15:00:13 ET (04:00:13 KST)"
-  },
-  {
-    "symbol": "VACH",
-    "name": "Voyager Acquisition Co Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "09:32:30.250",
-    "halt_time_plain": "09:32:30.250",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "09:32:30 ET (22:32:30 KST)",
-    "trade_resume_time": "09:37:30 ET (22:37:30 KST)"
-  },
-  {
-    "symbol": "VCX",
-    "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
-    "market": "NYSE",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/19/2026",
-    "time": "11:19:42.050",
-    "halt_time_plain": "11:19:42.050",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "11:27:47 ET (00:27:47 KST)",
-    "trade_resume_time": "11:27:47 ET (00:27:47 KST)"
-  },
-  {
-    "symbol": "VSTL",
-    "name": "Defiance Daily Target 2X Long VST ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/18/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "WETO",
-    "name": "Wetour Robotics Ltd Ord",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/19/2026",
-    "time": "09:46:26.296",
-    "halt_time_plain": "09:46:26.296",
-    "resume_date": "03/19/2026",
-    "quote_resume_time": "09:46:26 ET (22:46:26 KST)",
-    "trade_resume_time": "09:56:27 ET (22:56:27 KST)"
   }
 ]
