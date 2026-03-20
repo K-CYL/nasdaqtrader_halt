@@ -13,6 +13,58 @@
     "trade_resume_time": "11:00:56 ET (00:00:56 KST)"
   },
   {
+    "symbol": "AREB",
+    "name": "American Rebel Holdings Cm",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "AREBW",
+    "name": "American Rebel Holdings Wt",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "AVXX",
+    "name": "Defiance Daily Target 2x Long AVAV ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "AZI",
+    "name": "Autozi Internet Tech Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "BRAI",
     "name": "Braiin Limited Common Stock",
     "market": "NASDAQ",
@@ -78,6 +130,58 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "EUDA",
+    "name": "EUDA Health Hldgs Ltd Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "EUDAW",
+    "name": "EUDA Health Holdings Ltd Wt",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "EXAS",
+    "name": "Exact Sciences Corporation",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "FCHL",
+    "name": "Fitness Champs Hld Ltd Cmn Stk",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "GOAI",
     "name": "Eva Live Inc. Cmn Stk",
     "market": "NASDAQ",
@@ -102,6 +206,19 @@
     "resume_date": "03/20/2026",
     "quote_resume_time": "11:28:05 ET (00:28:05 KST)",
     "trade_resume_time": "11:33:05 ET (00:33:05 KST)"
+  },
+  {
+    "symbol": "JDZG",
+    "name": "JIADE LIMITED CL A OS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "JMG",
@@ -182,6 +299,19 @@
     "trade_resume_time": "09:36:21 ET (22:36:21 KST)"
   },
   {
+    "symbol": "MST",
+    "name": "Defiance Leveraged Long + Income MSTR ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
@@ -232,6 +362,19 @@
     "resume_date": "03/20/2026",
     "quote_resume_time": "09:00:00 ET (22:00:00 KST)",
     "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
+  },
+  {
+    "symbol": "OSCX",
+    "name": "Defiance Daily Target 2x Long OSCR ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "OST",
@@ -286,6 +429,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "QBTZ",
+    "name": "Defiance Daily Target 2x Short QBTS ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "QMMM",
     "name": "QMMM Hldgs Ord Shs A",
     "market": "NASDAQ",
@@ -294,6 +450,32 @@
     "date": "09/26/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "QPUX",
+    "name": "Defiance 2X Daily Long Pure Quantum ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "RKLZ",
+    "name": "Defiance Daily Target 2x Short RKLB ETF",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -414,6 +596,19 @@
     "resume_date": "03/20/2026",
     "quote_resume_time": "09:41:00 ET (22:41:00 KST)",
     "trade_resume_time": "09:41:00 ET (22:41:00 KST)"
+  },
+  {
+    "symbol": "YYGH",
+    "name": "YY Group Holding Limited",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/20/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "ZBAI",
