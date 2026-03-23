@@ -156,6 +156,19 @@
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
+    "symbol": "FGI",
+    "name": "FGI Industries Ltd. Os",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/23/2026",
+    "time": "11:09:52.700",
+    "halt_time_plain": "11:09:52.700",
+    "resume_date": "03/23/2026",
+    "quote_resume_time": "11:09:52 ET (00:09:52 KST)",
+    "trade_resume_time": "11:19:52 ET (00:19:52 KST)"
+  },
+  {
     "symbol": "GPMT-A",
     "name": "-",
     "market": "NYSE",
@@ -351,6 +364,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PTHS",
+    "name": "Pelthos Therapeutics Inc. Common Stock",
+    "market": "AMEX",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/23/2026",
+    "time": "11:08:55.630",
+    "halt_time_plain": "11:08:55.630",
+    "resume_date": "03/23/2026",
+    "quote_resume_time": "11:13:55 ET (00:13:55 KST)",
+    "trade_resume_time": "11:13:55 ET (00:13:55 KST)"
+  },
+  {
     "symbol": "PTLE",
     "name": "PTL LTD Ord A",
     "market": "NASDAQ",
@@ -543,7 +569,7 @@
     "halt_time_plain": "10:36:43.193",
     "resume_date": "03/23/2026",
     "quote_resume_time": "10:36:43 ET (23:36:43 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:46:49 ET (23:46:49 KST)"
   },
   {
     "symbol": "WSHP",
