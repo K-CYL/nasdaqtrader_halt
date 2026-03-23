@@ -169,6 +169,19 @@
     "trade_resume_time": "11:19:52 ET (00:19:52 KST)"
   },
   {
+    "symbol": "GIGGU",
+    "name": "GigCapital7 Corp. Unit",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/23/2026",
+    "time": "15:31:35.043",
+    "halt_time_plain": "15:31:35.043",
+    "resume_date": "03/23/2026",
+    "quote_resume_time": "15:31:35 ET (04:31:35 KST)",
+    "trade_resume_time": "15:36:35 ET (04:36:35 KST)"
+  },
+  {
     "symbol": "GPMT-A",
     "name": "-",
     "market": "NYSE",
@@ -180,6 +193,19 @@
     "resume_date": "03/23/2026",
     "quote_resume_time": "10:08:01 ET (23:08:01 KST)",
     "trade_resume_time": "10:08:01 ET (23:08:01 KST)"
+  },
+  {
+    "symbol": "HDLB",
+    "name": "ETRACS Monthly Pay 2xLeveraged US High Dividend Low Volatility ETN Series B due September 30, 2044",
+    "market": "NYSE Arca",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/23/2026",
+    "time": "15:38:34.096",
+    "halt_time_plain": "15:38:34.096",
+    "resume_date": "03/23/2026",
+    "quote_resume_time": "15:43:34 ET (04:43:34 KST)",
+    "trade_resume_time": "15:43:34 ET (04:43:34 KST)"
   },
   {
     "symbol": "HKIT",
@@ -453,6 +479,19 @@
     "resume_date": "03/23/2026",
     "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
+  },
+  {
+    "symbol": "RDACU",
+    "name": "Rising Dragon Acq Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/23/2026",
+    "time": "15:32:09.143",
+    "halt_time_plain": "15:32:09.143",
+    "resume_date": "03/23/2026",
+    "quote_resume_time": "15:32:09 ET (04:32:09 KST)",
+    "trade_resume_time": ""
   },
   {
     "symbol": "RDGT",
