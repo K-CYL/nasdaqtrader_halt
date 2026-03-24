@@ -55,14 +55,14 @@
     "symbol": "EXAS",
     "name": "Exact Sciences Corporation",
     "market": "NASDAQ",
-    "reason_code": "T12",
-    "reason": "추가 정보 요청 (T12)",
+    "reason_code": "D",
+    "reason": "NASDAQ/CQS 삭제 (D)",
     "date": "03/20/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "00:00:01 ET (13:00:01 KST)",
+    "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
   },
   {
     "symbol": "JMG",
@@ -76,6 +76,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "KPTI",
+    "name": "Karyopharm Therapeutics Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/24/2026",
+    "time": "06:56:12.410",
+    "halt_time_plain": "06:56:12.410",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "07:25:00 ET (20:25:00 KST)",
+    "trade_resume_time": "07:30:00 ET (20:30:00 KST)"
   },
   {
     "symbol": "LAWR",
