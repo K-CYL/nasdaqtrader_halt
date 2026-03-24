@@ -195,6 +195,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PAVS",
+    "name": "Paranovus Entrmt Tech Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "15:10:05.946",
+    "halt_time_plain": "15:10:05.946",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "15:10:05 ET (04:10:05 KST)",
+    "trade_resume_time": "15:20:05 ET (04:20:05 KST)"
+  },
+  {
     "symbol": "PC",
     "name": "Premium Catering Hold Ltd OS",
     "market": "NASDAQ",
