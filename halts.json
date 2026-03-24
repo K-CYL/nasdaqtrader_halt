@@ -1,18 +1,5 @@
 [
   {
-    "symbol": "AHMA",
-    "name": "Ambitions Enterprise M Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "09:31:28.146",
-    "halt_time_plain": "09:31:28.146",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:31:28 ET (22:31:28 KST)",
-    "trade_resume_time": "09:36:28 ET (22:36:28 KST)"
-  },
-  {
     "symbol": "AREB",
     "name": "American Rebel Holdings Cm",
     "market": "NASDAQ",
@@ -37,45 +24,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "AVXX",
-    "name": "Defiance Daily Target 2x Long AVAV ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "AZI",
-    "name": "Autozi Internet Tech Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "BGM",
-    "name": "BGM Group Ltd. Class A Ord Shs",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "09:46:18.656",
-    "halt_time_plain": "09:46:18.656",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:46:18 ET (22:46:18 KST)",
-    "trade_resume_time": "09:51:18 ET (22:51:18 KST)"
   },
   {
     "symbol": "EFTY",
@@ -104,32 +52,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "EUDA",
-    "name": "EUDA Health Hldgs Ltd Ord Shs",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "EUDAW",
-    "name": "EUDA Health Holdings Ltd Wt",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:00:00 ET (22:00:00 KST)",
-    "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
-  },
-  {
     "symbol": "EXAS",
     "name": "Exact Sciences Corporation",
     "market": "NASDAQ",
@@ -141,97 +63,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "FCHL",
-    "name": "Fitness Champs Hld Ltd Cmn Stk",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "FGI",
-    "name": "FGI Industries Ltd. Os",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "11:09:52.700",
-    "halt_time_plain": "11:09:52.700",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "11:09:52 ET (00:09:52 KST)",
-    "trade_resume_time": "11:19:52 ET (00:19:52 KST)"
-  },
-  {
-    "symbol": "GIGGU",
-    "name": "GigCapital7 Corp. Unit",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "15:31:35.043",
-    "halt_time_plain": "15:31:35.043",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "15:31:35 ET (04:31:35 KST)",
-    "trade_resume_time": "15:36:35 ET (04:36:35 KST)"
-  },
-  {
-    "symbol": "GPMT-A",
-    "name": "-",
-    "market": "NYSE",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/23/2026",
-    "time": "10:03:01.810",
-    "halt_time_plain": "10:03:01.810",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "10:08:01 ET (23:08:01 KST)",
-    "trade_resume_time": "10:08:01 ET (23:08:01 KST)"
-  },
-  {
-    "symbol": "HDLB",
-    "name": "ETRACS Monthly Pay 2xLeveraged US High Dividend Low Volatility ETN Series B due September 30, 2044",
-    "market": "NYSE Arca",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/23/2026",
-    "time": "15:38:34.096",
-    "halt_time_plain": "15:38:34.096",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "15:43:34 ET (04:43:34 KST)",
-    "trade_resume_time": "15:43:34 ET (04:43:34 KST)"
-  },
-  {
-    "symbol": "HKIT",
-    "name": "Hitek Global A OS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "09:33:28.146",
-    "halt_time_plain": "09:33:28.146",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:33:28 ET (22:33:28 KST)",
-    "trade_resume_time": "09:38:28 ET (22:38:28 KST)"
-  },
-  {
-    "symbol": "JDZG",
-    "name": "JIADE LIMITED CL A OS",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "JMG",
@@ -299,32 +130,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "MST",
-    "name": "Defiance Leveraged Long + Income MSTR ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "MWG",
-    "name": "Multi Ways Holdings Limited Class A Ordinary Shares",
-    "market": "AMEX",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/23/2026",
-    "time": "09:30:15.133",
-    "halt_time_plain": "09:30:15.133",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:40:15 ET (22:40:15 KST)",
-    "trade_resume_time": "09:40:15 ET (22:40:15 KST)"
-  },
-  {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
@@ -336,19 +141,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "OSCX",
-    "name": "Defiance Daily Target 2x Long OSCR ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "OST",
@@ -390,32 +182,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "PTHS",
-    "name": "Pelthos Therapeutics Inc. Common Stock",
-    "market": "AMEX",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/23/2026",
-    "time": "11:08:55.630",
-    "halt_time_plain": "11:08:55.630",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "11:13:55 ET (00:13:55 KST)",
-    "trade_resume_time": "11:13:55 ET (00:13:55 KST)"
-  },
-  {
-    "symbol": "PTLE",
-    "name": "PTL LTD Ord A",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "09:53:31.646",
-    "halt_time_plain": "09:53:31.646",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:53:31 ET (22:53:31 KST)",
-    "trade_resume_time": "10:21:57 ET (23:21:57 KST)"
-  },
-  {
     "symbol": "PTNM",
     "name": "Pitanium Ltd Ord A",
     "market": "NASDAQ",
@@ -427,32 +193,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "PW-A",
-    "name": "-",
-    "market": "AMEX",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/23/2026",
-    "time": "09:30:18.840",
-    "halt_time_plain": "09:30:18.840",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:35:18 ET (22:35:18 KST)",
-    "trade_resume_time": "09:35:18 ET (22:35:18 KST)"
-  },
-  {
-    "symbol": "QBTZ",
-    "name": "Defiance Daily Target 2x Short QBTS ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "QMMM",
@@ -468,58 +208,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "QPUX",
-    "name": "Defiance 2X Daily Long Pure Quantum ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "RDACU",
-    "name": "Rising Dragon Acq Ut",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "15:32:09.143",
-    "halt_time_plain": "15:32:09.143",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "15:32:09 ET (04:32:09 KST)",
-    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
-  },
-  {
-    "symbol": "RDGT",
-    "name": "Ridgetech, Inc. Ordinary Share",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "10:17:42.730",
-    "halt_time_plain": "10:17:42.730",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "10:17:42 ET (23:17:42 KST)",
-    "trade_resume_time": "10:22:42 ET (23:22:42 KST)"
-  },
-  {
-    "symbol": "RKLZ",
-    "name": "Defiance Daily Target 2x Short RKLB ETF",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -531,19 +219,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "SMX",
-    "name": "SMX Sc Mtr PLC Ord",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "09:34:21.216",
-    "halt_time_plain": "09:34:21.216",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:34:21 ET (22:34:21 KST)",
-    "trade_resume_time": "09:39:21 ET (22:39:21 KST)"
   },
   {
     "symbol": "SVA",
@@ -596,57 +271,5 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "VRM",
-    "name": "Vroom, Inc.",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "10:36:43.193",
-    "halt_time_plain": "10:36:43.193",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "10:36:43 ET (23:36:43 KST)",
-    "trade_resume_time": "10:46:49 ET (23:46:49 KST)"
-  },
-  {
-    "symbol": "WSHP",
-    "name": "WeShop Holdings Ltd Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "10:30:03.736",
-    "halt_time_plain": "10:30:03.736",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "10:30:03 ET (23:30:03 KST)",
-    "trade_resume_time": "10:35:03 ET (23:35:03 KST)"
-  },
-  {
-    "symbol": "YDES",
-    "name": "YD Bio Limited Ordinary Shares",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/23/2026",
-    "time": "09:43:21.766",
-    "halt_time_plain": "09:43:21.766",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "09:43:21 ET (22:43:21 KST)",
-    "trade_resume_time": "09:48:21 ET (22:48:21 KST)"
-  },
-  {
-    "symbol": "YYGH",
-    "name": "YY Group Holding Limited",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/20/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/23/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   }
 ]
