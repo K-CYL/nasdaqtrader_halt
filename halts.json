@@ -286,6 +286,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SSM",
+    "name": "Sono Group N.V. Ord Shares",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "13:59:32.206",
+    "halt_time_plain": "13:59:32.206",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "13:59:32 ET (02:59:32 KST)",
+    "trade_resume_time": "14:04:32 ET (03:04:32 KST)"
+  },
+  {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
@@ -310,6 +323,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "TJGC",
+    "name": "TJGC Group Limited Ordinary Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "13:59:09.356",
+    "halt_time_plain": "13:59:09.356",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "13:59:09 ET (02:59:09 KST)",
+    "trade_resume_time": "14:04:09 ET (03:04:09 KST)"
   },
   {
     "symbol": "UCFI",
