@@ -26,6 +26,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "DXST",
+    "name": "Decent Holding Inc Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "09:41:34.803",
+    "halt_time_plain": "09:41:34.803",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "09:41:34 ET (22:41:34 KST)",
+    "trade_resume_time": "09:46:34 ET (22:46:34 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -102,6 +115,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "LICN",
+    "name": "Lichen Intl Ltd Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "09:30:16.226",
+    "halt_time_plain": "09:30:16.226",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "09:30:16 ET (22:30:16 KST)",
+    "trade_resume_time": "09:35:16 ET (22:35:16 KST)"
   },
   {
     "symbol": "MAGH",
@@ -221,6 +247,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "RDACU",
+    "name": "Rising Dragon Acq Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "10:23:59.066",
+    "halt_time_plain": "10:23:59.066",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "10:23:59 ET (23:23:59 KST)",
+    "trade_resume_time": "10:28:59 ET (23:28:59 KST)"
+  },
+  {
+    "symbol": "RDGT",
+    "name": "Ridgetech, Inc. Ordinary Share",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "09:50:17.583",
+    "halt_time_plain": "09:50:17.583",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "09:50:17 ET (22:50:17 KST)",
+    "trade_resume_time": "09:55:17 ET (22:55:17 KST)"
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -284,5 +336,31 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "UGRO",
+    "name": "urban-gro, Inc. Cm St",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/24/2026",
+    "time": "09:37:42.160",
+    "halt_time_plain": "09:37:42.160",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "09:37:42 ET (22:37:42 KST)",
+    "trade_resume_time": "09:42:42 ET (22:42:42 KST)"
+  },
+  {
+    "symbol": "VCX",
+    "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/24/2026",
+    "time": "09:40:33.450",
+    "halt_time_plain": "09:40:33.450",
+    "resume_date": "03/24/2026",
+    "quote_resume_time": "09:45:41 ET (22:45:41 KST)",
+    "trade_resume_time": "09:45:41 ET (22:45:41 KST)"
   }
 ]
