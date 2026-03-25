@@ -195,6 +195,32 @@
     "trade_resume_time": "08:30:00 ET (21:30:00 KST)"
   },
   {
+    "symbol": "NOTE",
+    "name": "FiscalNote Holdings, Inc. Class A common stock",
+    "market": "NYSE",
+    "reason_code": "H11",
+    "reason": "규제상 우려 (H11)",
+    "date": "03/25/2026",
+    "time": "16:05:38.725",
+    "halt_time_plain": "16:05:38.725",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "NOTE.W",
+    "name": "FiscalNote Holdings, Inc. Warrants to purchase one share of Class A common stock, each at an exercis",
+    "market": "NYSE",
+    "reason_code": "H11",
+    "reason": "규제상 우려 (H11)",
+    "date": "03/25/2026",
+    "time": "16:05:38.725",
+    "halt_time_plain": "16:05:38.725",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
