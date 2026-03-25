@@ -26,6 +26,45 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "ARMW",
+    "name": "Roundhill ARM WeeklyPay ETF",
+    "market": "Non-NASDAQ",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/25/2026",
+    "time": "09:30:18.386",
+    "halt_time_plain": "09:30:18.386",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "09:40:18 ET (22:40:18 KST)",
+    "trade_resume_time": "09:40:18 ET (22:40:18 KST)"
+  },
+  {
+    "symbol": "CORT",
+    "name": "Corcept Therapeutics",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/25/2026",
+    "time": "10:30:02.446",
+    "halt_time_plain": "10:30:02.446",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "10:30:02 ET (23:30:02 KST)",
+    "trade_resume_time": "10:57:18 ET (23:57:18 KST)"
+  },
+  {
+    "symbol": "DOJE",
+    "name": "REX-Osprey DOGE ETF",
+    "market": "Non-NASDAQ",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/25/2026",
+    "time": "09:31:56.656",
+    "halt_time_plain": "09:31:56.656",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "09:36:56 ET (22:36:56 KST)",
+    "trade_resume_time": "09:36:56 ET (22:36:56 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -50,6 +89,32 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "FGL",
+    "name": "Founder Group Ltd Cl A Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/25/2026",
+    "time": "10:56:08.833",
+    "halt_time_plain": "10:56:08.833",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "10:56:08 ET (23:56:08 KST)",
+    "trade_resume_time": "11:06:08 ET (00:06:08 KST)"
+  },
+  {
+    "symbol": "HSPT",
+    "name": "Horizon Space Acq II Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/25/2026",
+    "time": "10:56:07.716",
+    "halt_time_plain": "10:56:07.716",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "10:56:07 ET (23:56:07 KST)",
+    "trade_resume_time": "11:01:07 ET (00:01:07 KST)"
   },
   {
     "symbol": "JMG",
@@ -143,17 +208,30 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "NXTT",
+    "name": "Next Tech Hldg Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/25/2026",
+    "time": "09:44:48.340",
+    "halt_time_plain": "09:44:48.340",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "09:44:48 ET (22:44:48 KST)",
+    "trade_resume_time": "09:49:48 ET (22:49:48 KST)"
+  },
+  {
     "symbol": "ONCO",
     "name": "Onconetix, Inc. Common Stock",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/24/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "OST",
@@ -221,6 +299,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "QNRX",
+    "name": "Quoin Pharmaceuticals ADR",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/25/2026",
+    "time": "09:33:15.480",
+    "halt_time_plain": "09:33:15.480",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "09:33:15 ET (22:33:15 KST)",
+    "trade_resume_time": "09:38:15 ET (22:38:15 KST)"
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -232,6 +323,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "SRPU",
+    "name": "Tradr 2X Long SRPT Daily ETF",
+    "market": "Non-NASDAQ",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/25/2026",
+    "time": "09:30:15.323",
+    "halt_time_plain": "09:30:15.323",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "09:40:15 ET (22:40:15 KST)",
+    "trade_resume_time": "09:40:15 ET (22:40:15 KST)"
   },
   {
     "symbol": "SVA",
@@ -286,16 +390,42 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "UGRO",
+    "name": "urban-gro, Inc. Cm St",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/25/2026",
+    "time": "09:39:32.436",
+    "halt_time_plain": "09:39:32.436",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "09:39:32 ET (22:39:32 KST)",
+    "trade_resume_time": "09:44:32 ET (22:44:32 KST)"
+  },
+  {
+    "symbol": "VCX",
+    "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/25/2026",
+    "time": "10:00:23.720",
+    "halt_time_plain": "10:00:23.720",
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "10:05:29 ET (23:05:29 KST)",
+    "trade_resume_time": "10:05:29 ET (23:05:29 KST)"
+  },
+  {
     "symbol": "XTLB",
     "name": "XTL Biopharmaceuticals Ltd ADS",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/24/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   }
 ]
