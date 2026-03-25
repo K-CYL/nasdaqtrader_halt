@@ -182,6 +182,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "ONCO",
+    "name": "Onconetix, Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/24/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "OST",
     "name": "Ostin Tech Grp Co Ord Cl A Ord",
     "market": "NASDAQ",
@@ -401,5 +414,18 @@
     "resume_date": "03/24/2026",
     "quote_resume_time": "09:45:41 ET (22:45:41 KST)",
     "trade_resume_time": "09:45:41 ET (22:45:41 KST)"
+  },
+  {
+    "symbol": "XTLB",
+    "name": "XTL Biopharmaceuticals Ltd ADS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/24/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   }
 ]
