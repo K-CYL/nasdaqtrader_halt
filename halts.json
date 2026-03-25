@@ -198,27 +198,27 @@
     "symbol": "NOTE",
     "name": "FiscalNote Holdings, Inc. Class A common stock",
     "market": "NYSE",
-    "reason_code": "H11",
-    "reason": "규제상 우려 (H11)",
+    "reason_code": "D",
+    "reason": "NASDAQ/CQS 삭제 (D)",
     "date": "03/25/2026",
     "time": "16:05:38.725",
     "halt_time_plain": "16:05:38.725",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "18:00:04 ET (07:00:04 KST)",
+    "trade_resume_time": "18:00:04 ET (07:00:04 KST)"
   },
   {
     "symbol": "NOTE.W",
     "name": "FiscalNote Holdings, Inc. Warrants to purchase one share of Class A common stock, each at an exercis",
     "market": "NYSE",
-    "reason_code": "H11",
-    "reason": "규제상 우려 (H11)",
+    "reason_code": "D",
+    "reason": "NASDAQ/CQS 삭제 (D)",
     "date": "03/25/2026",
     "time": "16:05:38.725",
     "halt_time_plain": "16:05:38.725",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/25/2026",
+    "quote_resume_time": "18:00:04 ET (07:00:04 KST)",
+    "trade_resume_time": "18:00:04 ET (07:00:04 KST)"
   },
   {
     "symbol": "NUTR",
