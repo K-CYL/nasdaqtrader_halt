@@ -26,6 +26,45 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "BF.A",
+    "name": "Brown Forman Inc Class A Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/26/2026",
+    "time": "12:14:35.063",
+    "halt_time_plain": "12:14:35.063",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "12:19:35 ET (01:19:35 KST)",
+    "trade_resume_time": "12:19:35 ET (01:19:35 KST)"
+  },
+  {
+    "symbol": "BF.B",
+    "name": "Brown Forman Inc Class B Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/26/2026",
+    "time": "12:14:27.313",
+    "halt_time_plain": "12:14:27.313",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "12:20:50 ET (01:20:50 KST)",
+    "trade_resume_time": "12:20:50 ET (01:20:50 KST)"
+  },
+  {
+    "symbol": "CHACU",
+    "name": "Crane Harbor Acquisition Co U",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/26/2026",
+    "time": "14:00:27.233",
+    "halt_time_plain": "14:00:27.233",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "14:00:27 ET (03:00:27 KST)",
+    "trade_resume_time": "14:05:27 ET (03:05:27 KST)"
+  },
+  {
     "symbol": "CMBM",
     "name": "Cambium Networks Corp Ord Shs",
     "market": "NASDAQ",
@@ -377,6 +416,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "TBMC",
+    "name": "Trailblazer Merger Crp Cl A CS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/26/2026",
+    "time": "13:30:49.646",
+    "halt_time_plain": "13:30:49.646",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "13:30:49 ET (02:30:49 KST)",
+    "trade_resume_time": "13:56:01 ET (02:56:01 KST)"
+  },
+  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -468,6 +520,32 @@
     "trade_resume_time": "09:47:43 ET (22:47:43 KST)"
   },
   {
+    "symbol": "VCIC",
+    "name": "Vine Hll Cp Inv Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/26/2026",
+    "time": "14:12:57.966",
+    "halt_time_plain": "14:12:57.966",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "14:12:57 ET (03:12:57 KST)",
+    "trade_resume_time": "14:22:57 ET (03:22:57 KST)"
+  },
+  {
+    "symbol": "VCICU",
+    "name": "Vine Hill Cp Invt Crp Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/26/2026",
+    "time": "14:33:41.293",
+    "halt_time_plain": "14:33:41.293",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "14:33:41 ET (03:33:41 KST)",
+    "trade_resume_time": "14:38:41 ET (03:38:41 KST)"
+  },
+  {
     "symbol": "VCX",
     "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
     "market": "NYSE",
@@ -479,6 +557,19 @@
     "resume_date": "03/26/2026",
     "quote_resume_time": "09:44:35 ET (22:44:35 KST)",
     "trade_resume_time": "09:44:35 ET (22:44:35 KST)"
+  },
+  {
+    "symbol": "VSA",
+    "name": "VisionSys AI Inc ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/26/2026",
+    "time": "14:49:53.606",
+    "halt_time_plain": "14:49:53.606",
+    "resume_date": "03/26/2026",
+    "quote_resume_time": "14:49:53 ET (03:49:53 KST)",
+    "trade_resume_time": "14:54:53 ET (03:54:53 KST)"
   },
   {
     "symbol": "ZBAI",
