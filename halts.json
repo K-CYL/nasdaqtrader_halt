@@ -104,6 +104,19 @@
     "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
   },
   {
+    "symbol": "CHSN",
+    "name": "Chanson Intl Hldg Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/27/2026",
+    "time": "10:37:03.110",
+    "halt_time_plain": "10:37:03.110",
+    "resume_date": "03/27/2026",
+    "quote_resume_time": "10:37:03 ET (23:37:03 KST)",
+    "trade_resume_time": "10:42:03 ET (23:42:03 KST)"
+  },
+  {
     "symbol": "CYAB",
     "name": "Cyabra, Inc. CS",
     "market": "NASDAQ",
@@ -154,6 +167,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "FCHL",
+    "name": "Fitness Champs Hld Ltd Cmn Stk",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/27/2026",
+    "time": "12:00:56.723",
+    "halt_time_plain": "12:00:56.723",
+    "resume_date": "03/27/2026",
+    "quote_resume_time": "12:00:56 ET (01:00:56 KST)",
+    "trade_resume_time": "12:05:56 ET (01:05:56 KST)"
   },
   {
     "symbol": "ITRM",
@@ -468,6 +494,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "VCIC",
+    "name": "Vine Hll Cp Inv Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/27/2026",
+    "time": "11:18:34.010",
+    "halt_time_plain": "11:18:34.010",
+    "resume_date": "03/27/2026",
+    "quote_resume_time": "11:18:34 ET (00:18:34 KST)",
+    "trade_resume_time": "11:28:34 ET (00:28:34 KST)"
+  },
+  {
     "symbol": "VCX",
     "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
     "market": "NYSE",
@@ -479,6 +518,19 @@
     "resume_date": "03/27/2026",
     "quote_resume_time": "09:57:45 ET (22:57:45 KST)",
     "trade_resume_time": "09:57:45 ET (22:57:45 KST)"
+  },
+  {
+    "symbol": "VSA",
+    "name": "VisionSys AI Inc ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/27/2026",
+    "time": "11:36:54.920",
+    "halt_time_plain": "11:36:54.920",
+    "resume_date": "03/27/2026",
+    "quote_resume_time": "11:36:54 ET (00:36:54 KST)",
+    "trade_resume_time": "11:41:54 ET (00:41:54 KST)"
   },
   {
     "symbol": "ZDAI",
