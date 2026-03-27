@@ -520,6 +520,19 @@
     "trade_resume_time": "09:57:45 ET (22:57:45 KST)"
   },
   {
+    "symbol": "VRM",
+    "name": "Vroom, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/27/2026",
+    "time": "15:53:40.523",
+    "halt_time_plain": "15:53:40.523",
+    "resume_date": "03/27/2026",
+    "quote_resume_time": "15:53:40 ET (04:53:40 KST)",
+    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
+  },
+  {
     "symbol": "VSA",
     "name": "VisionSys AI Inc ADS",
     "market": "NASDAQ",
