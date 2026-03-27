@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "ADV",
+    "name": "Advantage Solutions Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/26/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "AREB",
     "name": "American Rebel Holdings Cm",
     "market": "NASDAQ",
@@ -50,6 +63,32 @@
     "resume_date": "03/26/2026",
     "quote_resume_time": "12:20:50 ET (01:20:50 KST)",
     "trade_resume_time": "12:20:50 ET (01:20:50 KST)"
+  },
+  {
+    "symbol": "CDT",
+    "name": "CDT Equity Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/26/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "CDTTW",
+    "name": "CDT Equity Inc. Warrant",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/26/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "CHACU",
@@ -169,6 +208,19 @@
     "trade_resume_time": "09:37:51 ET (22:37:51 KST)"
   },
   {
+    "symbol": "IVF",
+    "name": "INVO Fertility, Inc. Cmn Stk",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/26/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "JMG",
     "name": "JM Group Limited Ordinary Shares",
     "market": "AMEX",
@@ -190,6 +242,19 @@
     "date": "10/22/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "LBGJ",
+    "name": "Li Bang Intl Class A Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/26/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -453,6 +518,19 @@
     "resume_date": "03/26/2026",
     "quote_resume_time": "09:47:32 ET (22:47:32 KST)",
     "trade_resume_time": "09:57:32 ET (22:57:32 KST)"
+  },
+  {
+    "symbol": "TRUG",
+    "name": "TruGolf Holdings Inc Cl A Cm",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/26/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "UCFI",
