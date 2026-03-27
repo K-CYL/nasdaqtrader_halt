@@ -52,6 +52,19 @@
     "trade_resume_time": "09:42:24 ET (22:42:24 KST)"
   },
   {
+    "symbol": "ATXG",
+    "name": "Addentax Group Corp. Cm",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/27/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "BLIV",
     "name": "BeLive Holdings Ordinary Share",
     "market": "NASDAQ",
@@ -156,6 +169,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "EJH",
+    "name": "E-Home Hshld Ltd Srv Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/27/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "EMPG",
     "name": "Empro Group Inc.",
     "market": "NASDAQ",
@@ -164,6 +190,19 @@
     "date": "10/08/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "FBLG",
+    "name": "FibroBiologics, Inc. CS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/27/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -437,6 +476,19 @@
     "date": "02/22/2019",
     "time": "16:02:01 ET (06:02:01 KST)",
     "halt_time_plain": "16:02:01",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "SVRN",
+    "name": "OceanPal Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/27/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
