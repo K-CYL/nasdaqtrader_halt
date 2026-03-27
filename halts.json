@@ -39,32 +39,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "BF.A",
-    "name": "Brown Forman Inc Class A Common Stock",
-    "market": "NYSE",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/26/2026",
-    "time": "12:14:35.063",
-    "halt_time_plain": "12:14:35.063",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "12:19:35 ET (01:19:35 KST)",
-    "trade_resume_time": "12:19:35 ET (01:19:35 KST)"
-  },
-  {
-    "symbol": "BF.B",
-    "name": "Brown Forman Inc Class B Common Stock",
-    "market": "NYSE",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/26/2026",
-    "time": "12:14:27.313",
-    "halt_time_plain": "12:14:27.313",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "12:20:50 ET (01:20:50 KST)",
-    "trade_resume_time": "12:20:50 ET (01:20:50 KST)"
-  },
-  {
     "symbol": "CDT",
     "name": "CDT Equity Inc. Common Stock",
     "market": "NASDAQ",
@@ -91,84 +65,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "CHACU",
-    "name": "Crane Harbor Acquisition Co U",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "14:00:27.233",
-    "halt_time_plain": "14:00:27.233",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "14:00:27 ET (03:00:27 KST)",
-    "trade_resume_time": "14:05:27 ET (03:05:27 KST)"
-  },
-  {
-    "symbol": "CMBM",
-    "name": "Cambium Networks Corp Ord Shs",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:38:17.860",
-    "halt_time_plain": "09:38:17.860",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:38:17 ET (22:38:17 KST)",
-    "trade_resume_time": "09:43:17 ET (22:43:17 KST)"
-  },
-  {
-    "symbol": "CMCT",
-    "name": "Creative Media & Cmty",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/25/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
-  },
-  {
-    "symbol": "CVR",
-    "name": "Chicago Rivet & Machine Co. Common Stock",
-    "market": "AMEX",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/26/2026",
-    "time": "09:30:15.446",
-    "halt_time_plain": "09:30:15.446",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:40:15 ET (22:40:15 KST)",
-    "trade_resume_time": "09:40:15 ET (22:40:15 KST)"
-  },
-  {
-    "symbol": "EAF",
-    "name": "GrafTech International Ltd. Common Stock",
-    "market": "NYSE",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/26/2026",
-    "time": "09:38:38.010",
-    "halt_time_plain": "09:38:38.010",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:43:43 ET (22:43:43 KST)",
-    "trade_resume_time": "09:43:43 ET (22:43:43 KST)"
-  },
-  {
-    "symbol": "EEIQ",
-    "name": "EpicQuest Educ Grp Intl Ltd Cm",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:37:17.216",
-    "halt_time_plain": "09:37:17.216",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:37:17 ET (22:37:17 KST)",
-    "trade_resume_time": "09:42:17 ET (22:42:17 KST)"
-  },
-  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -193,19 +89,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "GLND",
-    "name": "Greenland Energy Co Cmn Stck",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:32:51.963",
-    "halt_time_plain": "09:32:51.963",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:32:51 ET (22:32:51 KST)",
-    "trade_resume_time": "09:37:51 ET (22:37:51 KST)"
   },
   {
     "symbol": "IVF",
@@ -260,45 +143,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "LIQT",
-    "name": "LiqTech International, Inc Cmn",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:37:00.386",
-    "halt_time_plain": "09:37:00.386",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:37:00 ET (22:37:00 KST)",
-    "trade_resume_time": "09:42:00 ET (22:42:00 KST)"
-  },
-  {
-    "symbol": "LMRI",
-    "name": "Lumexa Imaging Hldngs Cmn Stk",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:34:36.276",
-    "halt_time_plain": "09:34:36.276",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:34:36 ET (22:34:36 KST)",
-    "trade_resume_time": "09:39:36 ET (22:39:36 KST)"
-  },
-  {
-    "symbol": "LNAI",
-    "name": "Lunai Bioworks Cmn",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:37:35.350",
-    "halt_time_plain": "09:37:35.350",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:37:35 ET (22:37:35 KST)",
-    "trade_resume_time": "09:42:35 ET (22:42:35 KST)"
-  },
-  {
     "symbol": "MAGH",
     "name": "Magnitude International Ltd OS",
     "market": "NASDAQ",
@@ -336,19 +180,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "MGN",
-    "name": "Megan Holdings Ltd Cl A Ord Sh",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:31:12.363",
-    "halt_time_plain": "09:31:12.363",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:31:12 ET (22:31:12 KST)",
-    "trade_resume_time": "09:36:12 ET (22:36:12 KST)"
   },
   {
     "symbol": "NUTR",
@@ -416,19 +247,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "PULM",
-    "name": "Pulmatrix, Inc. Cmn Stk",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/26/2026",
-    "time": "07:59:18.833",
-    "halt_time_plain": "07:59:18.833",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "08:25:00 ET (21:25:00 KST)",
-    "trade_resume_time": "08:30:00 ET (21:30:00 KST)"
-  },
-  {
     "symbol": "QMMM",
     "name": "QMMM Hldgs Ord Shs A",
     "market": "NASDAQ",
@@ -440,19 +258,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "RENX",
-    "name": "RenX Enterprises Cp Cmn",
-    "market": "NASDAQ",
-    "reason_code": "T3",
-    "reason": "공시 완료 및 재개 시간 안내 (T3)",
-    "date": "03/25/2026",
-    "time": "19:50:00.000",
-    "halt_time_plain": "19:50:00.000",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
-    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "SDM",
@@ -481,19 +286,6 @@
     "trade_resume_time": ""
   },
   {
-    "symbol": "TBMC",
-    "name": "Trailblazer Merger Crp Cl A CS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "13:30:49.646",
-    "halt_time_plain": "13:30:49.646",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "13:30:49 ET (02:30:49 KST)",
-    "trade_resume_time": "13:56:01 ET (02:56:01 KST)"
-  },
-  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -505,19 +297,6 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "THCH",
-    "name": "TH Intl Ltd Ord",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:47:32.470",
-    "halt_time_plain": "09:47:32.470",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:47:32 ET (22:47:32 KST)",
-    "trade_resume_time": "09:57:32 ET (22:57:32 KST)"
   },
   {
     "symbol": "TRUG",
@@ -557,109 +336,5 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
-  },
-  {
-    "symbol": "UGRO",
-    "name": "urban-gro, Inc. Cm St",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "10:01:25.900",
-    "halt_time_plain": "10:01:25.900",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "10:01:25 ET (23:01:25 KST)",
-    "trade_resume_time": "10:06:25 ET (23:06:25 KST)"
-  },
-  {
-    "symbol": "VACH",
-    "name": "Voyager Acquisition Co Cl A OS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:44:55.426",
-    "halt_time_plain": "09:44:55.426",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:44:55 ET (22:44:55 KST)",
-    "trade_resume_time": "09:49:55 ET (22:49:55 KST)"
-  },
-  {
-    "symbol": "VACHU",
-    "name": "Voyager Acquisition Corp U",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "09:42:43.536",
-    "halt_time_plain": "09:42:43.536",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:42:43 ET (22:42:43 KST)",
-    "trade_resume_time": "09:47:43 ET (22:47:43 KST)"
-  },
-  {
-    "symbol": "VCIC",
-    "name": "Vine Hll Cp Inv Ord A",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "14:12:57.966",
-    "halt_time_plain": "14:12:57.966",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "14:12:57 ET (03:12:57 KST)",
-    "trade_resume_time": "14:22:57 ET (03:22:57 KST)"
-  },
-  {
-    "symbol": "VCICU",
-    "name": "Vine Hill Cp Invt Crp Ut",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "14:33:41.293",
-    "halt_time_plain": "14:33:41.293",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "14:33:41 ET (03:33:41 KST)",
-    "trade_resume_time": "14:38:41 ET (03:38:41 KST)"
-  },
-  {
-    "symbol": "VCX",
-    "name": "Fundrise Innovation Fund, LLC Common Shares of Limited Liability Company Interests",
-    "market": "NYSE",
-    "reason_code": "M",
-    "reason": "변동성 거래정지 (M)",
-    "date": "03/26/2026",
-    "time": "09:37:25.560",
-    "halt_time_plain": "09:37:25.560",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "09:44:35 ET (22:44:35 KST)",
-    "trade_resume_time": "09:44:35 ET (22:44:35 KST)"
-  },
-  {
-    "symbol": "VSA",
-    "name": "VisionSys AI Inc ADS",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "14:49:53.606",
-    "halt_time_plain": "14:49:53.606",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "14:49:53 ET (03:49:53 KST)",
-    "trade_resume_time": "14:54:53 ET (03:54:53 KST)"
-  },
-  {
-    "symbol": "ZBAI",
-    "name": "ATIF Holdings Ltd Ord Shs",
-    "market": "NASDAQ",
-    "reason_code": "LUDP",
-    "reason": "변동성 거래정지 (LUDP)",
-    "date": "03/26/2026",
-    "time": "10:46:44.300",
-    "halt_time_plain": "10:46:44.300",
-    "resume_date": "03/26/2026",
-    "quote_resume_time": "10:46:44 ET (23:46:44 KST)",
-    "trade_resume_time": "10:51:44 ET (23:51:44 KST)"
   }
 ]
