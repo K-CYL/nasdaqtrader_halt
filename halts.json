@@ -26,6 +26,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "ASTC",
+    "name": "Astrotech Corporation",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/30/2026",
+    "time": "10:18:29.946",
+    "halt_time_plain": "10:18:29.946",
+    "resume_date": "03/30/2026",
+    "quote_resume_time": "10:18:29 ET (23:18:29 KST)",
+    "trade_resume_time": "10:23:29 ET (23:23:29 KST)"
+  },
+  {
     "symbol": "ATXG",
     "name": "Addentax Group Corp. Cm",
     "market": "NASDAQ",
