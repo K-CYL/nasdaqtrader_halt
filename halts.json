@@ -3,14 +3,14 @@
     "symbol": "AFBI",
     "name": "Affinity Bancshares, Inc.",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/30/2026",
     "time": "16:00:10.000",
     "halt_time_plain": "16:00:10.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/30/2026",
+    "quote_resume_time": "17:15:00 ET (06:15:00 KST)",
+    "trade_resume_time": "17:20:00 ET (06:20:00 KST)"
   },
   {
     "symbol": "AREB",
