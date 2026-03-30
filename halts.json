@@ -104,6 +104,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "KZR",
+    "name": "Kezar Life Sciences, Inc. Cm",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/30/2026",
+    "time": "07:55:00.000",
+    "halt_time_plain": "07:55:00.000",
+    "resume_date": "03/30/2026",
+    "quote_resume_time": "08:25:00 ET (21:25:00 KST)",
+    "trade_resume_time": "08:30:00 ET (21:30:00 KST)"
+  },
+  {
     "symbol": "LAWR",
     "name": "Robot Consulting ADS",
     "market": "NASDAQ",
