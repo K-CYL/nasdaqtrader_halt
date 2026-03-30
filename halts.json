@@ -312,6 +312,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "QNTM",
+    "name": "Quantum Biopharma Cl B Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/30/2026",
+    "time": "11:50:10.010",
+    "halt_time_plain": "11:50:10.010",
+    "resume_date": "03/30/2026",
+    "quote_resume_time": "11:50:10 ET (00:50:10 KST)",
+    "trade_resume_time": "12:00:10 ET (01:00:10 KST)"
+  },
+  {
     "symbol": "ROMA",
     "name": "Roma Grn Fin Ltd Ord A",
     "market": "NASDAQ",
