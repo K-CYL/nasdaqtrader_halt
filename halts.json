@@ -286,6 +286,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "PMNT",
+    "name": "Perfect Moment Ltd. Common Stock",
+    "market": "AMEX",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/30/2026",
+    "time": "13:55:36.361",
+    "halt_time_plain": "13:55:36.361",
+    "resume_date": "03/30/2026",
+    "quote_resume_time": "14:35:00 ET (03:35:00 KST)",
+    "trade_resume_time": "14:35:00 ET (03:35:00 KST)"
+  },
+  {
     "symbol": "PTNM",
     "name": "Pitanium Ltd Ord A",
     "market": "NASDAQ",
