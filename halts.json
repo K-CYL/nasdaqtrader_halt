@@ -380,14 +380,14 @@
     "symbol": "RPAY",
     "name": "Repay Hldgs Cp Cl A Cmn",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/30/2026",
     "time": "17:55:00.000",
     "halt_time_plain": "17:55:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/30/2026",
+    "quote_resume_time": "18:25:00 ET (07:25:00 KST)",
+    "trade_resume_time": "18:30:00 ET (07:30:00 KST)"
   },
   {
     "symbol": "RWAYI",
