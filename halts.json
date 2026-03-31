@@ -3,14 +3,14 @@
     "symbol": "AKTX",
     "name": "Akari Therapeutics Plc AD",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/30/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "AREB",
@@ -133,14 +133,14 @@
     "symbol": "MODD",
     "name": "Modular Medical, Inc. Cm",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/30/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "NUTR",
@@ -172,14 +172,14 @@
     "symbol": "PAVS",
     "name": "Paranovus Entrmt Tech Cl A Ord",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/30/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "PC",
