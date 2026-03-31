@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "AIOS",
+    "name": "AIOS Tech Inc. Cl A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:40:36.243",
+    "halt_time_plain": "09:40:36.243",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:40:36 ET (22:40:36 KST)",
+    "trade_resume_time": "09:45:36 ET (22:45:36 KST)"
+  },
+  {
     "symbol": "AKTX",
     "name": "Akari Therapeutics Plc AD",
     "market": "NASDAQ",
@@ -117,6 +130,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "FCHL",
+    "name": "Fitness Champs Hld Ltd Cmn Stk",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:38:24.396",
+    "halt_time_plain": "09:38:24.396",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:38:24 ET (22:38:24 KST)",
+    "trade_resume_time": "09:43:24 ET (22:43:24 KST)"
+  },
+  {
+    "symbol": "HQ",
+    "name": "Horizon Quantum Hldng Cl A Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:36:43.843",
+    "halt_time_plain": "09:36:43.843",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:36:43 ET (22:36:43 KST)",
+    "trade_resume_time": "09:41:43 ET (22:41:43 KST)"
+  },
+  {
     "symbol": "IOBT",
     "name": "IO Biotech, Inc. Cm St",
     "market": "NASDAQ",
@@ -182,6 +221,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "MASK",
+    "name": "3 E Ntwk Tech Gp Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:56:26.846",
+    "halt_time_plain": "09:56:26.846",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:56:26 ET (22:56:26 KST)",
+    "trade_resume_time": "10:01:26 ET (23:01:26 KST)"
+  },
+  {
     "symbol": "MCTA",
     "name": "Charming Medical Limit Cl A OS",
     "market": "NASDAQ",
@@ -206,6 +258,32 @@
     "resume_date": "03/31/2026",
     "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
     "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
+  },
+  {
+    "symbol": "NCEW",
+    "name": "New Century Lgstc (BVI) Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:30:16.423",
+    "halt_time_plain": "09:30:16.423",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:30:16 ET (22:30:16 KST)",
+    "trade_resume_time": "09:40:16 ET (22:40:16 KST)"
+  },
+  {
+    "symbol": "NPT",
+    "name": "Texxon Hldg Ltd Ord",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:31:55.606",
+    "halt_time_plain": "09:31:55.606",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:31:55 ET (22:31:55 KST)",
+    "trade_resume_time": "09:36:55 ET (22:36:55 KST)"
   },
   {
     "symbol": "NUTR",
@@ -312,6 +390,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SOGP",
+    "name": "Sound Group Inc. ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:43:29.503",
+    "halt_time_plain": "09:43:29.503",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:43:29 ET (22:43:29 KST)",
+    "trade_resume_time": "09:48:29 ET (22:48:29 KST)"
+  },
+  {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
@@ -325,6 +416,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "TANH",
+    "name": "Tantech Hldgs Cmn Shs A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "09:34:49.426",
+    "halt_time_plain": "09:34:49.426",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:34:49 ET (22:34:49 KST)",
+    "trade_resume_time": "09:39:49 ET (22:39:49 KST)"
+  },
+  {
     "symbol": "TCGL",
     "name": "TechCreate Group Ltd. Class A Ordinary Shares",
     "market": "AMEX",
@@ -336,6 +440,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "THY",
+    "name": "Toews Agility Shares Dynamic Tactical Income ETF",
+    "market": "NYSE Arca",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/31/2026",
+    "time": "09:33:43.406",
+    "halt_time_plain": "09:33:43.406",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "09:38:43 ET (22:38:43 KST)",
+    "trade_resume_time": "09:38:43 ET (22:38:43 KST)"
   },
   {
     "symbol": "UCFI",
