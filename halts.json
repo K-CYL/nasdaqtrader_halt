@@ -39,6 +39,58 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "CRAC",
+    "name": "Crown Reserve Acqu Co Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/31/2026",
+    "time": "08:00:00.000",
+    "halt_time_plain": "08:00:00.000",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:30:00 ET (21:30:00 KST)",
+    "trade_resume_time": "08:35:00 ET (21:35:00 KST)"
+  },
+  {
+    "symbol": "CRACR",
+    "name": "Crown Reserve Acquisition Co R",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/31/2026",
+    "time": "08:00:00.000",
+    "halt_time_plain": "08:00:00.000",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:35:00 ET (21:35:00 KST)",
+    "trade_resume_time": "08:40:00 ET (21:40:00 KST)"
+  },
+  {
+    "symbol": "CRACU",
+    "name": "Crown Reserve Acquisition Co U",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/31/2026",
+    "time": "08:00:00.000",
+    "halt_time_plain": "08:00:00.000",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:35:00 ET (21:35:00 KST)",
+    "trade_resume_time": "08:40:00 ET (21:40:00 KST)"
+  },
+  {
+    "symbol": "CRACW",
+    "name": "Crown Reserve Acquisition Co W",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/31/2026",
+    "time": "08:00:00.000",
+    "halt_time_plain": "08:00:00.000",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:35:00 ET (21:35:00 KST)",
+    "trade_resume_time": "08:40:00 ET (21:40:00 KST)"
+  },
+  {
     "symbol": "EFTY",
     "name": "Etoiles Capital Group Cl A OS",
     "market": "NASDAQ",
@@ -63,6 +115,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "IOBT",
+    "name": "IO Biotech, Inc. Cm St",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "03/31/2026",
+    "time": "07:55:00.000",
+    "halt_time_plain": "07:55:00.000",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "08:25:00 ET (21:25:00 KST)",
+    "trade_resume_time": "08:30:00 ET (21:30:00 KST)"
   },
   {
     "symbol": "JMG",
