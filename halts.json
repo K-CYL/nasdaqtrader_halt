@@ -338,6 +338,19 @@
     "trade_resume_time": "09:36:55 ET (22:36:55 KST)"
   },
   {
+    "symbol": "NSA-B",
+    "name": "-",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "03/31/2026",
+    "time": "15:24:09.756",
+    "halt_time_plain": "15:24:09.756",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "15:32:02 ET (04:32:02 KST)",
+    "trade_resume_time": "15:32:02 ET (04:32:02 KST)"
+  },
+  {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
@@ -544,6 +557,19 @@
     "resume_date": "03/31/2026",
     "quote_resume_time": "10:50:07 ET (23:50:07 KST)",
     "trade_resume_time": "10:55:07 ET (23:55:07 KST)"
+  },
+  {
+    "symbol": "UBXG",
+    "name": "U-BX Tech Ltd Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "15:33:06.560",
+    "halt_time_plain": "15:33:06.560",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "15:33:06 ET (04:33:06 KST)",
+    "trade_resume_time": ""
   },
   {
     "symbol": "UCFI",
