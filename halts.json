@@ -52,6 +52,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "AUUD",
+    "name": "Auddia Inc. Common Stock",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/31/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "BLFY",
+    "name": "Blue Foundry Bancorp",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/31/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "CRAC",
     "name": "Crown Reserve Acqu Co Cl A OS",
     "market": "NASDAQ",
@@ -154,6 +180,19 @@
     "resume_date": "03/31/2026",
     "quote_resume_time": "09:38:24 ET (22:38:24 KST)",
     "trade_resume_time": "09:43:24 ET (22:43:24 KST)"
+  },
+  {
+    "symbol": "GLDD",
+    "name": "Great Lakes Dredge and Dock",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/31/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "HQ",
@@ -364,6 +403,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "OS",
+    "name": "OneStream, Inc. Class A Common",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/31/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "OST",
     "name": "Ostin Tech Grp Co Ord Cl A Ord",
     "market": "NASDAQ",
@@ -559,6 +611,19 @@
     "trade_resume_time": "10:55:07 ET (23:55:07 KST)"
   },
   {
+    "symbol": "UBFO",
+    "name": "United Security Bancshares",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "03/31/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "UBXG",
     "name": "U-BX Tech Ltd Ord A",
     "market": "NASDAQ",
@@ -570,6 +635,19 @@
     "resume_date": "03/31/2026",
     "quote_resume_time": "15:33:06 ET (04:33:06 KST)",
     "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
+  },
+  {
+    "symbol": "UCAR",
+    "name": "U Pwr Ltd Ord Shs A",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "03/31/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "UCFI",
