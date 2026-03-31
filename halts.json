@@ -309,7 +309,7 @@
     "halt_time_plain": "12:03:47.223",
     "resume_date": "03/31/2026",
     "quote_resume_time": "12:03:47 ET (01:03:47 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "13:05:46 ET (02:05:46 KST)"
   },
   {
     "symbol": "NINE",
@@ -440,6 +440,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "RDACU",
+    "name": "Rising Dragon Acq Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "03/31/2026",
+    "time": "13:04:18.476",
+    "halt_time_plain": "13:04:18.476",
+    "resume_date": "03/31/2026",
+    "quote_resume_time": "13:04:18 ET (02:04:18 KST)",
+    "trade_resume_time": "13:09:18 ET (02:09:18 KST)"
   },
   {
     "symbol": "SDM",
