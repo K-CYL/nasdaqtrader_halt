@@ -29,14 +29,14 @@
     "symbol": "AUUD",
     "name": "Auddia Inc. Common Stock",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/31/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "BLFY",
@@ -86,6 +86,45 @@
     "date": "03/31/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "HCAC",
+    "name": "Hall Chadwick Acq Cl A Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/01/2026",
+    "time": "07:25:00.000",
+    "halt_time_plain": "07:25:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "HCACR",
+    "name": "Hall Chadwick Acq Rights",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/01/2026",
+    "time": "07:25:00.000",
+    "halt_time_plain": "07:25:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "HCACU",
+    "name": "Hall Chadwick Acq Unit",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/01/2026",
+    "time": "07:25:00.000",
+    "halt_time_plain": "07:25:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -247,6 +286,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "RYM",
+    "name": "RYTHM, Inc. Cm St",
+    "market": "NASDAQ",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
+    "date": "04/01/2026",
+    "time": "06:55:00.000",
+    "halt_time_plain": "06:55:00.000",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "07:25:00 ET (20:25:00 KST)",
+    "trade_resume_time": "07:30:00 ET (20:30:00 KST)"
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
@@ -302,14 +354,14 @@
     "symbol": "UCAR",
     "name": "U Pwr Ltd Ord Shs A",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "03/31/2026",
     "time": "19:50:00.000",
     "halt_time_plain": "19:50:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "08:55:00 ET (21:55:00 KST)",
+    "trade_resume_time": "09:00:00 ET (22:00:00 KST)"
   },
   {
     "symbol": "UCFI",
