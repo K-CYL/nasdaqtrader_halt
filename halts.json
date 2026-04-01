@@ -156,6 +156,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "GURE",
+    "name": "Gulf Resources, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "10:21:37.846",
+    "halt_time_plain": "10:21:37.846",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "10:21:37 ET (23:21:37 KST)",
+    "trade_resume_time": "10:26:37 ET (23:26:37 KST)"
+  },
+  {
     "symbol": "HCAC",
     "name": "Hall Chadwick Acq Cl A Ord Sh",
     "market": "NASDAQ",
@@ -193,6 +206,19 @@
     "resume_date": "04/01/2026",
     "quote_resume_time": "09:00:00 ET (22:00:00 KST)",
     "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
+  },
+  {
+    "symbol": "HYAC",
+    "name": "Haymaker Acquisition Corp. 4 Class A Ordinary Shares",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "04/01/2026",
+    "time": "11:43:51.840",
+    "halt_time_plain": "11:43:51.840",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "11:48:54 ET (00:48:54 KST)",
+    "trade_resume_time": "11:48:54 ET (00:48:54 KST)"
   },
   {
     "symbol": "JMG",
@@ -270,7 +296,7 @@
     "halt_time_plain": "10:18:27.640",
     "resume_date": "04/01/2026",
     "quote_resume_time": "10:18:27 ET (23:18:27 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:28:27 ET (23:28:27 KST)"
   },
   {
     "symbol": "MGRT",
@@ -283,7 +309,7 @@
     "halt_time_plain": "10:16:08.366",
     "resume_date": "04/01/2026",
     "quote_resume_time": "10:16:08 ET (23:16:08 KST)",
-    "trade_resume_time": ""
+    "trade_resume_time": "10:38:50 ET (23:38:50 KST)"
   },
   {
     "symbol": "NCI",
@@ -414,6 +440,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "RDACU",
+    "name": "Rising Dragon Acq Ut",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "11:11:04.206",
+    "halt_time_plain": "11:11:04.206",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "11:11:04 ET (00:11:04 KST)",
+    "trade_resume_time": "11:16:04 ET (00:16:04 KST)"
   },
   {
     "symbol": "ROMA",
