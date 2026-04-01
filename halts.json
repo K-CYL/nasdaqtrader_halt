@@ -78,6 +78,19 @@
     "trade_resume_time": "11:55:45 ET (00:55:45 KST)"
   },
   {
+    "symbol": "CVKD",
+    "name": "Cadrenal Therapeutics, Inc. Cm",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "15:29:29.720",
+    "halt_time_plain": "15:29:29.720",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "15:29:29 ET (04:29:29 KST)",
+    "trade_resume_time": "15:34:29 ET (04:34:29 KST)"
+  },
+  {
     "symbol": "CYCN",
     "name": "Cyclerion Therapeutics Cmn Stk",
     "market": "NASDAQ",
