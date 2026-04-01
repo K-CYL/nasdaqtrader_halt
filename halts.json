@@ -65,6 +65,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "CSHR",
+    "name": "CoinShares PLC OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "11:50:45.090",
+    "halt_time_plain": "11:50:45.090",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "11:50:45 ET (00:50:45 KST)",
+    "trade_resume_time": "11:55:45 ET (00:55:45 KST)"
+  },
+  {
     "symbol": "CYCN",
     "name": "Cyclerion Therapeutics Cmn Stk",
     "market": "NASDAQ",
@@ -208,6 +221,19 @@
     "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
   },
   {
+    "symbol": "HSPT",
+    "name": "Horizon Space Acq II Ord Sh",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "12:35:50.756",
+    "halt_time_plain": "12:35:50.756",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "12:35:50 ET (01:35:50 KST)",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "HYAC",
     "name": "Haymaker Acquisition Corp. 4 Class A Ordinary Shares",
     "market": "NYSE",
@@ -219,6 +245,19 @@
     "resume_date": "04/01/2026",
     "quote_resume_time": "11:48:54 ET (00:48:54 KST)",
     "trade_resume_time": "11:48:54 ET (00:48:54 KST)"
+  },
+  {
+    "symbol": "JFU",
+    "name": "9F Inc. ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "12:13:57.806",
+    "halt_time_plain": "12:13:57.806",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "12:13:57 ET (01:13:57 KST)",
+    "trade_resume_time": "12:18:57 ET (01:18:57 KST)"
   },
   {
     "symbol": "JMG",
