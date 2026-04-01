@@ -195,6 +195,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "NCI",
+    "name": "Neo-Concept Internat Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "09:30:21.056",
+    "halt_time_plain": "09:30:21.056",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "09:30:21 ET (22:30:21 KST)",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "NUTR",
     "name": "Nusatrip Incorporated Comm Stk",
     "market": "NASDAQ",
