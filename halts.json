@@ -286,6 +286,19 @@
     "trade_resume_time": "12:18:57 ET (01:18:57 KST)"
   },
   {
+    "symbol": "JLHL",
+    "name": "Julong Hldg Ltd Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "15:48:20.990",
+    "halt_time_plain": "15:48:20.990",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "15:48:20 ET (04:48:20 KST)",
+    "trade_resume_time": "16:00:00 ET (05:00:00 KST)"
+  },
+  {
     "symbol": "JMG",
     "name": "JM Group Limited Ordinary Shares",
     "market": "AMEX",
