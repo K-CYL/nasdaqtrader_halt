@@ -221,6 +221,19 @@
     "trade_resume_time": "09:05:00 ET (22:05:00 KST)"
   },
   {
+    "symbol": "HOTH",
+    "name": "Hoth Therapeutics, Inc. Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/01/2026",
+    "time": "13:54:08.553",
+    "halt_time_plain": "13:54:08.553",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "13:54:08 ET (02:54:08 KST)",
+    "trade_resume_time": "13:59:08 ET (02:59:08 KST)"
+  },
+  {
     "symbol": "HSPT",
     "name": "Horizon Space Acq II Ord Sh",
     "market": "NASDAQ",
@@ -544,6 +557,19 @@
     "resume_date": "04/01/2026",
     "quote_resume_time": "09:36:34 ET (22:36:34 KST)",
     "trade_resume_time": "09:41:34 ET (22:41:34 KST)"
+  },
+  {
+    "symbol": "SST",
+    "name": "System1, Inc. Class A Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "04/01/2026",
+    "time": "13:50:29.386",
+    "halt_time_plain": "13:50:29.386",
+    "resume_date": "04/01/2026",
+    "quote_resume_time": "13:55:38 ET (02:55:38 KST)",
+    "trade_resume_time": "13:55:38 ET (02:55:38 KST)"
   },
   {
     "symbol": "SVA",
