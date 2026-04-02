@@ -1,5 +1,18 @@
 [
   {
+    "symbol": "ANTA",
+    "name": "Antalpha Platform Holding A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "10:14:15.493",
+    "halt_time_plain": "10:14:15.493",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "10:14:15 ET (23:14:15 KST)",
+    "trade_resume_time": "10:24:16 ET (23:24:16 KST)"
+  },
+  {
     "symbol": "AREB",
     "name": "American Rebel Holdings Cm",
     "market": "NASDAQ",
@@ -115,6 +128,32 @@
     "resume_date": "04/02/2026",
     "quote_resume_time": "00:00:01 ET (13:00:01 KST)",
     "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
+  },
+  {
+    "symbol": "HTCO",
+    "name": "High-Trend Internation Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "10:34:18.113",
+    "halt_time_plain": "10:34:18.113",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "10:34:18 ET (23:34:18 KST)",
+    "trade_resume_time": "10:39:18 ET (23:39:18 KST)"
+  },
+  {
+    "symbol": "JFU",
+    "name": "9F Inc. ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "09:59:49.550",
+    "halt_time_plain": "09:59:49.550",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "09:59:49 ET (22:59:49 KST)",
+    "trade_resume_time": "10:04:49 ET (23:04:49 KST)"
   },
   {
     "symbol": "JMG",
@@ -325,6 +364,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SOHON",
+    "name": "Southerly Hotel 8.25 D Prf Stk",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "10:13:36.886",
+    "halt_time_plain": "10:13:36.886",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "10:13:36 ET (23:13:36 KST)",
+    "trade_resume_time": "10:18:36 ET (23:18:36 KST)"
+  },
+  {
     "symbol": "SST",
     "name": "System1, Inc. Class A Common Stock",
     "market": "NYSE",
@@ -440,5 +492,18 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "XBP",
+    "name": "XBP Global Hldgs Cmn",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "09:53:57.233",
+    "halt_time_plain": "09:53:57.233",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "09:53:57 ET (22:53:57 KST)",
+    "trade_resume_time": "09:58:57 ET (22:58:57 KST)"
   }
 ]
