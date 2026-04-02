@@ -29,27 +29,40 @@
     "symbol": "BBBY",
     "name": "Bed Bath & Beyond, Inc. Common Stock",
     "market": "NYSE",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "04/02/2026",
     "time": "07:34:21.951",
     "halt_time_plain": "07:34:21.951",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "08:19:12 ET (21:19:12 KST)",
+    "trade_resume_time": "08:19:12 ET (21:19:12 KST)"
   },
   {
     "symbol": "BBBY.W",
     "name": "Bed Bath & Beyond, Inc. Warrants to Purchase Common Stock",
     "market": "NYSE",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "04/02/2026",
     "time": "07:34:21.951",
     "halt_time_plain": "07:34:21.951",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "08:19:12 ET (21:19:12 KST)",
+    "trade_resume_time": "08:19:12 ET (21:19:12 KST)"
+  },
+  {
+    "symbol": "BDRX",
+    "name": "Biodexa Pharma plc ADS",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "09:34:45.616",
+    "halt_time_plain": "09:34:45.616",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "09:34:45 ET (22:34:45 KST)",
+    "trade_resume_time": "09:39:45 ET (22:39:45 KST)"
   },
   {
     "symbol": "BLFY",
@@ -133,14 +146,14 @@
     "symbol": "LPCN",
     "name": "Lipocine Inc. Common Stock",
     "market": "NASDAQ",
-    "reason_code": "T1",
-    "reason": "중요 공시 대기 (T1)",
+    "reason_code": "T3",
+    "reason": "공시 완료 및 재개 시간 안내 (T3)",
     "date": "04/02/2026",
     "time": "07:55:00.000",
     "halt_time_plain": "07:55:00.000",
-    "resume_date": "",
-    "quote_resume_time": "",
-    "trade_resume_time": ""
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "08:25:00 ET (21:25:00 KST)",
+    "trade_resume_time": "08:30:00 ET (21:30:00 KST)"
   },
   {
     "symbol": "MAGH",
@@ -312,6 +325,32 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SST",
+    "name": "System1, Inc. Class A Common Stock",
+    "market": "NYSE",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "04/02/2026",
+    "time": "09:34:52.656",
+    "halt_time_plain": "09:34:52.656",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "09:40:04 ET (22:40:04 KST)",
+    "trade_resume_time": "09:40:04 ET (22:40:04 KST)"
+  },
+  {
+    "symbol": "STAK",
+    "name": "STAK Inc. Ord A",
+    "market": "NASDAQ",
+    "reason_code": "LUDP",
+    "reason": "변동성 거래정지 (LUDP)",
+    "date": "04/02/2026",
+    "time": "09:40:01.620",
+    "halt_time_plain": "09:40:01.620",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "09:40:01 ET (22:40:01 KST)",
+    "trade_resume_time": "09:45:01 ET (22:45:01 KST)"
+  },
+  {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
@@ -349,6 +388,19 @@
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
+  },
+  {
+    "symbol": "TOXR",
+    "name": "Shares of Beneficial Interest",
+    "market": "Non-NASDAQ",
+    "reason_code": "M",
+    "reason": "변동성 거래정지 (M)",
+    "date": "04/02/2026",
+    "time": "09:35:17.326",
+    "halt_time_plain": "09:35:17.326",
+    "resume_date": "04/02/2026",
+    "quote_resume_time": "09:40:17 ET (22:40:17 KST)",
+    "trade_resume_time": "09:40:17 ET (22:40:17 KST)"
   },
   {
     "symbol": "UBFO",
