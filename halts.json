@@ -403,6 +403,19 @@
     "trade_resume_time": "09:40:21 ET (22:40:21 KST)"
   },
   {
+    "symbol": "NCT",
+    "name": "Intercont Cayman Cl A Ord Shs",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/01/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "NRSH",
     "name": "Aztlan North America Nearshoring Stock Selection ETF",
     "market": "NYSE Arca",
@@ -489,6 +502,19 @@
     "date": "10/03/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "PSTV",
+    "name": "PLUS THERAPEUTICS, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/01/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -606,6 +632,19 @@
     "date": "02/22/2019",
     "time": "16:02:01 ET (06:02:01 KST)",
     "halt_time_plain": "16:02:01",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "TBHC",
+    "name": "The Brand House Collective CS",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "04/01/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
