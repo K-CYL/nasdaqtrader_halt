@@ -1,5 +1,31 @@
 [
   {
+    "symbol": "AIIO",
+    "name": "Robo.ai Inc. ORD B",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "AIIOW",
+    "name": "Robo.ai Inc. Wt",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "ANTA",
     "name": "Antalpha Platform Holding A OS",
     "market": "NASDAQ",
@@ -78,6 +104,19 @@
     "trade_resume_time": "08:19:12 ET (21:19:12 KST)"
   },
   {
+    "symbol": "BCAB",
+    "name": "BioAtla, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "BDRX",
     "name": "Biodexa Pharma plc ADS",
     "market": "NASDAQ",
@@ -143,6 +182,32 @@
     "trade_resume_time": "00:00:01 ET (13:00:01 KST)"
   },
   {
+    "symbol": "GNLN",
+    "name": "Greenlane Holdings Cmn Cl A",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "HKIT",
+    "name": "Hitek Global A OS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "HTCO",
     "name": "High-Trend Internation Cl A OS",
     "market": "NASDAQ",
@@ -154,6 +219,32 @@
     "resume_date": "04/02/2026",
     "quote_resume_time": "10:34:18 ET (23:34:18 KST)",
     "trade_resume_time": "10:39:18 ET (23:39:18 KST)"
+  },
+  {
+    "symbol": "HTCR",
+    "name": "Heartcore Enterprises Cm",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "INLF",
+    "name": "INLIF LIMITED Cl A OS",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   },
   {
     "symbol": "JFU",
@@ -190,6 +281,19 @@
     "date": "10/22/2025",
     "time": "19:50:00 ET (08:50:00 KST)",
     "halt_time_plain": "19:50:00",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "LNKS",
+    "name": "Linkers Industries Limited",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -390,6 +494,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SKK",
+    "name": "SKK Hldgs Ltd Ord A",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "SOHON",
     "name": "Southerly Hotel 8.25 D Prf Stk",
     "market": "NASDAQ",
@@ -437,6 +554,32 @@
     "date": "02/22/2019",
     "time": "16:02:01 ET (06:02:01 KST)",
     "halt_time_plain": "16:02:01",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "SWKH",
+    "name": "SWK Holdings Corporation CS",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
+    "symbol": "SWKHL",
+    "name": "SWK Hldgs Cp 9% Nts 27",
+    "market": "NASDAQ",
+    "reason_code": "T12",
+    "reason": "추가 정보 요청 (T12)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
     "resume_date": "",
     "quote_resume_time": "",
     "trade_resume_time": ""
@@ -520,6 +663,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "WNW",
+    "name": "Meiwu Tech Co Ltd Ord",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "XBP",
     "name": "XBP Global Hldgs Cmn",
     "market": "NASDAQ",
@@ -531,5 +687,18 @@
     "resume_date": "04/02/2026",
     "quote_resume_time": "09:53:57 ET (22:53:57 KST)",
     "trade_resume_time": "09:58:57 ET (22:58:57 KST)"
+  },
+  {
+    "symbol": "XRTX",
+    "name": "XORTX Therapeutics Cmn",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/02/2026",
+    "time": "19:50:00.000",
+    "halt_time_plain": "19:50:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
   }
 ]
