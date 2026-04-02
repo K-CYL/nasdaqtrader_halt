@@ -364,6 +364,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SBDS",
+    "name": "Solo Brands, Inc.",
+    "market": "NYSE",
+    "reason_code": "H11",
+    "reason": "규제상 우려 (H11)",
+    "date": "04/02/2026",
+    "time": "16:05:26.130",
+    "halt_time_plain": "16:05:26.130",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "SDM",
     "name": "Smart Digital Group Limited OS",
     "market": "NASDAQ",
