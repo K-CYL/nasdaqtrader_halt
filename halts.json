@@ -13,6 +13,19 @@
     "trade_resume_time": "10:24:16 ET (23:24:16 KST)"
   },
   {
+    "symbol": "APUS",
+    "name": "Apimeds Pharmaceuticals US, Inc.",
+    "market": "NYSE",
+    "reason_code": "H11",
+    "reason": "규제상 우려 (H11)",
+    "date": "04/02/2026",
+    "time": "11:54:38.095",
+    "halt_time_plain": "11:54:38.095",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "AREB",
     "name": "American Rebel Holdings Cm",
     "market": "NASDAQ",
