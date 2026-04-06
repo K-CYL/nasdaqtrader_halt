@@ -351,6 +351,19 @@
     "trade_resume_time": ""
   },
   {
+    "symbol": "SLNO",
+    "name": "Soleno Therapeutics, Inc.",
+    "market": "NASDAQ",
+    "reason_code": "T1",
+    "reason": "중요 공시 대기 (T1)",
+    "date": "04/06/2026",
+    "time": "06:55:00.000",
+    "halt_time_plain": "06:55:00.000",
+    "resume_date": "",
+    "quote_resume_time": "",
+    "trade_resume_time": ""
+  },
+  {
     "symbol": "SVA",
     "name": "Sinovac Biotech, Ltd Ord Shrs",
     "market": "NASDAQ",
